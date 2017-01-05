@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <h2> Hello </h2>
-    <Header></Header>
+    <PageHeader></PageHeader>
   </div>
 </template>
 
 <script>
-import Header from './components/common/Header'
+import PageHeader from './components/common/PageHeader'
 
 export default {
   name: 'app',
   components: {
-    Header
+    PageHeader
   }
 }
 </script>

@@ -1,0 +1,28 @@
+{
+  "name": "systems.cs.pub.ro",
+  "version": "1.0.0",
+  "description": "Systems Department Website",
+  "main": "build.js",
+  "scripts": {
+    "dev": "",
+    "build:dev:svg": "node scripts/_dev_build.js svg",
+    "build:dev": "node scripts/_dev_build.js",
+    "build": "node scripts/_prod_build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/TechLounge/systems.cs.pub.ro.git"
+  },
+  "author": "Bogdan Calapod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/TechLounge/systems.cs.pub.ro/issues"
+  },
+  "homepage": "https://gitlab.com/TechLounge/systems.cs.pub.ro#README",
+  "devDependencies": {
+    "harp": "^0.23.0",
+    "light-server": "^1.1.7",
+    "svg-sprite": "^1.3.6",
+    "svg-sprite-generator": "^0.0.7"
+  }
+}

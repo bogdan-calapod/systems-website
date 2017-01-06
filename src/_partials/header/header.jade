@@ -1,0 +1,14 @@
+mixin header
+  include menu.jade
+  include title.jade
+  section.header
+    .heading.flex
+      svg
+        use(xlink:href="#badge_white")
+      .separator
+      +menu
+    +title
+    .scroller.flex.column
+      h1 See what we do
+      svg
+        use(xlink:href="#arrow_down")

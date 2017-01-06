@@ -1,0 +1,9 @@
+// Flex utility classes
+
+.flex {
+  display: flex;
+
+  &.column {
+    flex-direction: column;
+  }
+}

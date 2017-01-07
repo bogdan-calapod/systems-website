@@ -23,10 +23,25 @@
       width: calc(100% - 10px);
     }
 
+    &.mobile {
+      display: none;
+    }
+
     svg {
       height: 20px;
-      max-width: 50px;
+      width: 20px;
       margin: 0 5px;
+    }
+  }
+
+  @media screen and (max-width: $mobileM) {
+    li:not(:last-child):not(:nth-last-child(2)):not(.mobile) {
+      display: none;
+    }
+    
+    li.mobile {
+      display: block;
+      cursor: pointer;
     }
   }
 }

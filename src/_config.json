@@ -1,15 +1,19 @@
 {
   "port": 8080,
   "serveDir": "dist",
-  "watchexps" : [
+  "watchexps": [
     "src/**/*.jade # npm run build:dev",
     "src/styles/**/*.scss # npm run build:dev css",
-    "src/img/_svg/**.svg # npm run build:dev:svg"
+    "src/img/_svg/**.svg # npm run build:dev:svg",
+    "src/_js/**/*.js # npm run build:dev:js"
   ],
-  "buildOptions" : {
+  "buildOptions": {
     "svgFolder": "src/img/_svg/",
     "svgDest": "src/img/sprite.svg",
     "websiteSrc": "../src",
     "websiteDest": "../dist"
+  },
+  "webpackConfigPaths": {
+    "dev": "../src/_js/_config/webpack.dev.config.js"
   }
 }

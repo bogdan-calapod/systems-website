@@ -9,22 +9,39 @@ let fs = require('fs-extra')
 let path = require('path')
 let SVGSprite = require('svg-sprite')
 let harp = require('harp')
+let webpack = require('webpack')
 
 // Get arguments
 let rebuildType = process.argv[2]
 
 // Constants
-let buildOptions = fs.readJsonSync(path.join(__dirname, '../src/_config.json')).buildOptions
+const mainConfig = fs.readJsonSync(path.join(__dirname, '../src/_config.json'))
+const buildOptions = mainConfig.buildOptions
 const { svgFolder, svgDest, websiteSrc, websiteDest } = buildOptions
 const src = path.join(__dirname, websiteSrc)
 const dest = path.join(__dirname, websiteDest)
+const webpackDevConfig = require(path.join(__dirname, mainConfig.webpackConfigPaths.dev))
 
 switch (rebuildType) {
   case 'svg':
     rebuildSVG()
     break
+  case 'js':
+    rebuildJS(webpackDevConfig)
+    break
   default:
     rebuildHarp()
+    rebuildJS(webpackDevConfig)
+}
+
+
+/**
+ * Uses Webpack to compile JavaScript
+ */
+function rebuildJS (config) {
+  console.log('Compiling JavaScript...')
+  let compiler = webpack(config)
+  compiler.run(err => err ? console.error('Error while compiling JS:', err) : null)
 }
 
 /**

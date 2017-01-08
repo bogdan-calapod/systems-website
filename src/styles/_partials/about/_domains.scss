@@ -1,0 +1,43 @@
+.domains {
+  padding-bottom: 50px;
+
+  h1 {
+    color: $gray;
+  }
+
+  svg {
+    width: 60px;
+    height: 60px;
+    fill: $darkGray;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    
+    @media screen and (max-width: $mobileLandscapeM) {
+      justify-content: space-around;
+    }
+  }
+
+  li {
+    width: 120px;
+    margin-right: 10px;
+
+    @media screen and (max-width: $mobileLandscapeM) {
+      width: 50%;
+      margin: 10px 0;
+      align-items: center;
+      text-align: center;
+    }
+
+    span {
+      width: 100%;
+      color: $gray;
+
+      
+      @media screen and (max-width: $mobileLandscapeM) {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

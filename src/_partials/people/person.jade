@@ -1,0 +1,21 @@
+mixin person(data)
+  .person.flex(data-person=JSON.stringify(data))
+    img(src='img/people/' + data.photo)
+    .text.flex.column
+      h1 #{data.name}
+      h2 #{data.position}
+      .social.flex
+        - if (data.email)
+          a(href='mailto:' + data.email)
+            svg
+              use(xlink:href='#mail')
+        
+        - if (data.facebook)
+          a(href=data.facebook target='_blank')
+            svg
+              use(xlink:href='#fb')
+        
+        - if (data.linkedin)
+          a(href=data.linkedin target='_blank')
+            svg
+              use(xlink:href='#linkedin')

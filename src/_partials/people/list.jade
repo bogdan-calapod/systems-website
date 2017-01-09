@@ -1,0 +1,4 @@
+mixin list(data)
+  include person.jade
+  each person in data
+    +person(person)

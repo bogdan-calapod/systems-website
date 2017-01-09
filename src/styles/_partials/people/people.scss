@@ -1,0 +1,23 @@
+section.people {
+  @import 'person';
+
+  // Background color should match background image edge
+  background-color: #F6BC00;
+  background-image: url(../img/people.jpg);
+
+  @media screen and (max-width: $mobileLandscapeL) {
+    background-image: none;
+  }
+
+  p {
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    margin: 30px auto;
+  }
+
+  .peopleList {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

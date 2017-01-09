@@ -31,4 +31,14 @@ section {
         font-size: 40px;
     }
   }
+
+  &.backgrounded {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50% auto;
+
+    &.left {
+      background-position: left center;
+    }
+  }
 }

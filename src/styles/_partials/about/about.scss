@@ -5,10 +5,7 @@ section.about {
   // image edge
   background-color: #F9F9F9;
   background-image: url(../img/about.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50% auto;
-
+  
   @media screen and (max-width: $mobileLandscapeL) {
     background-image: none;
   }

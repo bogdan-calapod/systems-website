@@ -5,25 +5,25 @@
       "position": "Squier",
       "photo": "johnsnow.jpg",
       "email": "john@snow.com",
-      "teaching": [
-        "Introduction to Operating Systems",
-        "Computer Networks",
-        "Operating Systems"
-      ],
-      "papers": [
-        {
-          "title": "Scaling Peer-to-peer testing linux containers",
-          "description": ""
-        }
-      ],
-      "other": {
-        "Affiliation": "* IEEEE * ACM * ROSEdu"
+      "description": "Integer suscipit convallis ultrices. Suspendisse ut dapibus sem, et ornare metus. Aenean pulvinar tempus tellus sed pretium. Integer sollicitudin augue ut libero euismod, sed commodo arcu finibus.",
+      "details": {
+        "teaching": [
+          "Introduction to Operating Systems",
+          "Computer Networks",
+          "Operating Systems"
+        ],
+        "papers": [
+          {
+            "title": "Scaling Peer-to-peer testing linux containers",
+            "value": "Razemix Bandemix Rakemis Palemis <br> Balalala Dadadada"
+          }
+        ]
       }
     },
     {
       "name": "Eddard Stark",
       "position": "Lord of Winterfell",
-      "photo": "johnsnow.jpg",
+      "photo": "eddardstark.jpg",
       "email": "eddard@snow.com",
       "facebook": "http://facebook.com",
       "linkedin": "http://www.linkedin.com"
@@ -31,19 +31,19 @@
     {
       "name": "Robb Snow",
       "position": "King of the North",
-      "photo": "johnsnow.jpg",
+      "photo": "robb.png",
       "email": "john@snow.com"
     },
     {
       "name": "Joffrey Lannister",
       "position": "King of the Seven Kingdoms",
-      "photo": "johnsnow.jpg",
+      "photo": "joffrey.jpg",
       "email": "john@snow.com"
     },
     {
       "name": "Robert Baratheon",
       "position": "Former King",
-      "photo": "johnsnow.jpg",
+      "photo": "robert.jpg",
       "email": "john@snow.com"
     }
   ]

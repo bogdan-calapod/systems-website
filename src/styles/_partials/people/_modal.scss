@@ -1,0 +1,80 @@
+.modal {
+  svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+    border-radius: 12px;
+
+    
+    @media screen and (max-width: $mobileL) {
+      margin: 0;
+      align-self: center;
+    }
+  }
+
+  .info {
+    @media screen and (max-width: $mobileL) {
+      flex-direction: column;
+    }
+  }
+  
+  .details {
+    margin-left: 30px;
+    padding-top: 30px;
+    
+    @media screen and (max-width: $mobileL) {
+      margin-left: 0;
+    }
+
+    > p {
+      margin: 5px 0;
+    }
+
+    h1 {
+      margin: 20px 0 5px 0;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-bottom: 1px solid $darkGray;
+    }
+  
+    li:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border: 1px solid $gray;
+      border-radius: 10px;
+      margin: 0 10px;
+    }
+  }
+
+  .papers li {
+    margin-bottom: 10px;
+
+    h1 {
+      width: calc(100% - 35px);
+      display: inline-block;
+      text-transform: none;
+      font-weight: 400;
+      margin: 0;
+      border: none;
+    }
+
+    p {
+      margin-left: 33px;
+      font-size: 14px;
+      font-weight: 200;
+      color: #666;
+    }
+  }
+}

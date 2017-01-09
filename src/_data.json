@@ -4,7 +4,21 @@
       "name": "John Snow",
       "position": "Squier",
       "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
+      "email": "john@snow.com",
+      "teaching": [
+        "Introduction to Operating Systems",
+        "Computer Networks",
+        "Operating Systems"
+      ],
+      "papers": [
+        {
+          "title": "Scaling Peer-to-peer testing linux containers",
+          "description": ""
+        }
+      ],
+      "other": {
+        "Affiliation": "* IEEEE * ACM * ROSEdu"
+      }
     },
     {
       "name": "Eddard Stark",
@@ -13,54 +27,6 @@
       "email": "eddard@snow.com",
       "facebook": "http://facebook.com",
       "linkedin": "http://www.linkedin.com"
-    },
-    {
-      "name": "Robb Snow",
-      "position": "King of the North",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Joffrey Lannister",
-      "position": "King of the Seven Kingdoms",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Robert Baratheon",
-      "position": "Former King",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Eddard Stark",
-      "position": "Lord of Winterfell",
-      "photo": "johnsnow.jpg",
-      "email": "eddard@snow.com"
-    },
-    {
-      "name": "Robb Snow",
-      "position": "King of the North",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Joffrey Lannister",
-      "position": "King of the Seven Kingdoms",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Robert Baratheon",
-      "position": "Former King",
-      "photo": "johnsnow.jpg",
-      "email": "john@snow.com"
-    },
-    {
-      "name": "Eddard Stark",
-      "position": "Lord of Winterfell",
-      "photo": "johnsnow.jpg",
-      "email": "eddard@snow.com"
     },
     {
       "name": "Robb Snow",

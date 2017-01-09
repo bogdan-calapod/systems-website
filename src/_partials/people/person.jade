@@ -1,6 +1,6 @@
 mixin person(data)
   .person.flex(data-person=JSON.stringify(data))
-    img(src='img/people/' + data.photo)
+    .img(style='background-image: url(img/people/' + data.photo + ')' )
     .text.flex.column
       h1 #{data.name}
       h2 #{data.position}

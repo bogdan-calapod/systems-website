@@ -5,3 +5,47 @@ mixin people(data)
     p Pellentesque in magna justo. Sed massa lorem, sodales sed venenatis vitae, posuere et ex. Nunc tincidunt est id justo dictum sollicitudin. Donec eu bibendum nisl. Sed eget mi purus. Integer posuere ex nec ex laoreet, nec pharetra entesque. 
     .peopleList.flex
       +list(data)
+    .modal.open.flex
+      .content
+        .title.flex
+          .heading.flex.column
+            h1 John Snow
+            h2 Squier
+          .separator
+          ul.social.flex
+            li.mail
+              svg 
+                use(xlink:href='#mail')
+            li.facebook
+              svg 
+                use(xlink:href='#fb')
+            li.linkedin
+              svg 
+                use(xlink:href='#linkedin')
+        .info.flex
+          .photo(style='background-image:url(../img/people/johnsnow.jpg)')
+          .details.flex.column
+            p Teaching Assistant, CS Department, University POLITEHNICA of Bucharest
+            p Ph.D. in Peer-to-Peer systems, CS Department, University POLITEHNICA of Bucharest
+            p MSc. in Distributed Systems, CS Department, University POLITEHNICA of Bucharest
+            h1 Teaching
+            ul 
+              li Introduction to Operating Systems
+              li Computer Networks
+              li Operating Systems
+            h1 Papers
+            ul.papers
+              li
+                h1 Scaling Peer-to-peer testing linux containers
+                p Mircea Bardac, Răzvan Deaconescu, Adina Magda Florea
+                p 9th RoEduNet IEEE International Conference 2010, 
+                p June 24-26, 2010, Sibiu, Romania, pag. 287-292, 
+                p ISSN: 2068-1038, 
+                p ISBN 978-1-4244-7335-9
+              li
+                h1 Scaling Peer-to-peer testing linux containers
+                p Mircea Bardac, Răzvan Deaconescu, Adina Magda Florea
+                p 9th RoEduNet IEEE International Conference 2010, 
+                p June 24-26, 2010, Sibiu, Romania, pag. 287-292, 
+                p ISSN: 2068-1038, 
+                p ISBN 978-1-4244-7335-9

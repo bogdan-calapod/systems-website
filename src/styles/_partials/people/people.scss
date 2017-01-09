@@ -1,5 +1,6 @@
 section.people {
   @import 'person';
+  @import 'modal';
 
   // Background color should match background image edge
   background-color: #F6BC00;
@@ -9,7 +10,7 @@ section.people {
     background-image: none;
   }
 
-  p {
+  > p {
     display: block;
     text-align: center;
     max-width: 500px;

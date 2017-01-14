@@ -1,0 +1,220 @@
+section.contact {
+  background-image: url('../img/contact.jpg');
+  background-position: left bottom;
+  background-color: #EEEEEE;
+
+  padding-left: 40%;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $mobileLandscapeM) {
+    background-image: none;
+    padding-left: 5vw;
+  }
+
+  position: relative;
+
+  h1 {
+    text-align: left;
+
+    padding-bottom: 20px;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .social {
+    flex-wrap: wrap;
+    a {
+      width: 50%;
+      
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+      }
+    }
+
+    li {
+      align-items: center;
+    }
+
+    svg {
+      height: 30px;
+      width: 30px;
+      margin-right: 20px;
+    }
+  }
+
+  form {
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 10%;
+    max-width: 750px;
+
+    @media screen and (max-width: $mobileLandscapeM) {
+      max-width: none;
+      width: 100%;
+      padding-bottom: 25px;
+    }
+
+    position: relative;
+
+    &:before {
+      content: 'Your message has been sent!';
+
+      text-align: center;
+      font-size: 60px;
+      font-weight: 100;
+      display: flex;
+      align-items: center;
+
+      position: absolute;
+      width: 100%;
+      height: 0%;
+      top: 0;
+      left: 0;
+
+      z-index: 10;
+      overflow: hidden;
+
+      background-color: #EEE;
+
+      transition: 1s height;
+    }
+
+    &.completed:before {
+      height: 75%; // height - padding
+    }
+
+    input,
+    textarea,
+    button {
+      background-color: transparent;
+      border: 1px solid #666;
+      margin: 5px 0;
+      padding: 2px;
+
+      font-family: 'Work Sans', 'Segoe UI', sans-serif;
+
+      transition: 0.4s border;
+
+      &:before {
+        content: attr(data-name);
+      }
+
+      &:active {
+        border: 1px solid #333;
+      }
+    }
+
+    .input {
+      width: 50%;
+      box-sizing: border-box;
+      position: relative;
+
+      
+      @media screen and (max-width: $mobileLandscapeM) {
+        width: 100%;
+      }
+
+      input {
+        height: 30px;
+        margin: 0;
+        transition: 0.4s background;
+      }
+
+      &:first-child {
+        margin-right: 5px;
+        width: calc(50% - 5px);
+        
+        @media screen and (max-width: $mobileLandscapeM) {
+          margin: 0;
+          width: 100%;
+        }
+      }
+
+      &.textarea {
+        width: 100%;
+        height: 250px;
+      }
+
+      &:before {
+        position: absolute;
+        content: 'Câmp invalid';
+        color: rgba(red, 0);
+        right: 0;
+        text-align: right;
+        transition: 0.4s color;
+      }
+    }
+
+    .input.error {
+      &:before {
+        color: rgba(red, 1);
+      }
+
+      input {
+        background-color: rgba(red, 0.1);
+      }
+    }
+
+    textarea {
+      resize: none;
+      height: 100%;
+    }
+
+    button {
+      padding: 5px 30px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-left: auto;
+      width: 30%;
+
+      position: relative;
+      z-index: 1;
+
+      transition: 0.4s color;
+
+      
+      @media screen and (max-width: $mobileLandscapeM) {
+        width: 100%;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        transition: 0.4s height;
+        background-color: #666;
+        z-index: -1;
+      }
+
+      &:hover {
+        color: white;
+      }
+
+      &:hover:before {
+        height: 100%;
+      }
+
+
+    }
+  }
+
+  .footerLogo {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    height: 40px;
+    width: 150px;
+
+    @media screen and (max-width: $mobileLandscapeM) {
+      position: relative;
+      width: 100%;
+    }
+  }
+}

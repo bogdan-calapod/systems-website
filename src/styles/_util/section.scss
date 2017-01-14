@@ -7,6 +7,12 @@ section {
     padding: 15px 5vw;
   }
 
+  @media screen and (max-width: $mobileLandscapeL) {
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
   > h1 {
     text-align: center;
     font-weight: 100;

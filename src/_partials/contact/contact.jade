@@ -1,0 +1,37 @@
+mixin contact
+  section.contact.backgrounded.left
+    h1 Let's keep in touch
+    ul.social.flex
+      a(href='#' target='_blank')
+        li.flex
+          svg
+            use(xlink:href='#fb')
+          | /systems.cs.pub.ro
+      a(href='#' target='_blank')
+        li.flex
+          svg
+            use(xlink:href='#globe')
+          | http://systems.cs.pub.ro
+      a(href='#' target='_blank')
+        li.flex
+          svg
+            use(xlink:href='#mail')
+          | contact@systems.cs.pub.ro
+      a(href='#' target='_blank')
+        li.flex
+          svg
+            use(xlink:href='#place')
+          | Splaiul Independenței 313, București
+    form.flex
+      .input.flex.column
+        label Name
+        input(type='text' name='name')
+      .input.flex.column
+        label E-mail
+        input(type='email' name='email')
+      .input.textarea.flex.column 
+        label Message
+        textarea(name='message')
+      button Submit
+    svg.footerLogo
+      use(xlink:href='#footer_logo')

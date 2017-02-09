@@ -1,0 +1,20 @@
+mixin courseList
+  .courseList
+    h1 Courses
+    ul
+      li.flex.column
+        .description.flex
+          img(src='/img/courses/uso.svg')
+          .text.flex.column
+            h1 Operating Systems Usage
+            p This course introduces 1st year students into Operating Systems Usage. Linux is being used as a platform for introducing Operating Systems concepts such as processes and files.
+        .buttons.flex
+          a(href='#' target='_blank')
+            button
+              svg
+                use(xlink:href='#download')
+              | Course presentation
+          button
+            svg
+              use(xlink:href='#crown')
+            | Student Hit List

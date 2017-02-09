@@ -1,0 +1,10 @@
+include ../_partials/header/header
+include ../_partials/people/people
+include ../_partials/courses/courseList/courseList
+
++header(true)
+section.course
+  h1 Bachelor
+  p Pellentesque in magna justo. Sed massa lorem, sodales sed venenatis vitae, posuere et ex. Nunc tincidunt est id justo dictum sollicitudin. Donec eu bibendum nisl. Sed eget mi purus. Integer posuere ex nec ex laoreet, nec pharetra entesque.
+  +courseList
++people(public._data.people)

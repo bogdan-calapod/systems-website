@@ -1,7 +1,8 @@
-mixin header
+mixin header(small)
   include menu.jade
   include title.jade
-  section.header
+  - className = small ? ' small' : ''
+  section.header(class=className)
     .heading.flex
       svg
         use(xlink:href="#badge_white")

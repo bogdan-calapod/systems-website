@@ -20,16 +20,21 @@ class CoursesModal {
 
     this.hitlistButtons = toArray(document.querySelectorAll(root + 'button.hitlist'))
 
+    this.entries = toArray(document.querySelectorAll(root + 'tbody tr'))
+    this.yearFilters = toArray(this.modal.querySelectorAll('.yearSelector li'))
+
     // Binds
     this.buttonClickEvent = this.buttonClickEvent.bind(this)
     this.enableModal = this.enableModal.bind(this)
     this.disableModal = this.disableModal.bind(this)
+    this.filterByCourse = this.filterByCourse.bind(this)
+    this.filterByYear = this.filterByYear.bind(this)
 
     this.addEvents()
   }
 
   addEvents () {
-    this.hitlistButtons.map(
+    this.hitlistButtons.forEach(
       x => x.addEventListener('click', this.buttonClickEvent)
     )
 
@@ -37,6 +42,10 @@ class CoursesModal {
     this.modal.querySelector('.content').addEventListener(
       'click',
       e => e.stopPropagation()
+    )
+
+    this.yearFilters.forEach(
+      x => x.addEventListener('click', this.filterByYear)
     )
   }
 
@@ -53,6 +62,7 @@ class CoursesModal {
     this.enableModal()
       .updateModal(course)
       .filterByCourse(course)
+      .filterByYear()
   }
 
   enableModal () {
@@ -71,10 +81,50 @@ class CoursesModal {
   updateModal (course) {
     this.modal.classList.add(course)
     this.icon.src = '/img/courses/' + course.toLowerCase() + '.svg'
+    return this
   }
 
   filterByCourse (course) {
-    
+    this.entries.forEach(
+      e => {
+        if (e.dataset.course === course) {
+          e.style.display = 'table-row'
+        } else {
+          e.style.display = 'none'
+        }
+      }
+    )
+
+    return this
+  }
+
+  filterByYear (e) {
+    let target
+
+    if (!e) {
+      target = this.yearFilters[0]
+    } else {
+      target = e.currentTarget
+    }
+
+    let year = target.textContent
+
+    this.yearFilters.forEach(x => x.classList.remove('active'))
+
+    target.classList.add('active')
+
+    this.entries.filter(x => x.dataset.course === this.course)
+      .forEach(x => {
+        let entryYear = x.textContent.split('.').slice(-1)[0]
+
+        if (year === entryYear) {
+          x.style.display = 'table-row'
+        } else {
+          x.style.display = 'none'
+        }
+      })
+
+    return this
   }
 }
 

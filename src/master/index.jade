@@ -13,6 +13,6 @@ section.course
     p Pellentesque in magna justo. Sed massa lorem, sodales sed venenatis vitae, posuere et ex. Nunc tincidunt est id justo dictum sollicitudin. Donec eu bibendum nisl. Sed eget mi purus. Integer posuere ex nec ex laoreet, nec pharetra entesque.
 
   .flex.center.wrap
-    +courseList(public._data.courses.filter(x => x.type === 'bachelor'))
-    +projectsList(public._data.projects.filter(x => x.type === 'bachelor'))
-+people(public._data.people)
+    +courseList(public._data.Courses.filter(x => x.type === 'master'), public._data.Hitlists)
+    +projectsList(public._data.Projects.filter(x => x.type === 'master'))
++people(public._data.People)

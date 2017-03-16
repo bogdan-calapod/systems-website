@@ -1,21 +1,43 @@
-mixin courseList(data)
+mixin courseList(data, hits)
+  include ./hitlistTable.jade
   .courseList
     h1 Courses
     ul
       each course in data
         li.flex.column
           .description.flex
-            img(src='/img/courses/' + course.logo)
+            img(src='/img/courses/' + course.abbreviation.toLowerCase() + '.svg')
             .text.flex.column
               h1 #{course.name}
               p #{course.description}
           .buttons.flex
-            a(href=course.presentation target='_blank')
+            - if (course.presentation)
+              a(href=course.presentation target='_blank')
+                button
+                  svg
+                    use(xlink:href='#download')
+                  | Course presentation
+            - if (hits.filter(x => x.course === course.abbreviation).length > 0)
               button
                 svg
-                  use(xlink:href='#download')
-                | Course presentation
-            button
-              svg
-                use(xlink:href='#crown')
-              | Student Hit List
+                  use(xlink:href='#crown')
+                | Student Hit List
+    .modal.flex.open
+      .content
+        .title
+          .heading.flex
+            img(src='/img/courses/uso.svg')
+            h1 Student Hit List
+        ul.yearSelector
+          - let years = hits.map(x => x.date.split('.')[2])
+          - years = years.filter((x, i) => years.indexOf(x) == i).sort().reverse()
+          each year in years
+            li #{year}
+
+        - let hitFilter = cat => hits.filter(x => x.pin.toLowerCase().indexOf(cat) > -1)
+
+        +hitlistTable('#final', hitFilter('final exam'))
+        +hitlistTable('#final_handson', hitFilter('final hands-on'))
+        +hitlistTable('#midterm_handson', hitFilter('midterm hands-on'))
+        +hitlistTable('#lecture_activity', hitFilter('lecture'))
+        +hitlistTable('#overall', hitFilter('overall'))

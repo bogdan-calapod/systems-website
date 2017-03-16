@@ -1,20 +1,2356 @@
 {
-  "Papers": [],
-  "Courses": [
-    {
-      "type": "bachelor",
-      "name": "Operating Systems Usage",
-      "logo": "uso.svg",
-      "description": "This course introduces 1st year students into Operating Systems Usage. Linux is being used as a platform for introducing Operating Systems concepts such as processes and files.",
-      "presentation": "uso.pdf\n"
-    }
-  ],
   "Projects": [
     {
       "type": "bachelor",
       "name": "On-screen display for confidential information",
       "teachers": "Răzvan Rughiniș, Tudor Pârcălabu",
       "url": "http://www.google.com"
+    }
+  ],
+  "Courses": [
+    {
+      "type": "bachelor",
+      "abbreviation": "USO",
+      "name": "Operating Systems Usage",
+      "description": "This course introduces 1st year students into Operating Systems Usage. Linux is being used as a platform for introducing Operating Systems concepts such as processes and files.",
+      "presentation": "uso.pdf\n"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "RL",
+      "name": "Computer Networks",
+      "description": "This course aims at helping students understand the design and inner working of Computer Netoworks.",
+      "presentation": "rl.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "SO",
+      "name": "Operating Systems",
+      "description": "This course aims at helping students understand Operating Systems better.",
+      "presentation": "so.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "SO2",
+      "name": "Operating Systems Design",
+      "description": "This course aims at helping students understand the internals of Operating Systems.",
+      "presentation": "so2.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "PR",
+      "name": "Network Design",
+      "description": "This course introduces students to Network Design concepts such as switching and routing."
+    },
+    {
+      "type": "master",
+      "abbreviation": "GSR",
+      "name": "Network Services Management",
+      "description": "This course presents global configuration options for Internet services (web, e-mail, DNS, FTP, remote access) and places accent on important security features that need to be implemented before the services are released."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SOA",
+      "name": "Advanced Operating Systems",
+      "description": "This course presents advanced concepts in operating systems as they are explored in research publications."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SCR",
+      "name": "Computer Network Security",
+      "description": "This course aims at providing a set of tools for vulnerability assesment and security calibration both at the network and at the operating system level."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SAISP",
+      "name": "Advanced ISP Services",
+      "description": "This course focuses on the integration of advanced system services components and on the service reliability and scalability"
+    },
+    {
+      "type": "master",
+      "abbreviation": "SRED",
+      "name": "Security for Routers and Switches",
+      "description": "This course focuses ont he planification, implementation and configuration of a secure, scalable, redundant and convergent network using dedicated firewalls and Unified Threat Management"
+    }
+  ],
+  "People": [
+    {
+      "name": "Mircea Bardac",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "mircea.bardac@cs.pub.ro",
+      "facebook": "",
+      "linkedin": "",
+      "teaching": "",
+      "paper1": "Scaling Peer-to-Peer testing using Linux Containers | http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5541555",
+      "paper2": "Swarm metrics in peer-to-peer systems | http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5541557",
+      "paper3": "Monitoring a BitTorrent tracker for peer-to-peer system analysis | http://www.springerlink.com/content/r528521241850jnl/",
+      "paper4": "A distributed file system model for Shared, Dynamic and Aggregated Data | http://aimas.cs.pub.ro/people/mircea.bardac/papers/2009-cscs17-dfs-model.pdf"
+    },
+    {
+      "name": "Mihai Chiroiu",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "mihai.chiroiu@cs.pub.ro"
+    },
+    {
+      "name": "Mihai Carabaș",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "mihai.carabas@cs.pub.ro"
+    },
+    {
+      "name": "Sergiu Costea",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "sergiu.costea@cs.pub.ro"
+    },
+    {
+      "name": "Răzvan Deaconescu",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "razvan.deaconescu@cs.pub.ro"
+    },
+    {
+      "name": "Laura Ruse",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "laura.ruse@cs.pub.ro"
+    },
+    {
+      "name": "George Milescu",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "george.milescu@cs.pub.ro"
+    },
+    {
+      "name": "Lucian Mogoșanu",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "lucian.mogosanu@cs.pub.ro"
+    },
+    {
+      "name": "Dragoș Niculescu",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "dragos.niculescu@cs.pub.ro"
+    },
+    {
+      "name": "Traian Popeea",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "traian.popeea@cs.pub.ro"
+    },
+    {
+      "name": "Alexandru Radovici",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "alexandru.radovici@cs.pub.ro"
+    },
+    {
+      "name": "Costin Raiciu",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "costin.raiciu@cs.pub.ro"
+    },
+    {
+      "name": "Daniel Rosner",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "daniel.rosner@cs.pub.ro"
+    },
+    {
+      "name": "Răzvan Rughiniș",
+      "position": "Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "razvan.rughinis@cs.pub.ro"
+    },
+    {
+      "name": "Nicolae Țăpuș",
+      "position": "Professor, PHhD",
+      "description": "",
+      "photo": "",
+      "email": "ntapus@cs.pub.ro"
+    },
+    {
+      "name": "Laura Vasilescu",
+      "position": "Teaching Assistant, PhD Candidate",
+      "description": "",
+      "photo": "",
+      "email": "laura.vasilescu@cs.pub.ro"
+    },
+    {
+      "name": "Alexandru Văduvă",
+      "position": "PhD Candidate"
+    },
+    {
+      "name": "Andrei Pitiș",
+      "position": "Assistant Professor"
+    },
+    {
+      "name": "Octavian Purdilă",
+      "position": "Assistant Professor, PhD",
+      "description": "",
+      "photo": "",
+      "email": "octavian.purdila@cs.pub.ro"
+    }
+  ],
+  "Hitlists": [
+    {
+      "course": "USO",
+      "name": "Diana Grecu ",
+      "group": " 313CA",
+      "pin": "Lecture activity",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Alin Roșca ",
+      "group": " 313CA",
+      "pin": "Lecture activity",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Ebru RESUL ",
+      "group": " 312CA",
+      "pin": "Lecture activity",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Gabriel MATEI ",
+      "group": " 311CA",
+      "pin": "Final Exam",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Horia DRAGOMIR ",
+      "group": " 313CA",
+      "pin": "Final Exam",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei RADUTA ",
+      "group": " 312CA",
+      "pin": "Final Exam",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru MIHAI ",
+      "group": " 312CA",
+      "pin": "Final Exam",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan POPA ",
+      "group": " 313CA",
+      "pin": "Final Hands-on",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Mihnea SERBAN ",
+      "group": " 311CA",
+      "pin": "Final Hands-on",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Cristian CRETEANU ",
+      "group": " 313CA",
+      "pin": "Final Hands-on",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan TEACA ",
+      "group": " 315CD",
+      "pin": "Lecture activity",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Tiberiu LEPADATU ",
+      "group": " 312CD",
+      "pin": "Lecture activity",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei ZAFIU ",
+      "group": " 312CD",
+      "pin": "Lecture activity",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Adrian NITA ",
+      "group": " 311CD",
+      "pin": "Final Exam",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Emanuel MURARU ",
+      "group": " 313CD",
+      "pin": "Final Exam",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Philip DUMITRU ",
+      "group": " 314CD",
+      "pin": "Final Exam",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Robert RADA ",
+      "group": " 312CD",
+      "pin": "Final Hands-on",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Horia ION ",
+      "group": " 311CD",
+      "pin": "Final Hands-on",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "George NEACSU ",
+      "group": " 311CD",
+      "pin": "Final Hands-on",
+      "date": "21.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Rares FOLEA ",
+      "group": " 314CC",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "George DIACONU ",
+      "group": " 313CD",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Catalin VAJAIALA-TOMICI ",
+      "group": " 312CB",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Iuliana BRINZOI ",
+      "group": " 313CC",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan DUMITRANA ",
+      "group": " 312CC",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Ionuț MIHALACHE ",
+      "group": " 314CA",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru FAZAKAS ",
+      "group": " 311CC",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Valentin MOCANU ",
+      "group": " 311CD",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Edwin GRIGORE ",
+      "group": " 314CB",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Luca ISTRATE ",
+      "group": " 311CA",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Andreia OCANOAIA ",
+      "group": " 315CD",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Cosmin TUDOR ",
+      "group": " 312CD",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru LAZAR ",
+      "group": " 313CA",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Theo CHIHAIA ",
+      "group": " 311CB",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Paul OLARU ",
+      "group": " 312CA",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Gabriel BOROGHINA ",
+      "group": " 313CB",
+      "pin": "Overall activity",
+      "date": "20.01.2017"
+    },
+    {
+      "course": "USO",
+      "name": "Andreea SULUGIU ",
+      "group": " 316CC",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Victor DOCA ",
+      "group": " 312CC",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Robert SAMOILESCU ",
+      "group": " 315CB",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Darius NEATU ",
+      "group": " 315CA",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Silvia PRIPOAE ",
+      "group": " 311CA",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Tudor TUDORUȚ ",
+      "group": " 311CA",
+      "pin": "Midterm Hands-on Exam",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei CRIVIDENCO ",
+      "group": " 313CC",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Lucian PERJU ",
+      "group": " 314CC",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "George PIRTOACA ",
+      "group": " 316CB",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Cristina IONESCU ",
+      "group": " 315CB",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Vlad PANTEA ",
+      "group": " 314CA",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei STEFANESCU ",
+      "group": " 313CA",
+      "pin": "Overall Activity",
+      "date": "08.12.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Mihaela TUDOR",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "02.02.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Călin CRUCERU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "02.02.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai MASALA",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "02.02.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Vlad POȘTOACĂ",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "29.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai NAN",
+      "group": "",
+      "pin": "Workshops",
+      "date": "29.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Paul-Cristian-Florian GHEORGHE",
+      "group": "",
+      "pin": "Workshops",
+      "date": "29.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan-Marian MUREŞEANU",
+      "group": "",
+      "pin": "Fourth Assignment",
+      "date": "29.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Iulian Razvan MATESICA",
+      "group": "",
+      "pin": "Third Assignment",
+      "date": "29.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Cristi-Alexandru VASILE",
+      "group": "",
+      "pin": "Greatest score [1CA]",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru ŞORODOC",
+      "group": "",
+      "pin": "Final quiz [1CA]",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Gabriel CRISTACHE",
+      "group": "",
+      "pin": "Hans-on Exams Final [1CA]",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai Cătălin ARSENESCU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Denisa TROZNAY",
+      "group": "",
+      "pin": "Workshops",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Dennis – Adrian PLOSCEANU",
+      "group": "",
+      "pin": "Workshops",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Flavia OPREA",
+      "group": "",
+      "pin": "Workshops",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru-Bogdan IARU",
+      "group": "",
+      "pin": "First Assignment",
+      "date": "21.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Doru FILIP",
+      "group": "",
+      "pin": "Course activity [1CA]",
+      "date": "13.01.2014"
+    },
+    {
+      "course": "USO",
+      "name": "Ştefan MANCIU",
+      "group": "",
+      "pin": "First Assignment",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Marius PETCU",
+      "group": "",
+      "pin": "Hands-on Exams Midterm [1CC]",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Alin GHEORGHE",
+      "group": "",
+      "pin": "Hands-on Exams Midterm [1CA]",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Vlad MUSCALU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai BRĂNESCU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Codruț GROSU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Theodor SAVUSCAN",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Ştefan BUŞILĂ",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "25.11.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Tiberiu BARBU",
+      "group": "",
+      "pin": "Assignments",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai BĂRBULESCU",
+      "group": "",
+      "pin": "Lab Author",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Petre EFTIMIE",
+      "group": "",
+      "pin": "Assignments",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Adrian STRATULAT",
+      "group": "",
+      "pin": "Lab Reviewer",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Alex TOMESCU",
+      "group": "",
+      "pin": "Assignments",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Silvia STEGARU",
+      "group": "",
+      "pin": "Lab Review",
+      "date": "01.10.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Ioana CULIC",
+      "group": "",
+      "pin": "Greatest score",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Cosmin BOACĂ",
+      "group": "",
+      "pin": "Greatest score ",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru ORHEAN",
+      "group": "",
+      "pin": "Final Quiz",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Robert BÎNDAR",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Eugen STOICA",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Cosmin PETRIȘOR",
+      "group": "",
+      "pin": "Final Quiz",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru ȚIFREA",
+      "group": "",
+      "pin": "Greatest score",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Ștefan MIREA",
+      "group": "",
+      "pin": "Workshop",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Robert ALEXE",
+      "group": "",
+      "pin": "Workshop",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Vlad Dumitrescu",
+      "group": "",
+      "pin": "Overall Activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Roxana CIOBANU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Cristian SOARE",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Cristian BUZĂ",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Diana DESPA",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Răzvan MATEI",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Constantin SOARE",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Mădălina HRISTACHE",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan MARIN",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Marius UNGUREANU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei APRODU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei ȚUICU",
+      "group": "",
+      "pin": "Overall activity",
+      "date": "08.02.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Cristian-Alexandru MOCANU",
+      "group": "",
+      "pin": "Fifth Assignment",
+      "date": "14.01.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Dragos Andrei Calinescu",
+      "group": "",
+      "pin": "Fourth Assignment",
+      "date": "14.01.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei-Dragoş MANEA",
+      "group": "",
+      "pin": "Third Assignment",
+      "date": "14.01.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Adrian-Mihai IOSIF",
+      "group": "",
+      "pin": "Course activity",
+      "date": "14.01.2013"
+    },
+    {
+      "course": "USO",
+      "name": "Alexander Stöckel",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Georgiana-Diana Ciocîrdel",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Nicolae Cudlenco",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei-Dorian Duma",
+      "group": "",
+      "pin": "Hands-on Exams",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Bogdan Calapod",
+      "group": "",
+      "pin": "Course activity",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Nicolae Bădescu",
+      "group": "",
+      "pin": "Second Assignment",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei Costin Lică",
+      "group": "",
+      "pin": "First Assignment",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Andrei Vasiliu",
+      "group": "",
+      "pin": "Teaching Assistant",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Tudor Vișan",
+      "group": "",
+      "pin": "Teaching Assistant",
+      "date": "17.12.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Alex Juncu",
+      "group": "",
+      "pin": "Lab Infrastructure",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Voichița Iancu",
+      "group": "",
+      "pin": "Teaching Assistant",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Mihnea Dobrescu",
+      "group": "",
+      "pin": "Engine WoUSO",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru Radovici",
+      "group": "",
+      "pin": "Teaching Assistant",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Sorina Sandu",
+      "group": "",
+      "pin": "Lab Author",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Paul Vlase",
+      "group": "",
+      "pin": "Lab Author",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Valentin Ilie",
+      "group": "",
+      "pin": "Assignments",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Răzvan Pricope",
+      "group": "",
+      "pin": "Assignments",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Adrian Șendroiu",
+      "group": "",
+      "pin": "Assignments",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Fănel Ghiță",
+      "group": "",
+      "pin": "Lab Infrastructure",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Eliana Târșa",
+      "group": "",
+      "pin": "Teaching Assistant",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Răzvan Dobre",
+      "group": "",
+      "pin": "Linux Assignment",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru Olteanu",
+      "group": "",
+      "pin": "Course Quiz",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru Eftimie",
+      "group": "",
+      "pin": "Engine WoUSO",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Mihai Maruseac",
+      "group": "",
+      "pin": "Lab Author",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Răzvan Deaconescu",
+      "group": "",
+      "pin": "Course",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Răzvan Rughiniș",
+      "group": "",
+      "pin": "Course",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Alexandru Heișanu",
+      "group": "",
+      "pin": "Course",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Mircea Bardac",
+      "group": "",
+      "pin": "Linux Assignment",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "George Milescu",
+      "group": "",
+      "pin": "Curriculum Lead 2009",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Vlad Dogaru",
+      "group": "",
+      "pin": "Curriculum Lead 2010",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "USO",
+      "name": "Laura Vasilescu",
+      "group": "",
+      "pin": "Curriculum Lead 2012",
+      "date": "07.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Adrian PANDELICĂ ",
+      "group": " 335CC",
+      "pin": "Lecture activity [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Robert Tănase ",
+      "group": " 334CC",
+      "pin": "Lecture activity [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandra CÎRSTIAN ",
+      "group": " 333CC",
+      "pin": "Lecture activity [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru ACHIRIŢOAEI ",
+      "group": " 335CC",
+      "pin": "Written exam [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Cristian MONDIRU ",
+      "group": " 334CC",
+      "pin": "Written exam [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru ELISEI ",
+      "group": " 333CC",
+      "pin": "Written exam [CC]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Andreea DIEACONU ",
+      "group": " 335CA",
+      "pin": "Lecture activity [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei IONEANU ",
+      "group": " 334CA",
+      "pin": "Lecture activity [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Sabina HORINCAR ",
+      "group": " 331CA",
+      "pin": "Lecture activity [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei ŞTEFĂNESCU ",
+      "group": " 333CA",
+      "pin": "Written exam [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Laurențiu PICIU ",
+      "group": " 333CA",
+      "pin": "Written exam [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Ciprian COSTEA ",
+      "group": " 332CA",
+      "pin": "Written exam [CA]",
+      "date": "28.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Andreea GURIŢĂ ",
+      "group": " 335CB",
+      "pin": "Lecture activity [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Ionut OPREA ",
+      "group": " 334CB",
+      "pin": "Lecture activity [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Rareș VISALOM ",
+      "group": " 333CB",
+      "pin": "Lecture activity [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Raul PIPIS ",
+      "group": " 331CB",
+      "pin": "Written exam [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "GeorgePÎRTOACĂ ",
+      "group": " 335CB",
+      "pin": "Written exam [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Mircea TĂNASE ",
+      "group": " 335CB",
+      "pin": "Written exam [CB]",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Liana PĂNĂTĂU ",
+      "group": " 335CA",
+      "pin": "Overall involvement",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Elena MARINICA ",
+      "group": " 335CA",
+      "pin": "Overall involvement",
+      "date": "23.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandra GAMAN ",
+      "group": " 334CA",
+      "pin": "Hands-on Exam",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Sergiu WEISZ ",
+      "group": " 333CB",
+      "pin": "Hands-on Exam [89 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Relu DRAGAN ",
+      "group": " 331CB",
+      "pin": "Hands-on Exam [87 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Denisa SANDU ",
+      "group": " 332CA",
+      "pin": "Hands-on Exam [87 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Tudor TUDORUT ",
+      "group": " 331CA",
+      "pin": "Hands-on Exam [80 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Vlad CORNECI ",
+      "group": " 335CC",
+      "pin": "Hands-on Exam [79 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Dragos STURZU ",
+      "group": " 333CB",
+      "pin": "Hands-on Exam [75 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Cosmin PRUNARU ",
+      "group": " 332CC",
+      "pin": "Hands-on Exam [73 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru MUSTATA ",
+      "group": " 331CB",
+      "pin": "Hands-on Exam [71 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei PETRESCU ",
+      "group": " 331CB",
+      "pin": "Hands-on Exam [59 min]",
+      "date": "14.01.2017"
+    },
+    {
+      "course": "RL",
+      "name": "Cristiana TRIFU ",
+      "group": " 335CC",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Lucian PERJU ",
+      "group": " 334CC",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Victor Silviu DOCA ",
+      "group": " 332CC",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Roxana RADU ",
+      "group": " 335CB",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Filip MUNTEANU ",
+      "group": " 332CB",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Razvan CHITU ",
+      "group": " 335CA",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Radu Stochitoiu ",
+      "group": " 332CA",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Silvia PRIPOAE ",
+      "group": " 331 CA",
+      "pin": "Overall involvement",
+      "date": "05.12.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Mircea PLATON ",
+      "group": " 331CC",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei MARDALE ",
+      "group": " 334CB",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Robert-Florian SAMOILESCU ",
+      "group": " 335CB",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru MOCANU ",
+      "group": " 331CB",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Ştefan-Adrian POPA ",
+      "group": " 331CA",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2016"
+    },
+    {
+      "course": "RL",
+      "name": "FILIP Ion-Dorinel",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "PREDA Ştefan-Alexandru",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "GHIȚĂ Cristian-Alin",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "PETCU Marius",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Diana ION",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Vasile ŢONCU",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Iulian-Răzvan MATEŞICĂ",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "23.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "MURARU George-Cristian",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "ENE Orlando-Georgian",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Alin-Andrei GRIGOREAN",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Bogdan Cristian BĂLOI",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Ştefan STAMATE",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Călin-Cristian CRUCERU",
+      "group": "",
+      "pin": "Overall involvement",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei-Alexandru STOIA",
+      "group": "",
+      "pin": "Overall involvement",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei URSACHE",
+      "group": "",
+      "pin": "Overall involvement",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "MUSCALU Vlad",
+      "group": "",
+      "pin": "Overall involvement",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Paul DUMITRIU",
+      "group": "",
+      "pin": "Overall involvement",
+      "date": "22.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Bogdan GHIŢĂ",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei-Silviu DRAGNEA",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Flavia OPREA",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru BĂLAN",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Dragoş-Florin COSTEA",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandros DIMOS",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Dennis-Adrian PLOSCEANU",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "19.01.2016"
+    },
+    {
+      "course": "RL",
+      "name": "Călin-Cristian CRUCERU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Radu-Adrian OANCEA",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Ştefan-Cristian ŞTEFANCA",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Dan-Ioan BOLOHAN",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "George Bogdan OPREA",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Răzvan ZAVATE",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Răzvan-Marcel BĂRBĂSCU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Ştefan-Dan CIOCÎRLAN",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "23.11.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Lucian OANCEA",
+      "group": "",
+      "pin": "Hands-on Exam [80 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei DUMA",
+      "group": "",
+      "pin": "Hands-on Exam [77 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Costin LICA",
+      "group": "",
+      "pin": "Hands-on Exam [75 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Ciprian NUȚESCU",
+      "group": "",
+      "pin": "Hands-on Exam [74 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandra GHIȚĂ",
+      "group": "",
+      "pin": "Hands-on Exam [70 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Victor CIUREL",
+      "group": "",
+      "pin": "Hands-on Exam [69 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Marius Stefan UNGUREANU",
+      "group": "",
+      "pin": "Hands-on Exam [64 min]",
+      "date": "17.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Andreea-Lucia ILIEș",
+      "group": "",
+      "pin": "Overall involvement [week 14]",
+      "date": "16.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Constantin-Eduard STANILOIU",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "14.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Robert-Ioan ROVENTA",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "14.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Ioana TEODORESCU",
+      "group": "",
+      "pin": "Overall involvement [week 12]",
+      "date": "14.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Constantin COSTESCU",
+      "group": "",
+      "pin": "Overall involvement [week 9]",
+      "date": "14.01.2015"
+    },
+    {
+      "course": "RL",
+      "name": "Octavian GRIGORESCU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Oana STROIE",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru Marian STANCIOIU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Radu CONSTANTINESCU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai-Alexandru VASILIU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Bogdan CIOBANU",
+      "group": "",
+      "pin": "Overall involvement [week 6]",
+      "date": "02.12.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Stefan-Gabriel MIREA",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "12.11.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Gabriel SAMOILĂ",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "11.11.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Madalina HRISTACHE",
+      "group": "",
+      "pin": "Overall involvement [week 3]",
+      "date": "11.11.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Cristian GRIGORAŞ",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Lorena-Roberta DOBRESCU",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Ramon NĂSTASE",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Bogdan Daniel NICULA",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Mădălina-Andreea GROSU",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Ionuţ-Răzvan IONIŢĂ",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Theodor-Cosmin DIDII",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai-Dragoş TIRIPLICĂ",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru CONSTANTIN",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Raul-Constantin TABACU",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Valentina-Camelia BOJAN",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "18.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Nicolae IVAN",
+      "group": "",
+      "pin": "Overall involvement [week 14]",
+      "date": "15.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru-Ciprian FĂRCĂŞANU",
+      "group": "",
+      "pin": "Hands-on Exam [80 min]",
+      "date": "11.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Corneliu-Florin PASCU",
+      "group": "",
+      "pin": "Hands-on Exam [80 min]",
+      "date": "11.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei POENARU",
+      "group": "",
+      "pin": "Hands-on Exam [73 min]",
+      "date": "11.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Daniel DATCU",
+      "group": "",
+      "pin": "Hands-on Exam [71 min]",
+      "date": "11.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Dragos BADEA",
+      "group": "",
+      "pin": "Hands-on Exam [64 min]",
+      "date": "11.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai ZAMFIRESCU",
+      "group": "",
+      "pin": "Overall involvement [week 12]",
+      "date": "08.01.2014"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Marius DINCU",
+      "group": "",
+      "pin": "Overall involvement [week 9]",
+      "date": "18.12.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Ionuţ-Gabriel RĂDUCU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "20.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei PREDA",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "20.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Ionel Valentin GHIŢĂ",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "20.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Dragoş DUMITRESCU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "20.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Laura-Adriana SAVU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "20.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Paul URZICEANU",
+      "group": "",
+      "pin": "Overall involvement [week 6]",
+      "date": "19.11.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru SURDU",
+      "group": "",
+      "pin": "Overall involvement [week 3]",
+      "date": "29.10.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Constantin CARAPENCEA",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru SÎRBU",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Vladimir DIACONESCU",
+      "group": "",
+      "pin": "Written exam [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Oana Georgiana NICULĂESCU",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Marius AVRAM",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Şerban-Mihnea WALTTER",
+      "group": "",
+      "pin": "Lecture involvement [CB]",
+      "date": "21.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Constantin-Alin UNGUREANU",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Nicolae Valentin CIOBANU",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Valentina Mihaela MANEA",
+      "group": "",
+      "pin": "Written exam [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Marian  Octavian PREDA",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Vlad-Daniel BAROSAN",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Robert DOLCA",
+      "group": "",
+      "pin": "Lecture involvement [CC]",
+      "date": "20.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Andreea MARTINOVICI",
+      "group": "",
+      "pin": "Overall involvement [week 14]",
+      "date": "16.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Vlad-Ştefan GRIGORIŢĂ",
+      "group": "",
+      "pin": "Overall involvement [week 12]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai-Cristian COŞĂREANU",
+      "group": "",
+      "pin": "Top score [hands-on exam]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Ancuţa-Petronela BÂRZU",
+      "group": "",
+      "pin": "Top score [hands-on exam]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Radu PĂTRĂŞCOIU",
+      "group": "",
+      "pin": "Top score [hands-on exam]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Simion Vlad BOGOLIN",
+      "group": "",
+      "pin": "Top score [hands-on exam]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Bogdan PARVU",
+      "group": "",
+      "pin": "Top score [hands-on exam]",
+      "date": "12.01.2013"
+    },
+    {
+      "course": "RL",
+      "name": "Paul SĂPUNARU",
+      "group": "",
+      "pin": "Overall involvement [week 9]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Carol Robert MUTULEANU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Mariana MĂRĂȘOIU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Cozmin VELCIU",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Cristian RUŢĂ",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru  Teodor PREDA",
+      "group": "",
+      "pin": "Top score [midterm quiz]",
+      "date": "28.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Dragos FOIANU",
+      "group": "",
+      "pin": "Overall involvement [week 6]",
+      "date": "20.11.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Victor DODON",
+      "group": "",
+      "pin": "Overall involvement [week 3]",
+      "date": "31.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Alexandru JUNCU",
+      "group": "",
+      "pin": "Linux Homework",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "George Milescu",
+      "group": "",
+      "pin": "Hands-on Exam Coordinator",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Florin Stancu",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Razvan Prejbeanu",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Alina Vlăduțu",
+      "group": "",
+      "pin": "Lecture Quizzes",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Silvia Marcu",
+      "group": "",
+      "pin": "Quiz",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Rares Dumitrache",
+      "group": "",
+      "pin": "Hands-on Exam",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Andrei Epure",
+      "group": "",
+      "pin": "Site de curs",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Cătălin Frățilă",
+      "group": "",
+      "pin": "Hands-on Exam Supervisor",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Sergiu Costea",
+      "group": "",
+      "pin": "Lecture Slides",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Fănel Ghiță",
+      "group": "",
+      "pin": "Facilities",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai Prică",
+      "group": "",
+      "pin": "Lab Content Supervisor",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Cristian Chilipirea",
+      "group": "",
+      "pin": "Lecture Slides",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Cătălin Nicuțar",
+      "group": "",
+      "pin": "Lab Cheat Sheets",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Răzvan Dobre",
+      "group": "",
+      "pin": "Workshop",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Laura Gheorghe",
+      "group": "",
+      "pin": "Quiz",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Răzvan Deaconescu",
+      "group": "",
+      "pin": "Linux Homework",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Răzvan Rughiniș",
+      "group": "",
+      "pin": "Course",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Nicolae Țăpuș",
+      "group": "",
+      "pin": "Course",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Mircea Bardac",
+      "group": "",
+      "pin": "Curriculum Lead 2009",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Traian Popeea",
+      "group": "",
+      "pin": "Curriculum Lead 2010",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai Bucicoiu",
+      "group": "",
+      "pin": "Curriculum Lead 2011",
+      "date": "06.10.2012"
+    },
+    {
+      "course": "RL",
+      "name": "Mihai Carabaș",
+      "group": "",
+      "pin": "Curriculum Lead 2012",
+      "date": "06.10.2012"
     }
   ]
 }

@@ -5,7 +5,7 @@
 
 // Convert to array for easier manipulation
 // of nodes
-function toArray (domList) {
+export function toArray (domList) {
   return [].slice.call(domList)
 }
 

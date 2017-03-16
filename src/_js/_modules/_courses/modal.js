@@ -71,7 +71,7 @@ class CoursesModal {
   }
 
   disableModal (e) {
-    this.modal.classList.remove('open')
+    this.modal.className = 'modal flex'
   }
 
   /**

@@ -13,7 +13,11 @@ class PeopleModal {
     this.modalElements = {
       title: this.modal.querySelector('.heading h1'),
       subtitle: this.modal.querySelector('.heading h2'),
-      social: this.modal.querySelector('.heading .social'),
+      social: {
+        mail: this.modal.querySelector('.social .mail'),
+        facebook: this.modal.querySelector('.social .facebook'),
+        linkedin: this.modal.querySelector('.social .linkedin')
+      },
       photo: this.modal.querySelector('.photo'),
       description: this.modal.querySelector('.details p'),
       list: this.modal.querySelector('.details .list')
@@ -43,7 +47,6 @@ class PeopleModal {
    */
   saveDataAndUpdate (data) {
     data = JSON.parse(data)
-    console.log(data, this.data)
     this.data = Object.assign(
       {},
       this.defaultData,
@@ -64,9 +67,46 @@ class PeopleModal {
     this.modalElements.description.innerHTML = this.data.description
     this.modalElements.photo.style.backgroundImage = 'url(../img/people/' + this.data.photo + ')'
 
+    // Update social media info
+    let {email, facebook, linkedin} = this.data
+
+    if (!email || email.trim() === '') {
+      this.modalElements.social.mail.style.display = 'none'
+    } else {
+      this.modalElements.social.mail.style.display = 'block'
+      this.modalElements.social.mail.href = 'mailto:' + email
+    }
+
+    if (!facebook || facebook.trim() === '') {
+      this.modalElements.social.facebook.style.display = 'none'
+    } else {
+      this.modalElements.social.facebook.style.display = 'block'
+      this.modalElements.social.facebook.href = facebook
+    }
+
+    if (!linkedin || linkedin.trim() === '') {
+      this.modalElements.social.linkedin.style.display = 'none'
+    } else {
+      this.modalElements.social.linkedin.style.display = 'block'
+      this.modalElements.social.linkedin.href = linkedin
+    }
+
+
     // Call list generator for the rest of the data
     this.modalElements.list.innerHTML = ''
-    this.modalElements.list.appendChild(generateList(this.data.details))
+
+    let {teaching} = this.data
+
+    if (teaching && teaching.trim() !== '') {
+      this.modalElements.list.appendChild(generateList('Teaching', teaching.split(',')))
+    }
+
+    let {paper1, paper2, paper3, paper4, paper5} = this.data
+    let papers = [paper1, paper2, paper3, paper4, paper5].filter(x => x !== '')
+
+    if (papers.length > 0) {
+      this.modalElements.list.appendChild(generateList('Top papers', papers))
+    }
   }
 
   /**
@@ -78,7 +118,6 @@ class PeopleModal {
   }
 
   closeModal (e) {
-    console.log(e.keyCode)
     if (e.keyCode) {
       if (e.keyCode !== 27) {
         return
@@ -109,8 +148,6 @@ class PeopleModal {
       this.closeModal
     )
   }
-
-
 }
 
 new PeopleModal()

@@ -5,17 +5,17 @@ mixin person(data)
       h1 #{data.name}
       h2 #{data.position}
       .social.flex
-        - if (data.email)
+        - if (data.email && data.email.trim() != '')
           a(href='mailto:' + data.email)
             svg
               use(xlink:href='#mail')
         
-        - if (data.facebook)
+        - if (data.facebook && data.facebook.trim() != '')
           a(href=data.facebook target='_blank')
             svg
               use(xlink:href='#fb')
         
-        - if (data.linkedin)
+        - if (data.linkedin && data.linkedin.trim() != '')
           a(href=data.linkedin target='_blank')
             svg
               use(xlink:href='#linkedin')

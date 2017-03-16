@@ -13,15 +13,18 @@ mixin people(data)
             h2
           .separator
           ul.social.flex
-            li.mail
-              svg 
-                use(xlink:href='#mail')
-            li.facebook
-              svg 
-                use(xlink:href='#fb')
-            li.linkedin
-              svg 
-                use(xlink:href='#linkedin')
+            a.mail
+              li
+                svg 
+                  use(xlink:href='#mail')
+            a.facebook
+              li
+                svg 
+                  use(xlink:href='#fb')
+            a.linkedin
+              li
+                svg 
+                  use(xlink:href='#linkedin')
         .info.flex
           .photo
           .details.flex.column

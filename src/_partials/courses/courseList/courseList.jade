@@ -18,11 +18,11 @@ mixin courseList(data, hits)
                     use(xlink:href='#download')
                   | Course presentation
             - if (hits.filter(x => x.course === course.abbreviation).length > 0)
-              button
+              button.hitlist(data-course=course.abbreviation)
                 svg
                   use(xlink:href='#crown')
                 | Student Hit List
-    .modal.flex.open
+    .modal.flex
       .content
         .title
           .heading.flex

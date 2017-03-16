@@ -6,4 +6,12 @@
   &.column {
     flex-direction: column;
   }
+
+  &.center {
+    justify-content: space-around;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
 }

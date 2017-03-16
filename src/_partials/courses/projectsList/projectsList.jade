@@ -1,0 +1,21 @@
+mixin projectsList(data)
+  .courseList.projects
+    h1 Projects
+    p Pellentesque in magna justo. Sed massa lorem, sodales sed venenatis vitae, posuere et ex. Nunc tincidunt est id justo dictum sollicitudin. Donec eu bibendum nisl. Sed eget mi purus. Integer posuere ex nec ex laoreet, nec pharetra entesque. 
+    .actions.flex
+      button
+        svg
+          use(xlink:href='#edit')
+        | Register your project
+      .filter.flex
+        input(type='text' placeholder='Filter') 
+        svg
+          use(xlink:href='#search')
+    table
+      each project in data
+        tr
+          td #{project.name}
+          td #{project.teachers}
+          td
+            a(href=project.url target='_blank')
+              button Details

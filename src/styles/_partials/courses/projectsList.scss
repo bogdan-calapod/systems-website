@@ -1,0 +1,61 @@
+.courseList.projects {
+  > p {
+    margin: 10px 0;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+    fill: #333;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  button svg {
+    margin-right: 10px;
+  }
+
+  button:hover svg {
+    fill: white;
+  }
+
+  .actions {
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  .filter {
+    background-color: transparent;
+    border: 1px solid $darkGray;
+    padding: 10px;
+
+    input {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    width: calc(100% + 20px);
+    margin-left: -10px;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  td {
+    padding: 10px;
+
+    &:first-child {
+      font-weight: 600;
+    }
+
+    &:nth-child(2) {
+      font-size: 13px;
+    }
+  }
+}

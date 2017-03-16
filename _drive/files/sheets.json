@@ -1,0 +1,20 @@
+{
+  "Papers": [],
+  "Courses": [
+    {
+      "type": "bachelor",
+      "name": "Operating Systems Usage",
+      "logo": "uso.svg",
+      "description": "This course introduces 1st year students into Operating Systems Usage. Linux is being used as a platform for introducing Operating Systems concepts such as processes and files.",
+      "presentation": "uso.pdf\n"
+    }
+  ],
+  "Projects": [
+    {
+      "type": "bachelor",
+      "name": "On-screen display for confidential information",
+      "teachers": "Răzvan Rughiniș, Tudor Pârcălabu",
+      "url": "http://www.google.com"
+    }
+  ]
+}

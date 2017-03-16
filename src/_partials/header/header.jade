@@ -4,8 +4,9 @@ mixin header(small)
   - className = small ? ' small' : ''
   section.header(class=className)
     .heading.flex
-      svg
-        use(xlink:href="#badge_white")
+      a(href='/')
+        svg
+          use(xlink:href="#badge_white")
       .separator
       +menu
     +title

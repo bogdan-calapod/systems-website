@@ -46,6 +46,10 @@
     display: block;
   }
 
+  tr {
+    cursor: pointer;
+  }
+
   tr:nth-child(even) {
     background-color: white;
   }
@@ -59,6 +63,10 @@
 
     &:nth-child(2) {
       font-size: 13px;
+
+      @media screen and (max-width: 700px) {
+        display: none;
+      }
     }
   }
 }

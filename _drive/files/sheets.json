@@ -2736,6 +2736,96 @@
       "name": " Backend Architecture for 3D Data Processing",
       "url": "https://drive.google.com/open?id=1nYDOKiuEJ9JbN-XKGe-MFYW_FXWHcoVaRrTQrGBi64o",
       "teachers": "Răzvan Deaconescu, Victor Grădinescu"
+    },
+    {
+      "type": "master",
+      "name": "Testing framework proposal for a Linux Distribution",
+      "url": "https://docs.google.com/document/d/1TV0ilqy0yXitde5CvcjyoqFeq6vciKrbcHcslamfhOk/edit",
+      "teachers": "Alexandru Văduva"
+    },
+    {
+      "type": "master",
+      "name": "Client to Client Communication Using Opportunistic Key Exchanges",
+      "url": "https://docs.google.com/document/d/1t3oVmSTgqg0m2tUGtxY4c2olp7sVu8WaXJbPse7YmfU/edit",
+      "teachers": "Sergiu Costea"
+    },
+    {
+      "type": "master",
+      "name": "Explorare comparativă WiFi în simulatoarele ns-2 vs ns-3",
+      "url": "https://docs.google.com/document/d/1_WD8Hr-W-MMbEJMHPFSNgedIlGu1vRa20963iT0uaAY/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "Explore the AGL App Security Implementation",
+      "url": "https://docs.google.com/document/d/1Hg8ajgjxEJMEomNWfl8Bf386eqcO9V2JzqTdTwivfIM/edit",
+      "teachers": "Alexandru Văduva"
+    },
+    {
+      "type": "master",
+      "name": "FreeBSD kernel hardening and exploitation",
+      "url": "https://docs.google.com/document/d/1oYQZ79AkG-Il9Wf3orzHhLB5W-H_SWZZ-uAYczPyvA8/edit",
+      "teachers": "Lucian Mogoșanu, Nathan Dautenhahn"
+    },
+    {
+      "type": "master",
+      "name": "HTTPS Data Collection and Analysis",
+      "url": "https://docs.google.com/document/d/1lq9SJp9emUskWj3oNIFz_BAPa8pi0gCqYZya6kFG8k4/edit",
+      "teachers": "Sergiu Costea"
+    },
+    {
+      "type": "master",
+      "name": "MPRTP benchmarking",
+      "url": "https://docs.google.com/document/d/1AED4hzMv27CLfXDeKogQ7r2JeMMLCOnewUPcHmxorX8/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "Property-based testing of an L4 microkernel API",
+      "url": "https://docs.google.com/document/d/1TW3I_bBaSNWOjtI4oHpui7AFyvUZfNHiArh8WwJeijk/edit",
+      "teachers": "Lucian Mogoșanu"
+    },
+    {
+      "type": "master",
+      "name": "QuiC benchmarking",
+      "url": "https://docs.google.com/document/d/1F7lkvNZum7lTfBKwbAxHhTq91w2hCNawCxWqlISmiaE/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "SLAM for robot using laser ranging",
+      "url": "https://docs.google.com/document/d/1JfAUyIdL8-pgPQ3V8-Ac-UYYeyIiRqvYNKQ_tScXg2c/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "WSN Air Quality Monitoring Network",
+      "url": "https://docs.google.com/document/d/1PGrSiRnv3pOu6I2Tw_1ZLzbut1FeB-aJizqjDkEvz74/edit",
+      "teachers": "Dan Tudose"
+    },
+    {
+      "type": "master",
+      "name": "WSN Micro-Salivary Dental Implant",
+      "url": "https://docs.google.com/document/d/1zS1ZevNFICv6J-JClfbKW6tiIR5xVTCCBTfxwtU6j-A/edit",
+      "teachers": "Dan Tudose"
+    },
+    {
+      "type": "master",
+      "name": "WSN Clock Synchronization",
+      "url": "https://docs.google.com/document/d/1vqMIbNHQB3eQ1mavncto33HW_YeqLtUm78q8qL-X96Q/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "master",
+      "name": "WSN Frequency Hopping for IEEE 802.15.4",
+      "url": "https://docs.google.com/document/d/1u1j08Y_YXv78l9wHBLmM9mQdlueidEHgmyq279a746c/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "master",
+      "name": "WSN Testbed",
+      "url": "https://docs.google.com/document/d/196yGr38vnK8HGlfqneG_eNC5QefhUJt6qaS8c-Rh7KE/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
     }
   ]
 }

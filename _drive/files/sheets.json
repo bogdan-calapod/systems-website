@@ -1,68 +1,334 @@
 {
-  "Courses": [
+  "Projects": [
     {
       "type": "bachelor",
-      "abbreviation": "USO",
-      "name": "Operating Systems Usage",
-      "description": "This course introduces 1st year students into Operating Systems Usage. Linux is being used as a platform for introducing Operating Systems concepts such as processes and files.",
-      "presentation": "uso.pdf\n"
-    },
-    {
-      "type": "bachelor",
-      "abbreviation": "RL",
-      "name": "Computer Networks",
-      "description": "This course aims at helping students understand the design and inner working of Computer Netoworks.",
-      "presentation": "rl.pdf"
+      "name": "On-screen display for confidential information",
+      "url": "https://docs.google.com/document/d/1ThAaNdptyB8gz117LTx7E-MmKeaSKqhVzdzpEyyfS58/edit",
+      "teachers": "Răzvan Rughiniș, Tudor Pârcălabu"
     },
     {
       "type": "bachelor",
-      "abbreviation": "SO",
-      "name": "Operating Systems",
-      "description": "This course aims at helping students understand Operating Systems better.",
-      "presentation": "so.pdf"
+      "name": " Mapping road quality",
+      "url": "https://drive.google.com/open?id=1yzZc2xec2tq6SXvuS8yA8Vtt1bTu_GuYmZyJjru3mrU",
+      "teachers": "Dragos Niculescu"
     },
     {
       "type": "bachelor",
-      "abbreviation": "SO2",
-      "name": "Operating Systems Design",
-      "description": "This course aims at helping students understand the internals of Operating Systems.",
-      "presentation": "so2.pdf"
+      "name": " Profilarea procesării de pachete",
+      "url": "https://docs.google.com/document/d/1Uiy_WJoK8ZBl7Z30JrDM-R7e5FA5TYlLRbMQVQPonEA/edit",
+      "teachers": "Dragos Niculescu"
     },
     {
       "type": "bachelor",
-      "abbreviation": "PR",
-      "name": "Network Design",
-      "description": "This course introduces students to Network Design concepts such as switching and routing."
+      "name": " Trek Calculator",
+      "url": "https://docs.google.com/document/d/1r0UhocP8gMf0XLvwFXyT0re2KyeBEU498RtS4K73wDQ/edit",
+      "teachers": "Dragos Niculescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Aplicație distribuție poze",
+      "url": "https://docs.google.com/document/d/1CrospbvMFvvvPbCpfMWALFUpvTAea-EFQtG2_Mo9W9w/edit",
+      "teachers": "Dragos Niculescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Comunicație optică cameră - ecran",
+      "url": "https://docs.google.com/document/d/1MQLqm61PsvJtSjhZa3n7F5XMZZZogwtDxZbEubs4ujM/edit",
+      "teachers": "Dragos Niculescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Pentest-Tools",
+      "url": "https://docs.google.com/document/d/10Mp9N9_TblyW8u3uV_igFoBrXma-NCjms5gUg1AImJc/edit",
+      "teachers": "Răzvan Rughiniș, Adrian Furtună"
+    },
+    {
+      "type": "bachelor",
+      "name": " Auto-generare de modele 3D pentru pantofi la comandă",
+      "url": "https://docs.google.com/document/d/19Sy44Yuzz47EWfqMUtfAuQkyZXQyu5zapvi4siWNNGk/edit",
+      "teachers": "Laura Vasilescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " ExploreAGLAppSecurity",
+      "url": "https://docs.google.com/document/d/1F0b7IrqCIZZl5KP9-F9ZwhRuKA_YUmzzj0AR_-iRJt8/edit",
+      "teachers": "Alexandru Văduva"
+    },
+    {
+      "type": "bachelor",
+      "name": " Automated Testing Framework",
+      "url": "https://docs.google.com/document/d/1DNsw7DfisId_REgVX55cNKpWeX3nAQi5BXlmO9k7RBo/edit",
+      "teachers": "Alexandru Văduva"
+    },
+    {
+      "type": "bachelor",
+      "name": " Remote Cycling",
+      "url": "https://docs.google.com/document/d/1NRUuDV0zSBm3Q1fvEUtyeQMO4dod4YrV0QpCIS8aP10/edit",
+      "teachers": "Laura Vasilescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Pentesting using machine learning",
+      "url": "https://docs.google.com/document/d/1JymetEiWkWWx5BX5-zpTgIJ911vntMWEOKVJnqxsBe4/edit",
+      "teachers": "Mihai Chiroiu"
+    },
+    {
+      "type": "bachelor",
+      "name": " CERN - UPB projects",
+      "url": "https://docs.google.com/document/d/1InwyttxvL-y1NwDAc-Z_WY9qEHPdB7_FgrBJAWBqXZw/edit",
+      "teachers": "Mihai Carabaș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Path Analysis and Predictive Querying for Footprints Platform",
+      "url": "https://docs.google.com/document/d/1X4Fmynq8L5vIlE47TvZHivbPgB2ilLicIG5vf39Y0Cc/edit",
+      "teachers": "Vlad Bomboe, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " SF: An automatic binary attack system",
+      "url": "https://docs.google.com/document/d/1RKQoa-KOh_URInizfeO4No6fCd0s1Nf5s5ryHRFUV4Q/edit",
+      "teachers": "Răzvan Deaconescu, Alexandra Săndulescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " iOS App Debloating",
+      "url": "https://docs.google.com/document/d/1SEFvG0heDtKmcCofCFY0ZrVpJVqrezsn7QGVLTKAywg/edit",
+      "teachers": "Răzvan Deaconescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Open Source machlib (Apple Binary Format Analysis)",
+      "url": "https://docs.google.com/document/d/1dLogut2yh4OBAIVQi0OPOoVI5decSOZ-2EEIlHXBfpE/edit",
+      "teachers": "Răzvan Deaconescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Bundle for iOS Firmware Analysis",
+      "url": "https://docs.google.com/document/d/1xJsZXI_-YztpW9hSLgLnKTrmvB9nQWM8qvKs70MC_xw/edit",
+      "teachers": "Răzvan Deaconescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " IoT System for Ambiental Monitoring",
+      "url": "https://docs.google.com/document/d/1oeqjonKmQ7NY1eVJAhgXHbDYlM5rbTPDZr35hiFWXSk/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "bachelor",
+      "name": " SmartPot",
+      "url": "https://docs.google.com/document/d/1crPfGMobqpQadcQQ8iSAnlys5bsIBmPfAweU5otoJZ0/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "bachelor",
+      "name": " Form Autocompletion based on Fingerprint Authentication",
+      "url": "https://docs.google.com/document/d/1Mg_gSFZeCtPpw754AnXhsRGbFdRk86Lu9dERaXWeJ9A/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "bachelor",
+      "name": " Intelligent Robot for Exploring and Navigating a Closed Space",
+      "url": "https://docs.google.com/document/d/1ve9i0lcpXMaCvGHI5rZYwTCEigM0IllzmqzDb4j5v2k/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "bachelor",
+      "name": " Running Functions in Cloud",
+      "url": "https://docs.google.com/document/d/11LZJVatD3nBtuk_5ifkuHabJg9jjWQbxx9cbtIYFMZE/edit",
+      "teachers": "Răzvan Deaconescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " VM Unsupervised Behavior Learning (VM-UBL)",
+      "url": "https://docs.google.com/document/d/1qWhobrXg4B9UemgD83oVE7A_EeOvBsCt-wLjuKhovE8/edit",
+      "teachers": "Răzvan Deaconescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " PKCS#11 implementation using NXP crypto acceleration",
+      "url": "https://docs.google.com/document/d/11AZlUu2h79ZdbAaOMu_fH0mkUKd7nh6Qo8_hO7w8GOI/edit?usp=sharing",
+      "teachers": "Mircea Pop, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " XDP-based IPsec",
+      "url": "https://docs.google.com/document/d/1rr4mjUv3vLUB6_Y6SbH_zbicK5WLdMWnQDXTsaNv0Ac/edit?usp=sharing",
+      "teachers": "Mircea Pop, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Performance optimizations based on ARM-CE",
+      "url": "https://docs.google.com/document/d/1EsTJ_RO38OyQ31Yluh6Yeqz6sqZfOPpEya_2F65EzVk/edit?usp=sharing",
+      "teachers": "Mircea Pop, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Comparison of TLS libraries and crypto access from user space",
+      "url": "https://docs.google.com/document/d/1nFtUpb0uMyXqvHNvaDJXG7nIBSgI4tqGFKQ3mLpoVtI/edit?usp=sharing",
+      "teachers": "Cristian Stoica, Laura Vasilescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Performance characterization of Apache Spot on NXP QorIQ processors",
+      "url": "https://docs.google.com/document/d/1Xir7dDyXVtYMGStLLQk8eFPCuJHjEhOKfW-jQn7w-5g/edit?usp=sharing",
+      "teachers": "Bogdan Constantinescu, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Implementation of Deep Neural Networks on vectorial processors",
+      "url": "https://docs.google.com/document/d/1V63b_5NHf-jIuFzJygSMWRWGKGt02nAaOBociMFkqgE/edit?usp=sharing",
+      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Automotive sensor fusion",
+      "url": "https://docs.google.com/document/d/1P7g0HQD-Ps87nOGBUXrAPufm4YbxUm0kdFc0iCYNgSE/edit?usp=sharing",
+      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " openVX on NXP automotive devices",
+      "url": "https://docs.google.com/document/d/1JJJyZpGp3sfVhIHl9Yy8CPzHJbkcYIBq7xnjDjZ77wI/edit?usp=sharing",
+      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Automotive radar algorithms",
+      "url": "https://docs.google.com/document/d/1In27q1lBeFofApA2Knjrg3aMbvJXjq9NVIKQoqUNrgc/edit?usp=sharing",
+      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
+    },
+    {
+      "type": "bachelor",
+      "name": " Web audio player using Microchip embedded Linux platforms",
+      "url": "https://drive.google.com/open?id=103mPAK0FqN9aQPQMSKmF8YdhyCmGkc5Q3_4IKKb-djc",
+      "teachers": "Răzvan Deaconescu, Cristian Bîrsan"
+    },
+    {
+      "type": "bachelor",
+      "name": " OpenWRT on Embedded Microchip Linux Platforms",
+      "url": "https://drive.google.com/open?id=1QXcHtTaausy5YH75Tix1wrlPRh7gFOGd7rvhYjDu8WI",
+      "teachers": "Răzvan Deaconescu, Cristian Bîrsan"
+    },
+    {
+      "type": "bachelor",
+      "name": " Prototyping IoT with Espruino on Microchip Microcontrollers",
+      "url": "https://drive.google.com/open?id=1FIyfQpduXDVnZtgHvObGzwa2bNOWJQQDSc18WCvjo8M",
+      "teachers": "Răzvan Deaconescu, Lavinia Ghica"
+    },
+    {
+      "type": "bachelor",
+      "name": " Persistent Virtual Memory Across Snapshots",
+      "url": "https://drive.google.com/open?id=1RqMzkNfXeb71kDllv_ttrEByF2sJhPy128EP5fYOJ8g",
+      "teachers": "Răzvan Deaconescu, Teodor Stoenescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " VM Micro-snapshots",
+      "url": "https://drive.google.com/open?id=1ebL-4eMMn22AmB5pznMbUl4at_m_8aaWVSL8FJ4T8kI",
+      "teachers": "Răzvan Deaconescu, Teodor Stoenescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Smartphone-based Classification of Driver Maneuvers",
+      "url": "https://drive.google.com/open?id=1g_iviW9pv_L1CVJoYvWLPxkP56k4XO8IqKFHhu-kq5k",
+      "teachers": "Răzvan Deaconescu, Victor Grădinescu"
+    },
+    {
+      "type": "bachelor",
+      "name": " Backend Architecture for 3D Data Processing",
+      "url": "https://drive.google.com/open?id=1nYDOKiuEJ9JbN-XKGe-MFYW_FXWHcoVaRrTQrGBi64o",
+      "teachers": "Răzvan Deaconescu, Victor Grădinescu"
     },
     {
       "type": "master",
-      "abbreviation": "GSR",
-      "name": "Network Services Management",
-      "description": "This course presents global configuration options for Internet services (web, e-mail, DNS, FTP, remote access) and places accent on important security features that need to be implemented before the services are released."
+      "name": "Testing framework proposal for a Linux Distribution",
+      "url": "https://docs.google.com/document/d/1TV0ilqy0yXitde5CvcjyoqFeq6vciKrbcHcslamfhOk/edit",
+      "teachers": "Alexandru Văduva"
     },
     {
       "type": "master",
-      "abbreviation": "SOA",
-      "name": "Advanced Operating Systems",
-      "description": "This course presents advanced concepts in operating systems as they are explored in research publications."
+      "name": "Client to Client Communication Using Opportunistic Key Exchanges",
+      "url": "https://docs.google.com/document/d/1t3oVmSTgqg0m2tUGtxY4c2olp7sVu8WaXJbPse7YmfU/edit",
+      "teachers": "Sergiu Costea"
     },
     {
       "type": "master",
-      "abbreviation": "SCR",
-      "name": "Computer Network Security",
-      "description": "This course aims at providing a set of tools for vulnerability assesment and security calibration both at the network and at the operating system level."
+      "name": "Explorare comparativă WiFi în simulatoarele ns-2 vs ns-3",
+      "url": "https://docs.google.com/document/d/1_WD8Hr-W-MMbEJMHPFSNgedIlGu1vRa20963iT0uaAY/edit",
+      "teachers": "Dragoș Niculescu"
     },
     {
       "type": "master",
-      "abbreviation": "SAISP",
-      "name": "Advanced ISP Services",
-      "description": "This course focuses on the integration of advanced system services components and on the service reliability and scalability"
+      "name": "Explore the AGL App Security Implementation",
+      "url": "https://docs.google.com/document/d/1Hg8ajgjxEJMEomNWfl8Bf386eqcO9V2JzqTdTwivfIM/edit",
+      "teachers": "Alexandru Văduva"
     },
     {
       "type": "master",
-      "abbreviation": "SRED",
-      "name": "Security for Routers and Switches",
-      "description": "This course focuses ont he planification, implementation and configuration of a secure, scalable, redundant and convergent network using dedicated firewalls and Unified Threat Management"
+      "name": "FreeBSD kernel hardening and exploitation",
+      "url": "https://docs.google.com/document/d/1oYQZ79AkG-Il9Wf3orzHhLB5W-H_SWZZ-uAYczPyvA8/edit",
+      "teachers": "Lucian Mogoșanu, Nathan Dautenhahn"
+    },
+    {
+      "type": "master",
+      "name": "HTTPS Data Collection and Analysis",
+      "url": "https://docs.google.com/document/d/1lq9SJp9emUskWj3oNIFz_BAPa8pi0gCqYZya6kFG8k4/edit",
+      "teachers": "Sergiu Costea"
+    },
+    {
+      "type": "master",
+      "name": "MPRTP benchmarking",
+      "url": "https://docs.google.com/document/d/1AED4hzMv27CLfXDeKogQ7r2JeMMLCOnewUPcHmxorX8/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "Property-based testing of an L4 microkernel API",
+      "url": "https://docs.google.com/document/d/1TW3I_bBaSNWOjtI4oHpui7AFyvUZfNHiArh8WwJeijk/edit",
+      "teachers": "Lucian Mogoșanu"
+    },
+    {
+      "type": "master",
+      "name": "QuiC benchmarking",
+      "url": "https://docs.google.com/document/d/1F7lkvNZum7lTfBKwbAxHhTq91w2hCNawCxWqlISmiaE/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "SLAM for robot using laser ranging",
+      "url": "https://docs.google.com/document/d/1JfAUyIdL8-pgPQ3V8-Ac-UYYeyIiRqvYNKQ_tScXg2c/edit",
+      "teachers": "Dragoș Niculescu"
+    },
+    {
+      "type": "master",
+      "name": "WSN Air Quality Monitoring Network",
+      "url": "https://docs.google.com/document/d/1PGrSiRnv3pOu6I2Tw_1ZLzbut1FeB-aJizqjDkEvz74/edit",
+      "teachers": "Dan Tudose"
+    },
+    {
+      "type": "master",
+      "name": "WSN Micro-Salivary Dental Implant",
+      "url": "https://docs.google.com/document/d/1zS1ZevNFICv6J-JClfbKW6tiIR5xVTCCBTfxwtU6j-A/edit",
+      "teachers": "Dan Tudose"
+    },
+    {
+      "type": "master",
+      "name": "WSN Clock Synchronization",
+      "url": "https://docs.google.com/document/d/1vqMIbNHQB3eQ1mavncto33HW_YeqLtUm78q8qL-X96Q/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "master",
+      "name": "WSN Frequency Hopping for IEEE 802.15.4",
+      "url": "https://docs.google.com/document/d/1u1j08Y_YXv78l9wHBLmM9mQdlueidEHgmyq279a746c/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
+    },
+    {
+      "type": "master",
+      "name": "WSN Testbed",
+      "url": "https://docs.google.com/document/d/196yGr38vnK8HGlfqneG_eNC5QefhUJt6qaS8c-Rh7KE/edit",
+      "teachers": "Dan Dragomir, Laura Ruse"
     }
   ],
   "Hitlists": [
@@ -2154,7 +2420,7 @@
     },
     {
       "course": "RL",
-      "name": "Laura Gheorghe",
+      "name": "Laura Ruse",
       "group": "",
       "pin": "Quiz",
       "date": "06.10.2012"
@@ -2209,6 +2475,72 @@
       "date": "06.10.2012"
     }
   ],
+  "Courses": [
+    {
+      "type": "bachelor",
+      "abbreviation": "USO",
+      "name": "Operating Systems Usage",
+      "description": "This course familiarizes 1st year students with uses of Operating Systems. Linux is used as a platform for introducing Operating Systems concepts such as processes and files.",
+      "presentation": "uso.pdf\n"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "RL",
+      "name": "Computer Networks",
+      "description": "This course guides students in understanding the design and functioning of Computer Networks.",
+      "presentation": "rl.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "SO",
+      "name": "Operating Systems",
+      "description": "This course supports students towards a more advanced understanding of Operating Systems.",
+      "presentation": "so.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "SO2",
+      "name": "Operating Systems Design",
+      "description": "This course introduces students into the internal mechanics of Operating Systems.",
+      "presentation": "so2.pdf"
+    },
+    {
+      "type": "bachelor",
+      "abbreviation": "PR",
+      "name": "Network Design",
+      "description": "This course familiarizes students with Network Design concepts such as switching and routing."
+    },
+    {
+      "type": "master",
+      "abbreviation": "GSR",
+      "name": "Network Services Management",
+      "description": "This course presents global configuration options for Internet services (web, e-mail, DNS, FTP, remote access), focusing on critical security features that need to be implemented before the services are released."
+    },
+    {
+      "type": "master",
+      "abbreviation": "OSP",
+      "name": "Operating Systems Practical",
+      "description": "This course presents advanced concepts in Operating Systems by exploring cutting edge research publications."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SCR",
+      "name": "Computer Network Security",
+      "description": "This course provides a set of tools for vulnerability assesment and security calibration, both at the network and at operating system levels."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SAISP",
+      "name": "Advanced ISP Services",
+      "description": "This course focuses on the integration of advanced system services components and on service reliability and scalability."
+    },
+    {
+      "type": "master",
+      "abbreviation": "SRED",
+      "name": "Security for Routers and Switches",
+      "description": "This course focuses on the planification, implementation and configuration of a secure, scalable, redundant and convergent network using dedicated firewalls and Unified Threat Management."
+    }
+  ],
   "People": [
     {
       "name": "Mircea Bardac",
@@ -2218,7 +2550,7 @@
       "email": "mircea.bardac@cs.pub.ro",
       "facebook": " ",
       "linkedin": "",
-      "teaching": "Introduction to Operating Systems, Computer Networks, Operating Systems",
+      "teaching": "USO",
       "paper1": "Scaling Peer-to-Peer testing using Linux Containers | http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5541555",
       "paper2": "Swarm metrics in peer-to-peer systems | http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5541557",
       "paper3": "Monitoring a BitTorrent tracker for peer-to-peer system analysis | http://www.springerlink.com/content/r528521241850jnl/",
@@ -2228,17 +2560,17 @@
     {
       "name": "Mihai Chiroiu",
       "position": "Assistant Professor, PhD",
-      "description": "My personal interests are in the field of systems security, mobile security, network security (more focus on IoT) and usable security. If you are interested in working together on different projects drop me an email (please attach a CV to it).",
+      "description": "My personal interests are in the field of security (os, mobile, usable, network, iot, et al.). If you are interested in working together on different projects drop me an email.",
       "photo": "mihaichiroiu.jpg",
       "email": "mihai.chiroiu@cs.pub.ro",
-      "facebook": " ",
-      "linkedin": "",
-      "teaching": "",
-      "paper1": "SENFTLEBEN, M., BUCICOIU, M., TEWS, E., ARMKNECHT, F., KATZENBEISSER, S., AND SADEGHI, A.-R. Mop-2-mop – mobile private microblogging. In Financial Cryptography and Data Security (FC’14) (2014),",
-      "paper2": "BRASSER, F., BUCICOIU, M., AND SADEGHI, A.-R. Swap and Play: Live Updating Hypervisors and Its Application to Xen. In The ACM Cloud Computing Security Workshop (2014)",
+      "facebook": "https://www.facebook.com/mihai.daniel.chiroiu",
+      "linkedin": "https://www.linkedin.com/in/mihaichiroiu/",
+      "teaching": "RL, EP, ISC, SRED",
+      "paper1": "Luke Deshotels, Razvan Deaconescu, Mihai Chiroiu, Lucas Davi, William Enck and Ahmad-Reza Sadeghi, SandScout: Automatic Detection of Flaws in iOS Sandbox Profiles in ACM CCS (2016).",
+      "paper2": "SENFTLEBEN, M., BARROSO, A., BUCICOIU, M., HOLLICK, M., KATZENBEISSER, S., TEWS, E. On the Privacy and Performance of Mobile Anonymous Microblogging. In IEEE Transactions on Information Forensics and Security (2016)",
       "paper3": "BUCICOIU, M., DAVI, L.,  DEACONESCU, R., and SADEGHI, A.-R. XiOS: Extended Application Sandboxing on iOS. In ASIACCS (2015)",
-      "paper4": "SENFTLEBEN, M., BARROSO, A., BUCICOIU, M., HOLLICK, M., KATZENBEISSER, S., TEWS, E. On the Privacy and Performance of Mobile Anonymous Microblogging. In IEEE Transactions on Information Forensics and Security (2016)",
-      "paper5": "Luke Deshotels, Razvan Deaconescu, Mihai Chiroiu, Lucas Davi, William Enck and Ahmad-Reza Sadeghi, SandScout: Automatic Detection of Flaws in iOS Sandbox Profiles in ACM CCS (2016)."
+      "paper4": "BRASSER, F., BUCICOIU, M., AND SADEGHI, A.-R. Swap and Play: Live Updating Hypervisors and Its Application to Xen. In The ACM Cloud Computing Security Workshop (2014)",
+      "paper5": "SENFTLEBEN, M., BUCICOIU, M., TEWS, E., ARMKNECHT, F., KATZENBEISSER, S., AND SADEGHI, A.-R. Mop-2-mop – mobile private microblogging. In Financial Cryptography and Data Security (FC’14) (2014),"
     },
     {
       "name": "Mihai Carabaș",
@@ -2286,21 +2618,6 @@
       "paper5": "Răzvan Deaconescu, Răzvan Rughiniș, and Nicolae Țăpuș. A BitTorrent Performance Evaluation Framework. Proceedings of Fifth International Conference of Networking and Services, 2009."
     },
     {
-      "name": "Laura Ruse",
-      "position": "Assistant Professor, PhD",
-      "description": " ",
-      "photo": "lauraruse.png",
-      "email": "laura.ruse@cs.pub.ro",
-      "facebook": " ",
-      "linkedin": "",
-      "teaching": "SCR, NDK, RL, SO, OSP",
-      "paper1": "L. Gheorghe, B. Marin, G. Gibson, L. Mogosanu, R. Deaconescu, V.-G. Voiculescu, M. Carabas, “Smart Malware Detection on Android”, Security and Communication Networks (SCN), Wiley, Vol. 8, Issue 18, pp. 4254-4272, December 2015.",
-      "paper2": "R. Rughiniș, and L. Gheorghe, “TinyAFD: Attack and Fault Detection Framework for Wireless Sensor Networks”, Journal of Control Engineering and Applied Informatics, vol. 15, no. 1, 2013, pp. 33–44.",
-      "paper3": "B. Hess, F. von Reischach, and L. Gheorghe, “Establishing Trust in Industrial WSN”, User-Centred Trust in Interactive Systems, Workshop at 7th Nordic Conference on Human-Computer Interaction (NordiCHI), 2012, pp. 1\u0015-4.",
-      "paper4": "M. Wehner, S. Zeisberg, N. Oualha, A. Olivereau, M. Ludwig, D. Tudose, L. Gheorghe, E. Slusanschi, B. Hess, F. von Reischach, and D. Bateman, “Challenges and Current Results of the TWISNet FP7 Project,” in Trust, Privacy and Security in Digital Business, vol. 7449, S. Fischer-Hübner, S. Katsikas, and G. Quirchmayr, Eds. Springer Berlin / Heidelberg, 2012, pp. 232–233.",
-      "paper5": "L. Gheorghe, D. Tudose, M. Wehner, and S. Zeisberg, “Securing Virtual Networks for Multi-Owner Wireless Sensor Networks”, International Workshop on Secure Internet of Things, in the 4th International Conference on Intelligent Networking and Collaborative Systems, 2012, pp. 630-635."
-    },
-    {
       "name": "George Milescu",
       "position": "Assistant Professor, PhD",
       "description": "Areas of interest: Distributed Systems, Peer-to-Peer Systems, Operating Systems, Networking, Network Services, Server Administration, Automated Infrastructures",
@@ -2318,16 +2635,16 @@
     {
       "name": "Lucian Mogoșanu",
       "position": "Teaching Assistant, PhD Candidate",
-      "description": " ",
+      "description": "My research interests include system security (analysis, reverse engineering, defense mechanisms), operating systems and programming languages.",
       "photo": "lucianmogosanu.jpg",
       "email": "lucian.mogosanu@cs.pub.ro",
       "facebook": " ",
       "linkedin": "",
-      "teaching": "",
-      "paper1": "",
-      "paper2": "",
-      "paper3": "",
-      "paper4": "",
+      "teaching": "Computer Network Security",
+      "paper1": "Dragomir, C., Mogosanu, L., Carabas, M., Deaconescu, R., & Tapus, N. (2015). Towards the Property-Based Testing of an L4 Microkernel API. In VECoS (pp. 39-50).",
+      "paper2": "Condurache, C., Mogosanu, L., Carabas, M., Gheorghe, L., & Tapus, N. (2015, August). Performance Evaluation of In-kernel System Calls. In Engineering of Computer Based Systems (ECBS-EERC), 2015 4th Eastern European Regional Conference on the (pp. 130-133). IEEE.",
+      "paper3": "Mogosanu, L., Carabas, M., Deaconescu, R., Gheorghe, L., & Voiculescu, V. G. (2016). VMXHAL: A Versatile Virtualization Framework for Embedded Systems. Journal of Control Engineering and Applied Informatics, 18(1), 68-77.",
+      "paper4": "Gheorghe, L., Marin, B., Gibson, G., Mogosanu, L., Deaconescu, R., Voiculescu, V. G., & Carabas, M. (2015). Smart malware detection on Android. Security and Communication Networks, 8(18), 4254-4272.",
       "paper5": ""
     },
     {
@@ -2346,21 +2663,6 @@
       "paper5": ""
     },
     {
-      "name": "Traian Popeea",
-      "position": "Teaching Assistant, PhD Candidate",
-      "description": " ",
-      "photo": "traianpopeea.jpg",
-      "email": "traian.popeea@cs.pub.ro",
-      "facebook": " ",
-      "linkedin": "",
-      "teaching": "SO, SOA, CNS",
-      "paper1": "T. Popeea, A. Constantinescu, L. Gheorghe, and N. Ţăpuş, “Inference Detection and Database Security for a Business Environment”,International Workshop on Secure Internet of Things, in the 4th International Conference on Intelligent Networking and Collaborative Systems, 2012, pp. 612-617.",
-      "paper2": " T. Popeea, V. Olteanu, L. Gheorghe, and R. Rughiniș, “Extension of a port knocking client-server architecture with NTP synchronization,” 10th RoEduNet IEEE International Conference, 2011, pp. 1-5.",
-      "paper3": " ",
-      "paper4": "",
-      "paper5": ""
-    },
-    {
       "name": "Alexandru Radovici",
       "position": "Assistant Professor, PhD",
       "description": " ",
@@ -2368,7 +2670,7 @@
       "email": "alexandru.radovici@cs.pub.ro",
       "facebook": " ",
       "linkedin": "",
-      "teaching": "SO, Compilers, Introduction to Operating Systems",
+      "teaching": "USO",
       "paper1": "",
       "paper2": "",
       "paper3": "",
@@ -2413,7 +2715,7 @@
       "email": "razvan.rughinis@cs.pub.ro",
       "facebook": " ",
       "linkedin": "",
-      "teaching": "",
+      "teaching": "USO, RL, PR",
       "paper1": "C. Rughiniș, R. Rughiniș, R. (2014). Nothing ventured, nothing gained. Profiles of online activity, cyber-crime exposure, and security measures of end-users in the European Union. In Computers & Security, 43:111-125.",
       "paper2": "R. Rughiniș, C. Rughiniș, & A.P.Marinescu Nenciu, (2014). Quantification in Alt.Chi Open Review: Liking and Ticking on a Likert Scale. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems CHI 2014. Toronto. ACM.",
       "paper3": "R. Rughiniș, S. Matei, & C. Rughiniș. (2014a). Refreshing Quantification and other Ploys to Give Up the Habit. A Repertoire of Relations, Identities, and Rhetorical Devices in Smoking Cessation Applications. Proceedings of the 16th International Conference on Human-Computer Interaction HCII 2014. Crete, Greece. Springer. (Accepted for publication)",
@@ -2421,8 +2723,27 @@
       "paper5": "R. Rughiniș, S. Matei, & C. Rughiniș, (2014b). “Smoking Does Not Make You Happy”. Unlearning Smoking Habits through Mobile Applications on Android OS. Proceedings of the 6th International Conference on Computer Supported Education CSEDU 2014. Barcelona. INSTICC"
     },
     {
+      "name": "Laura Ruse",
+      "position": "Assistant Professor, PhD",
+      "description": " ",
+      "photo": "lauraruse.png",
+      "email": "laura.ruse@cs.pub.ro",
+      "facebook": " ",
+      "linkedin": "",
+      "teaching": "OSP, RL, SO, SCR",
+      "paper1": "L. Gheorghe, B. Marin, G. Gibson, L. Mogosanu, R. Deaconescu, V.-G. Voiculescu, M. Carabas, “Smart Malware Detection on Android”, Security and Communication Networks (SCN), Wiley, Vol. 8, Issue 18, pp. 4254-4272, December 2015.",
+      "paper2": "R. Rughiniș, and L. Gheorghe, “TinyAFD: Attack and Fault Detection Framework for Wireless Sensor Networks”, Journal of Control Engineering and Applied Informatics, vol. 15, no. 1, 2013, pp. 33–44.",
+      "paper3": "B. Hess, F. von Reischach, and L. Gheorghe, “Establishing Trust in Industrial WSN”, User-Centred Trust in Interactive Systems, Workshop at 7th Nordic Conference on Human-Computer Interaction (NordiCHI), 2012, pp. 1\u0015-4.",
+      "paper4": "M. Wehner, S. Zeisberg, N. Oualha, A. Olivereau, M. Ludwig, D. Tudose, L. Gheorghe, E. Slusanschi, B. Hess, F. von Reischach, and D. Bateman, “Challenges and Current Results of the TWISNet FP7 Project,” in Trust, Privacy and Security in Digital Business, vol. 7449, S. Fischer-Hübner, S. Katsikas, and G. Quirchmayr, Eds. Springer Berlin / Heidelberg, 2012, pp. 232–233.",
+      "paper5": "L. Gheorghe, D. Tudose, M. Wehner, and S. Zeisberg, “Securing Virtual Networks for Multi-Owner Wireless Sensor Networks”, International Workshop on Secure Internet of Things, in the 4th International Conference on Intelligent Networking and Collaborative Systems, 2012, pp. 630-635."
+    },
+    {
+      "name": "Cristian Trancă",
+      "position": "Teaching Assistant, PhD Candidate"
+    },
+    {
       "name": "Nicolae Țăpuș",
-      "position": "Professor, PHhD",
+      "position": "Professor, PhD",
       "description": " ",
       "photo": "nicolaetapus.jpg",
       "email": "ntapus@cs.pub.ro",
@@ -2459,11 +2780,10 @@
       "facebook": " ",
       "linkedin": "",
       "teaching": "",
-      "paper1": "“Learning Embedded Linux using the Yocto Project”, Packt Publishing, 2015, ISBN 13 9781784397395",
-      "paper2": "",
-      "paper3": "",
-      "paper4": "",
-      "paper5": ""
+      "paper1": "“Learning Embedded Linux using the Yocto Project”, Packt Publishing, 2015, ISBN 13 9781784397395"
+    },
+    {
+      "name": "BLANK"
     },
     {
       "name": "Andrei Pitiș",
@@ -2494,338 +2814,6 @@
       "paper3": "Octavian Purdila, Andreas Terzis, Dynamic Browser Containment Environment for Countering Web-based Malware, In Proceedings of the 8th RoEduNet International Conference, 3-4 dec. 2009, Galati",
       "paper4": "",
       "paper5": ""
-    }
-  ],
-  "Projects": [
-    {
-      "type": "bachelor",
-      "name": "On-screen display for confidential information",
-      "url": "https://docs.google.com/document/d/1ThAaNdptyB8gz117LTx7E-MmKeaSKqhVzdzpEyyfS58/edit",
-      "teachers": "Răzvan Rughiniș, Tudor Pârcălabu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Mapping road quality",
-      "url": "https://drive.google.com/open?id=1yzZc2xec2tq6SXvuS8yA8Vtt1bTu_GuYmZyJjru3mrU",
-      "teachers": "Dragos Niculescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Profilarea procesării de pachete",
-      "url": "https://docs.google.com/document/d/1Uiy_WJoK8ZBl7Z30JrDM-R7e5FA5TYlLRbMQVQPonEA/edit",
-      "teachers": "Dragos Niculescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Trek Calculator",
-      "url": "https://docs.google.com/document/d/1r0UhocP8gMf0XLvwFXyT0re2KyeBEU498RtS4K73wDQ/edit",
-      "teachers": "Dragos Niculescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Aplicație distribuție poze",
-      "url": "https://docs.google.com/document/d/1CrospbvMFvvvPbCpfMWALFUpvTAea-EFQtG2_Mo9W9w/edit",
-      "teachers": "Dragos Niculescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Comunicație optică cameră - ecran",
-      "url": "https://docs.google.com/document/d/1MQLqm61PsvJtSjhZa3n7F5XMZZZogwtDxZbEubs4ujM/edit",
-      "teachers": "Dragos Niculescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Pentest-Tools",
-      "url": "https://docs.google.com/document/d/10Mp9N9_TblyW8u3uV_igFoBrXma-NCjms5gUg1AImJc/edit",
-      "teachers": "Răzvan Rughiniș, Adrian Furtună"
-    },
-    {
-      "type": "bachelor",
-      "name": " Auto-generare de modele 3D pentru pantofi la comandă",
-      "url": "https://docs.google.com/document/d/19Sy44Yuzz47EWfqMUtfAuQkyZXQyu5zapvi4siWNNGk/edit",
-      "teachers": "Laura Vasilescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " ExploreAGLAppSecurity",
-      "url": "https://docs.google.com/document/d/1F0b7IrqCIZZl5KP9-F9ZwhRuKA_YUmzzj0AR_-iRJt8/edit",
-      "teachers": "Alexandru Văduva"
-    },
-    {
-      "type": "bachelor",
-      "name": " Automated Testing Framework",
-      "url": "https://docs.google.com/document/d/1DNsw7DfisId_REgVX55cNKpWeX3nAQi5BXlmO9k7RBo/edit",
-      "teachers": "Alexandru Văduva"
-    },
-    {
-      "type": "bachelor",
-      "name": " Remote Cycling",
-      "url": "https://docs.google.com/document/d/1NRUuDV0zSBm3Q1fvEUtyeQMO4dod4YrV0QpCIS8aP10/edit",
-      "teachers": "Laura Vasilescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Pentesting using machine learning",
-      "url": "https://docs.google.com/document/d/1JymetEiWkWWx5BX5-zpTgIJ911vntMWEOKVJnqxsBe4/edit",
-      "teachers": "Mihai Chiroiu"
-    },
-    {
-      "type": "bachelor",
-      "name": " CERN - UPB projects",
-      "url": "https://docs.google.com/document/d/1InwyttxvL-y1NwDAc-Z_WY9qEHPdB7_FgrBJAWBqXZw/edit",
-      "teachers": "Mihai Carabaș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Path Analysis and Predictive Querying for Footprints Platform",
-      "url": "https://docs.google.com/document/d/1X4Fmynq8L5vIlE47TvZHivbPgB2ilLicIG5vf39Y0Cc/edit",
-      "teachers": "Vlad Bomboe, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " SF: An automatic binary attack system",
-      "url": "https://docs.google.com/document/d/1RKQoa-KOh_URInizfeO4No6fCd0s1Nf5s5ryHRFUV4Q/edit",
-      "teachers": "Răzvan Deaconescu, Alexandra Săndulescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " iOS App Debloating",
-      "url": "https://docs.google.com/document/d/1SEFvG0heDtKmcCofCFY0ZrVpJVqrezsn7QGVLTKAywg/edit",
-      "teachers": "Răzvan Deaconescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Open Source machlib (Apple Binary Format Analysis)",
-      "url": "https://docs.google.com/document/d/1dLogut2yh4OBAIVQi0OPOoVI5decSOZ-2EEIlHXBfpE/edit",
-      "teachers": "Răzvan Deaconescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Bundle for iOS Firmware Analysis",
-      "url": "https://docs.google.com/document/d/1xJsZXI_-YztpW9hSLgLnKTrmvB9nQWM8qvKs70MC_xw/edit",
-      "teachers": "Răzvan Deaconescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " IoT System for Ambiental Monitoring",
-      "url": "https://docs.google.com/document/d/1oeqjonKmQ7NY1eVJAhgXHbDYlM5rbTPDZr35hiFWXSk/edit",
-      "teachers": "Dan Dragomir, Laura Gheorghe"
-    },
-    {
-      "type": "bachelor",
-      "name": " SmartPot",
-      "url": "https://docs.google.com/document/d/1crPfGMobqpQadcQQ8iSAnlys5bsIBmPfAweU5otoJZ0/edit",
-      "teachers": "Dan Dragomir, Laura Gheorghe"
-    },
-    {
-      "type": "bachelor",
-      "name": " Form Autocompletion based on Fingerprint Authentication",
-      "url": "https://docs.google.com/document/d/1Mg_gSFZeCtPpw754AnXhsRGbFdRk86Lu9dERaXWeJ9A/edit",
-      "teachers": "Dan Dragomir, Laura Gheorghe"
-    },
-    {
-      "type": "bachelor",
-      "name": " Intelligent Robot for Exploring and Navigating a Closed Space",
-      "url": "https://docs.google.com/document/d/1ve9i0lcpXMaCvGHI5rZYwTCEigM0IllzmqzDb4j5v2k/edit",
-      "teachers": "Dan Dragomir, Laura Gheorghe"
-    },
-    {
-      "type": "bachelor",
-      "name": " Running Functions in Cloud",
-      "url": "https://docs.google.com/document/d/11LZJVatD3nBtuk_5ifkuHabJg9jjWQbxx9cbtIYFMZE/edit",
-      "teachers": "Răzvan Deaconescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " VM Unsupervised Behavior Learning (VM-UBL)",
-      "url": "https://docs.google.com/document/d/1qWhobrXg4B9UemgD83oVE7A_EeOvBsCt-wLjuKhovE8/edit",
-      "teachers": "Răzvan Deaconescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " PKCS#11 implementation using NXP crypto acceleration",
-      "url": "https://docs.google.com/document/d/11AZlUu2h79ZdbAaOMu_fH0mkUKd7nh6Qo8_hO7w8GOI/edit?usp=sharing",
-      "teachers": "Mircea Pop, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " XDP-based IPsec",
-      "url": "https://docs.google.com/document/d/1rr4mjUv3vLUB6_Y6SbH_zbicK5WLdMWnQDXTsaNv0Ac/edit?usp=sharing",
-      "teachers": "Mircea Pop, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Performance optimizations based on ARM-CE",
-      "url": "https://docs.google.com/document/d/1EsTJ_RO38OyQ31Yluh6Yeqz6sqZfOPpEya_2F65EzVk/edit?usp=sharing",
-      "teachers": "Mircea Pop, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Comparison of TLS libraries and crypto access from user space",
-      "url": "https://docs.google.com/document/d/1nFtUpb0uMyXqvHNvaDJXG7nIBSgI4tqGFKQ3mLpoVtI/edit?usp=sharing",
-      "teachers": "Cristian Stoica, Laura Vasilescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Performance characterization of Apache Spot on NXP QorIQ processors",
-      "url": "https://docs.google.com/document/d/1Xir7dDyXVtYMGStLLQk8eFPCuJHjEhOKfW-jQn7w-5g/edit?usp=sharing",
-      "teachers": "Bogdan Constantinescu, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Implementation of Deep Neural Networks on vectorial processors",
-      "url": "https://docs.google.com/document/d/1V63b_5NHf-jIuFzJygSMWRWGKGt02nAaOBociMFkqgE/edit?usp=sharing",
-      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Automotive sensor fusion",
-      "url": "https://docs.google.com/document/d/1P7g0HQD-Ps87nOGBUXrAPufm4YbxUm0kdFc0iCYNgSE/edit?usp=sharing",
-      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " openVX on NXP automotive devices",
-      "url": "https://docs.google.com/document/d/1JJJyZpGp3sfVhIHl9Yy8CPzHJbkcYIBq7xnjDjZ77wI/edit?usp=sharing",
-      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Automotive radar algorithms",
-      "url": "https://docs.google.com/document/d/1In27q1lBeFofApA2Knjrg3aMbvJXjq9NVIKQoqUNrgc/edit?usp=sharing",
-      "teachers": "Cristi Macarascu, Răzvan Rughiniș"
-    },
-    {
-      "type": "bachelor",
-      "name": " Web audio player using Microchip embedded Linux platforms",
-      "url": "https://drive.google.com/open?id=103mPAK0FqN9aQPQMSKmF8YdhyCmGkc5Q3_4IKKb-djc",
-      "teachers": "Răzvan Deaconescu, Cristian Bîrsan"
-    },
-    {
-      "type": "bachelor",
-      "name": " OpenWRT on Embedded Microchip Linux Platforms",
-      "url": "https://drive.google.com/open?id=1QXcHtTaausy5YH75Tix1wrlPRh7gFOGd7rvhYjDu8WI",
-      "teachers": "Răzvan Deaconescu, Cristian Bîrsan"
-    },
-    {
-      "type": "bachelor",
-      "name": " Prototyping IoT with Espruino on Microchip Microcontrollers",
-      "url": "https://drive.google.com/open?id=1FIyfQpduXDVnZtgHvObGzwa2bNOWJQQDSc18WCvjo8M",
-      "teachers": "Răzvan Deaconescu, Lavinia Ghica"
-    },
-    {
-      "type": "bachelor",
-      "name": " Persistent Virtual Memory Across Snapshots",
-      "url": "https://drive.google.com/open?id=1RqMzkNfXeb71kDllv_ttrEByF2sJhPy128EP5fYOJ8g",
-      "teachers": "Răzvan Deaconescu, Teodor Stoenescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " VM Micro-snapshots",
-      "url": "https://drive.google.com/open?id=1ebL-4eMMn22AmB5pznMbUl4at_m_8aaWVSL8FJ4T8kI",
-      "teachers": "Răzvan Deaconescu, Teodor Stoenescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Smartphone-based Classification of Driver Maneuvers",
-      "url": "https://drive.google.com/open?id=1g_iviW9pv_L1CVJoYvWLPxkP56k4XO8IqKFHhu-kq5k",
-      "teachers": "Răzvan Deaconescu, Victor Grădinescu"
-    },
-    {
-      "type": "bachelor",
-      "name": " Backend Architecture for 3D Data Processing",
-      "url": "https://drive.google.com/open?id=1nYDOKiuEJ9JbN-XKGe-MFYW_FXWHcoVaRrTQrGBi64o",
-      "teachers": "Răzvan Deaconescu, Victor Grădinescu"
-    },
-    {
-      "type": "master",
-      "name": "Testing framework proposal for a Linux Distribution",
-      "url": "https://docs.google.com/document/d/1TV0ilqy0yXitde5CvcjyoqFeq6vciKrbcHcslamfhOk/edit",
-      "teachers": "Alexandru Văduva"
-    },
-    {
-      "type": "master",
-      "name": "Client to Client Communication Using Opportunistic Key Exchanges",
-      "url": "https://docs.google.com/document/d/1t3oVmSTgqg0m2tUGtxY4c2olp7sVu8WaXJbPse7YmfU/edit",
-      "teachers": "Sergiu Costea"
-    },
-    {
-      "type": "master",
-      "name": "Explorare comparativă WiFi în simulatoarele ns-2 vs ns-3",
-      "url": "https://docs.google.com/document/d/1_WD8Hr-W-MMbEJMHPFSNgedIlGu1vRa20963iT0uaAY/edit",
-      "teachers": "Dragoș Niculescu"
-    },
-    {
-      "type": "master",
-      "name": "Explore the AGL App Security Implementation",
-      "url": "https://docs.google.com/document/d/1Hg8ajgjxEJMEomNWfl8Bf386eqcO9V2JzqTdTwivfIM/edit",
-      "teachers": "Alexandru Văduva"
-    },
-    {
-      "type": "master",
-      "name": "FreeBSD kernel hardening and exploitation",
-      "url": "https://docs.google.com/document/d/1oYQZ79AkG-Il9Wf3orzHhLB5W-H_SWZZ-uAYczPyvA8/edit",
-      "teachers": "Lucian Mogoșanu, Nathan Dautenhahn"
-    },
-    {
-      "type": "master",
-      "name": "HTTPS Data Collection and Analysis",
-      "url": "https://docs.google.com/document/d/1lq9SJp9emUskWj3oNIFz_BAPa8pi0gCqYZya6kFG8k4/edit",
-      "teachers": "Sergiu Costea"
-    },
-    {
-      "type": "master",
-      "name": "MPRTP benchmarking",
-      "url": "https://docs.google.com/document/d/1AED4hzMv27CLfXDeKogQ7r2JeMMLCOnewUPcHmxorX8/edit",
-      "teachers": "Dragoș Niculescu"
-    },
-    {
-      "type": "master",
-      "name": "Property-based testing of an L4 microkernel API",
-      "url": "https://docs.google.com/document/d/1TW3I_bBaSNWOjtI4oHpui7AFyvUZfNHiArh8WwJeijk/edit",
-      "teachers": "Lucian Mogoșanu"
-    },
-    {
-      "type": "master",
-      "name": "QuiC benchmarking",
-      "url": "https://docs.google.com/document/d/1F7lkvNZum7lTfBKwbAxHhTq91w2hCNawCxWqlISmiaE/edit",
-      "teachers": "Dragoș Niculescu"
-    },
-    {
-      "type": "master",
-      "name": "SLAM for robot using laser ranging",
-      "url": "https://docs.google.com/document/d/1JfAUyIdL8-pgPQ3V8-Ac-UYYeyIiRqvYNKQ_tScXg2c/edit",
-      "teachers": "Dragoș Niculescu"
-    },
-    {
-      "type": "master",
-      "name": "WSN Air Quality Monitoring Network",
-      "url": "https://docs.google.com/document/d/1PGrSiRnv3pOu6I2Tw_1ZLzbut1FeB-aJizqjDkEvz74/edit",
-      "teachers": "Dan Tudose"
-    },
-    {
-      "type": "master",
-      "name": "WSN Micro-Salivary Dental Implant",
-      "url": "https://docs.google.com/document/d/1zS1ZevNFICv6J-JClfbKW6tiIR5xVTCCBTfxwtU6j-A/edit",
-      "teachers": "Dan Tudose"
-    },
-    {
-      "type": "master",
-      "name": "WSN Clock Synchronization",
-      "url": "https://docs.google.com/document/d/1vqMIbNHQB3eQ1mavncto33HW_YeqLtUm78q8qL-X96Q/edit",
-      "teachers": "Dan Dragomir, Laura Ruse"
-    },
-    {
-      "type": "master",
-      "name": "WSN Frequency Hopping for IEEE 802.15.4",
-      "url": "https://docs.google.com/document/d/1u1j08Y_YXv78l9wHBLmM9mQdlueidEHgmyq279a746c/edit",
-      "teachers": "Dan Dragomir, Laura Ruse"
-    },
-    {
-      "type": "master",
-      "name": "WSN Testbed",
-      "url": "https://docs.google.com/document/d/196yGr38vnK8HGlfqneG_eNC5QefhUJt6qaS8c-Rh7KE/edit",
-      "teachers": "Dan Dragomir, Laura Ruse"
     }
   ]
 }

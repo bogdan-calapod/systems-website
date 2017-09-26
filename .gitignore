@@ -4,3 +4,4 @@ dist/
 npm-debug.log
 yarn.lock
 src/img/people/*
+_drive/files/*

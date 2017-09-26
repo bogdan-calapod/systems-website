@@ -8,7 +8,7 @@
     "build:dev:svg": "node scripts/_dev_build.js svg",
     "build:dev:js": "node scripts/_dev_build.js js",
     "build:dev": "node scripts/_dev_build.js",
-    "build": "node scripts/_prod_build.js"
+    "build": "node scripts/_dev_build.js"
   },
   "repository": {
     "type": "git",

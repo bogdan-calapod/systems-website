@@ -1,0 +1,12 @@
+mixin peopleList(data, hits)
+  .courseList
+    h1 Doctorands
+    ul
+      each doctorand in data
+        li.flex.column
+          .description.flex
+            img(src=doctorand.photo)
+            .text.flex.column
+              h1 #{doctorand.name}
+              p #{doctorand.project}
+              p Coordinator: #{doctorand.coordinator}

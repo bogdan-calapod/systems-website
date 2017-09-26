@@ -9,4 +9,9 @@ section.about {
   @media screen and (max-width: $mobileLandscapeL) {
     background-image: none;
   }
+
+  p.italic {
+    margin: 20px 0;
+    font-style: italic;
+  }
 }

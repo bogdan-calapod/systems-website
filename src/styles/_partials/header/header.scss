@@ -80,6 +80,10 @@ section.header {
   &.mobileOpen {
     @import 'mobileMenu';
   }
+
+  a {
+    text-align: center;
+  }
 }
 
 @keyframes bounce {

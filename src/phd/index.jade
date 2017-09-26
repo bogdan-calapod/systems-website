@@ -1,0 +1,40 @@
+include ../_partials/header/header
+include ../_partials/people/people
+include ../_partials/people/peopleList
+include ../_partials/courses/projectsList/projectsList
+
++header(true)
+section.course
+  h1 PhD
+  .split.flex
+    p It all starts with meeting new teachers, mentors, colleagues and friends. Get a first taste of engineering in Operating Systems and Computer Networks, then go in depth to explore Design and security challenges. Test your insights with a diploma project in Systems’ research group, and break new ground through mentored research and development.
+
+  .flex.center.wrap
+    +peopleList([
+      {
+        name: 'Ion Popescu',
+        photo: 'https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.alamy.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F10%2FDHKKAB-1024x805.jpg&f=1',
+        project: 'Testing algorithmic theory on bee cultures',
+        coordinator: 'Andrei Ionescu'
+      },
+      {
+        name: 'Ion Popescu',
+        photo: 'https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.alamy.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F10%2FDHKKAB-1024x805.jpg&f=1',
+        project: 'Testing algorithmic theory on bee cultures',
+        coordinator: 'Andrei Ionescu'
+      },
+      {
+        name: 'Ion Popescu',
+        photo: 'https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.alamy.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F10%2FDHKKAB-1024x805.jpg&f=1',
+        project: 'Testing algorithmic theory on bee cultures',
+        coordinator: 'Andrei Ionescu'
+      },
+      {
+        name: 'Ion Popescu',
+        photo: 'https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.alamy.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F10%2FDHKKAB-1024x805.jpg&f=1',
+        project: 'Testing algorithmic theory on bee cultures',
+        coordinator: 'Andrei Ionescu'
+      }
+    ])
+    +projectsList(public._data.Projects.filter(x => x.type === 'master'))
++people(public._data.People)

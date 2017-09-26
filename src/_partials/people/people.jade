@@ -2,9 +2,8 @@ mixin people(data)
   include list.jade
   section.people.backgrounded.left
     h1 People
-    p Pellentesque in magna justo. Sed massa lorem, sodales sed venenatis vitae, posuere et ex. Nunc tincidunt est id justo dictum sollicitudin. Donec eu bibendum nisl. Sed eget mi purus. Integer posuere ex nec ex laoreet, nec pharetra entesque. 
-    .peopleList.flex
-      +list(data)
+    p
+    +list(data)
     .modal.flex
       .content
         .title.flex

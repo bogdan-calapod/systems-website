@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,700&subset=latin-ext");
+
+body {
+  margin: 0;
+  background-color: #F7931E;
+  font-family: 'Work Sans', 'Segoe UI', 'Trebuchet MS', sans-serif;
+}
+
+.loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  background-image: url('/favicon/ms-icon-70x70.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  animation-name: loader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  from {transform: scale(0.8)}
+  50% {transform: scale(1)}
+  to {transform: scale(0.8)}
+}

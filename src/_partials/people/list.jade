@@ -1,9 +1,0 @@
-mixin list(data)
-  - // TODO: find better way to do this
-  include person.jade
-  - let groups = JSON.stringify(data).replace('[', '').replace(']', '').split(',{"name":"BLANK"},')
-  each group in groups
-    - group = JSON.parse('[' + group + ']')
-    .peopleList.flex
-      each person in group
-          +person(person)

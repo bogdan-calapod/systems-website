@@ -1,36 +1,20 @@
 {
-  "name": "systems.cs.pub.ro",
-  "version": "1.0.0",
-  "description": "Systems Department Website",
-  "main": "build.js",
-  "scripts": {
-    "dev": ".\\node_modules\\.bin\\light-server -c ./src/_config.json",
-    "build:dev:svg": "node scripts/_dev_build.js svg",
-    "build:dev:js": "node scripts/_dev_build.js js",
-    "build:dev": "node scripts/_dev_build.js",
-    "build": "node scripts/_dev_build.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/TechLounge/systems.cs.pub.ro.git"
-  },
-  "author": "Bogdan Calapod",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/TechLounge/systems.cs.pub.ro/issues"
-  },
-  "homepage": "https://gitlab.com/TechLounge/systems.cs.pub.ro#README",
-  "devDependencies": {
-    "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.18.0",
-    "harp": "^0.23.0",
-    "light-server": "^1.1.7",
-    "svg-sprite": "^1.3.6",
-    "svg-sprite-generator": "^0.0.7",
-    "webpack": "^1.14.0"
-  },
+  "name": "systems",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "marked": "^0.3.6"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "next",
+    "react-scripts": "1.0.14",
+    "react-snapshot": "^1.2.0",
+    "rodal": "^1.5.5",
+    "styled-components": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snapshot",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

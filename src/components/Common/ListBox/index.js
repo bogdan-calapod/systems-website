@@ -6,6 +6,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import Project from './components/Project'
 import CourseBox from './components/CourseBox'
 import SectionTitle from 'components/Common/SectionTitle'
 
@@ -23,7 +24,7 @@ const Container = styled.div`
   background-color: #E6E6E6;
   max-width: 800px;
   padding: 10px;
-  margin-bottom: 30px;
+  margin: 0 30px 30px 30px;
 
   > h1 {
     font-weight: 800;
@@ -37,6 +38,8 @@ class ListBox extends Component {
     switch (this.props.type) {
       case 'course':
         return CourseBox
+      case 'project':
+        return Project
       default:
         return null
     }

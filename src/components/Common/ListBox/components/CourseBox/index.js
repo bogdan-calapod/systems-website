@@ -7,6 +7,8 @@ import PropTypes from 'prop-types'
 
 import styled from 'styled-components'
 
+import Button from 'components/Common/Button'
+
 const propTypes = {
   data: PropTypes.object
 }
@@ -45,25 +47,6 @@ const Title = styled.h1`
 const Para = styled.p`
   font-size: 14px;
   margin: 0;
-`
-
-const Button = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-
-  margin: 10px;
-  width: 180px;
-  height: 40px;
-  border: 1px solid gray;
-
-  font-family: 'Work Sans';
-  font-weight: 600;
-  text-transform: uppercase;
-
-  cursor: pointer;
-  outline: none;
 `
 
 class CourseBox extends Component {

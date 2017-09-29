@@ -55,7 +55,7 @@ class ListBox extends Component {
     let Component = this.getComponent()
 
     return data.map(
-      x => <Component data={x} />
+      (x, i) => <Component data={x} key={i} />
     )
   }
 

@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #F7931E;
+  background-color: #f38629;
   font-family: 'Work Sans', 'Segoe UI', 'Trebuchet MS', sans-serif;
 }
 
@@ -26,4 +26,8 @@ body {
   from {transform: scale(0.8)}
   50% {transform: scale(1)}
   to {transform: scale(0.8)}
+}
+
+a {
+  text-decoration: none !important;
 }

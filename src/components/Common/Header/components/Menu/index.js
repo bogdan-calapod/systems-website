@@ -101,19 +101,19 @@ class Menu extends Component {
         </LinkWrapper>
 
         <LinkWrapper >
-          <Link to=''>
+          <Link to='/bachelor'>
             bachelor
           </Link>
         </LinkWrapper>
 
         <LinkWrapper >
-          <Link to=''>
+          <Link to='/master'>
             master
           </Link>
         </LinkWrapper>
 
         <LinkWrapper >
-          <Link to=''>
+          <Link to='/phd'>
             PhD
           </Link>
         </LinkWrapper>

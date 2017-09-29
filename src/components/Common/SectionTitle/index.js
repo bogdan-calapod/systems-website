@@ -38,6 +38,13 @@ const Title = styled.h1`
   &:before {
     display: ${props => props.left ? 'none' : 'inline-block'}
   }
+
+  @media screen and (max-width: 900px) {
+    &:before,
+    &:after {
+      width: 50px;
+    }
+  }
   
 `
 

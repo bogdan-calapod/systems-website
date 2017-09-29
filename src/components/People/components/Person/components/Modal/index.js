@@ -25,6 +25,12 @@ const defaultProps = {
 const Split = styled.div`
   display: flex;
   align-items: flex-start;
+  overflow: auto;
+  height: 80%;
+  
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `
 
 const Section = styled.div`

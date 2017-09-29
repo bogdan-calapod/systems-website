@@ -6,7 +6,8 @@ import React, { Component } from 'react'
 
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Switch
 } from 'react-router-dom'
 
 import { ThemeProvider } from 'styled-components'
@@ -18,13 +19,17 @@ let theme = {
 }
 
 const Home = AsyncComponent(_ => import('routes/Home'))
+const People = AsyncComponent(_ => import('routes/People'))
 
 class MainRouter extends Component {
   render () {
     return (
       <ThemeProvider theme={theme}>
         <Router>
-          <Route exact path='/' component={Home} />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/people' component={People} />
+          </Switch>
         </Router>
       </ThemeProvider>
     )

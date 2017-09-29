@@ -18,10 +18,20 @@ const Container = styled.div`
   background-repeat: no-repeat;
   background-position: top left;
   padding-bottom: 20px;
-    height: 50vh;
 
   @media screen and (max-width: 900px) {
     background-image: none;
+    background-color: #f7bc00;
+  }
+`
+
+const List = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  > div {
+    margin: 10px;
   }
 `
 
@@ -30,7 +40,15 @@ class People extends Component {
     return (
       <Container>
         <SectionTitle light> People </SectionTitle>
-        <Person />
+        <List>
+          <Person />
+          <Person />
+          <Person />
+          <Person />
+          <Person />
+          <Person />
+          <Person />
+        </List>
       </Container>
     )
   }

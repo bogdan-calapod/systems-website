@@ -5,6 +5,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
+import {Link} from 'react-router-dom'
+
 import logo from './logo.svg'
 import facebook from './facebook.svg'
 import mail from './mail.svg'
@@ -51,33 +53,36 @@ const Separator = styled.div`
   background-color: white;
 `
 
-const Link = styled.a`
-  text-decoration: none;
-  color: white;
-  padding: 0 15px;
-
-  @media screen and (max-width: 900px) {
-    padding: 0 5px;
-    font-size: 14px;
-  }
-
-  &:after {
-    content: '';
+const LinkWrapper = styled.div`
+  a {
     display: block;
-    height: 1px;
-    width: 0;
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
 
-    background-color: white;
-    transition: 0.4s width;
-  }
+    @media screen and (max-width: 900px) {
+      padding: 0 5px;
+      font-size: 14px;
+    }
 
-  &:hover:after {
-    width: 100%;
-  }
+    &:after {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 0;
 
-  img {
-    width: 20px;
-    height: 20px;
+      background-color: white;
+      transition: 0.4s width;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
   }
 `
 
@@ -85,14 +90,46 @@ class Menu extends Component {
   render () {
     return (
       <Container>
-        <Logo src={logo} />
+        <Link to='/'>
+          <Logo src={logo} />
+        </Link>
         <Separator />
-        <Link href='#'>people</Link>
-        <Link href='#'>bachelor</Link>
-        <Link href='#'>master</Link>
-        <Link href='#'>PhD</Link>
-        <Link href='#'><img alt='' src={facebook} /></Link>
-        <Link href='#'><img alt='' src={mail} /></Link>
+        <LinkWrapper >
+          <Link to='/people'>
+            people
+          </Link>
+        </LinkWrapper>
+
+        <LinkWrapper >
+          <Link to=''>
+            bachelor
+          </Link>
+        </LinkWrapper>
+
+        <LinkWrapper >
+          <Link to=''>
+            master
+          </Link>
+        </LinkWrapper>
+
+        <LinkWrapper >
+          <Link to=''>
+            PhD
+          </Link>
+        </LinkWrapper>
+
+        <LinkWrapper >
+          <a href='http://www.facebook.com/'>
+            <img alt='' src={facebook} />
+          </a>
+        </LinkWrapper>
+
+        <LinkWrapper >
+          <a href='mailto:#'>
+            <img alt='' src={mail} />
+          </a>
+        </LinkWrapper>
+
       </Container>
     )
   }

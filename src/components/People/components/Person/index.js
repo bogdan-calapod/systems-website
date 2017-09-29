@@ -33,7 +33,7 @@ class Person extends Component {
     super(props)
 
     this.state = {
-      modalOpen: true
+      modalOpen: false
     }
   }
 

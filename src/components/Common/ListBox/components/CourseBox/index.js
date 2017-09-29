@@ -15,6 +15,12 @@ const Row = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 `
 
 const Column = styled.div`

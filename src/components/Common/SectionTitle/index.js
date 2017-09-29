@@ -10,6 +10,7 @@ import styled from 'styled-components'
 const Title = styled.h1`
   display: block;
   width: 100%;
+  flex: 1;
 
   margin: 0;
   padding: 25px 0;
@@ -20,27 +21,34 @@ const Title = styled.h1`
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: center;
+  justify-content: ${props => props.left ? 'flex-start' : 'center'};
 
   &:before,
   &:after {
     display: inline-block;
     content: '';
     height: 5px;
-    width: 100px;
+    width: ${props => props.left ? 'auto' : '100px'};
+    flex: ${props => props.left ? '1' : 'none'};
     border-top: 1px solid ${props => props.light ? 'white' : 'gray'};
     border-bottom: 1px solid ${props => props.light ? 'white' : 'gray'};
     margin: 0 15px;
+  }
+
+  &:before {
+    display: ${props => props.left ? 'none' : 'inline-block'}
   }
   
 `
 
 const propTypes = {
-  light: PropTypes.bool
+  light: PropTypes.bool,
+  left: PropTypes.bool
 }
 
 const defaultProps = {
-  light: false
+  light: false,
+  left: false
 }
 
 class SectionTitle extends Component {

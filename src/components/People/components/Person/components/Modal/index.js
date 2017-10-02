@@ -93,7 +93,7 @@ class Modal extends Component {
 
   render () {
     let { modalOpen, toggleModal } = this.props
-    let { name, photo, position, description, teaching } = this.props.data
+    let { name, position, description, teaching } = this.props.data
     let { paper1, paper2, paper3, paper4, paper5 } = this.props.data
 
     let papers = [paper1, paper2, paper3, paper4, paper5].filter(x => x && x !== '')
@@ -103,7 +103,7 @@ class Modal extends Component {
         <SectionTitle left> {name} </SectionTitle>
         <Split>
           <Section>
-            <img alt='' src={photo} />
+            <img alt='' src={'/files/' + name + 'photo.jpg'} />
             <h2> {position} </h2>
             <Social data={this.props.data} />
           </Section>

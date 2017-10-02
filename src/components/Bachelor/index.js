@@ -3,6 +3,7 @@
  */
 
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 import Header from 'components/Common/Header'
 import People from 'components/People'
@@ -10,6 +11,16 @@ import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
 
 import styled from 'styled-components'
+
+const propTypes = {
+  projects: PropTypes.array,
+  courses: PropTypes.array
+}
+
+const defaultProps = {
+  projects: [],
+  courses: []
+}
 
 let courses = [
   {
@@ -48,45 +59,6 @@ let courses = [
   }
 ]
 
-const projects = [
-  {
-    "type": "bachelor",
-    "name": "On-screen display for confidential information",
-    "url": "https://docs.google.com/document/d/1ThAaNdptyB8gz117LTx7E-MmKeaSKqhVzdzpEyyfS58/edit",
-    "teachers": "Răzvan Rughiniș, Tudor Pârcălabu"
-  },
-  {
-    "type": "bachelor",
-    "name": " Mapping road quality",
-    "url": "https://drive.google.com/open?id=1yzZc2xec2tq6SXvuS8yA8Vtt1bTu_GuYmZyJjru3mrU",
-    "teachers": "Dragos Niculescu"
-  },
-  {
-    "type": "bachelor",
-    "name": " Profilarea procesării de pachete",
-    "url": "https://docs.google.com/document/d/1Uiy_WJoK8ZBl7Z30JrDM-R7e5FA5TYlLRbMQVQPonEA/edit",
-    "teachers": "Dragos Niculescu"
-  },
-  {
-    "type": "bachelor",
-    "name": " Trek Calculator",
-    "url": "https://docs.google.com/document/d/1r0UhocP8gMf0XLvwFXyT0re2KyeBEU498RtS4K73wDQ/edit",
-    "teachers": "Dragos Niculescu"
-  },
-  {
-    "type": "bachelor",
-    "name": " Aplicație distribuție poze",
-    "url": "https://docs.google.com/document/d/1CrospbvMFvvvPbCpfMWALFUpvTAea-EFQtG2_Mo9W9w/edit",
-    "teachers": "Dragos Niculescu"
-  },
-  {
-    "type": "bachelor",
-    "name": " Comunicație optică cameră - ecran",
-    "url": "https://docs.google.com/document/d/1MQLqm61PsvJtSjhZa3n7F5XMZZZogwtDxZbEubs4ujM/edit",
-    "teachers": "Dragos Niculescu"
-  }
-]
-
 const Container = styled.div`
   background-color: white;
 `
@@ -99,6 +71,8 @@ const Lists = styled.div`
 
 class Bachelor extends Component {
   render () {
+    let {projects} = this.props
+
     return (
       <div>
         <Header />
@@ -121,5 +95,8 @@ class Bachelor extends Component {
     )
   }
 }
+
+Bachelor.propTypes = propTypes
+Bachelor.defaultProps = defaultProps
 
 export default Bachelor

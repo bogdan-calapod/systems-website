@@ -3,6 +3,7 @@
  */
 
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 import SectionTitle from 'components/Common/SectionTitle'
 
@@ -10,6 +11,14 @@ import Person from './components/Person'
 
 import styled from 'styled-components'
 import bg from './bg.jpg'
+
+const propTypes = {
+  data: PropTypes.array
+}
+
+const defaultProps = {
+  data: []
+}
 
 const Container = styled.div`
   background-color: #f7bc00;
@@ -27,7 +36,7 @@ const Container = styled.div`
 
 const List = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 
   > div {
@@ -36,22 +45,49 @@ const List = styled.div`
 `
 
 class People extends Component {
+  get people () {
+    let people = {
+      g1: [],
+      g2: []
+    }
+
+    let arr = 'g1'
+    let convert = arr => arr.map(
+      (x, i) => <Person data={x} key={i} />
+    )
+
+    this.props.data.forEach(
+      x => {
+        if (x.name === 'BLANK') {
+          arr = 'g2'
+        } else {
+          people[arr].push(x)
+        }
+      }
+    )
+
+    return [
+      convert(people.g1),
+      convert(people.g2)
+    ]
+  }
+
   render () {
     return (
       <Container>
         <SectionTitle light> People </SectionTitle>
         <List>
-          <Person />
-          <Person />
-          <Person />
-          <Person />
-          <Person />
-          <Person />
-          <Person />
+          {this.people[0]}
+        </List>
+        <List>
+          {this.people[1]}
         </List>
       </Container>
     )
   }
 }
+
+People.propTypes = propTypes
+People.defaultProps = defaultProps
 
 export default People

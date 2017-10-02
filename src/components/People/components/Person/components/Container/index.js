@@ -52,11 +52,11 @@ const Text = styled.div`
 
 class PersonContainer extends Component {
   render () {
-    let {photo, name, position} = this.props.data
+    let {name, position} = this.props.data
 
     return (
       <Container>
-        <img alt={name} src={photo} />
+        <img alt={name} src={'/files/' + name + 'photo.jpg'} />
         <Text>
           <h1>{name}</h1>
           <h2>{position}</h2>

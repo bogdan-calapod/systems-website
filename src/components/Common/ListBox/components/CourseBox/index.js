@@ -9,6 +9,8 @@ import styled from 'styled-components'
 
 import Button from 'components/Common/Button'
 
+import HitListModal from '../HitListModal'
+
 const propTypes = {
   data: PropTypes.object
 }
@@ -50,6 +52,19 @@ const Para = styled.p`
 `
 
 class CourseBox extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      modalOpen: false
+    }
+  }
+
+  toggleModal = _ => {
+    console.log('hola')
+    this.setState({modalOpen: !this.state.modalOpen})
+  }
+
   getButtons () {
     let buttons = []
 
@@ -64,9 +79,11 @@ class CourseBox extends Component {
 
     if (true || this.props.data.hitList) {
       buttons.push(
-        <Button key={1}>
-          Student Hit List
-        </Button>
+        <div onClick={this.toggleModal}>
+          <Button key={1}>
+            Student Hit List
+          </Button>
+        </div>
       )
     }
 
@@ -75,6 +92,8 @@ class CourseBox extends Component {
 
   render () {
     let {name, description} = this.props.data
+    let {modalOpen} = this.state
+
     return (
       <Column main>
         <Row>
@@ -87,6 +106,7 @@ class CourseBox extends Component {
         <Row>
           {this.getButtons()}
         </Row>
+        <HitListModal visible={modalOpen} onClose={this.toggleModal} />
       </Column>
     )
   }

@@ -112,7 +112,8 @@ class Bachelor extends Component {
             <ListBox
               title='Projects'
               type='project'
-              data={projects} />
+              data={projects}
+              showFilter />
           </Lists>
         </Container>
         <People />

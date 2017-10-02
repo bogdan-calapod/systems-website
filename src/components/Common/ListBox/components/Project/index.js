@@ -55,7 +55,6 @@ class Project extends Component {
   }
 
   toggleModal = _ => {
-    console.log('hello')
     this.setState({...this.state, modalOpen: !this.state.modalOpen})
   }
 

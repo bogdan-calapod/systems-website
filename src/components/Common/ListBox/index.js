@@ -9,6 +9,7 @@ import styled from 'styled-components'
 import Project from './components/Project'
 import CourseBox from './components/CourseBox'
 import SectionTitle from 'components/Common/SectionTitle'
+import HitListModal from 'components/Common/ListBox/components/HitListModal'
 
 const propTypes = {
   type: PropTypes.string,
@@ -33,7 +34,32 @@ const Container = styled.div`
   }
 `
 
+const Filter = styled.input`
+  border: 1px solid gray;
+  background-color: transparent;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 40px;
+
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+
+  display: flex;
+  align-items: center;
+
+  outline: none;
+`
+
 class ListBox extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      textFilter: ''
+    }
+  }
+
   getComponent () {
     switch (this.props.type) {
       case 'course':
@@ -45,8 +71,21 @@ class ListBox extends Component {
     }
   }
 
-  getContent () {
+  get filter () {
+    let { showFilter } = this.props
+
+    if (showFilter) {
+      return <Filter placeholder='Filter'
+        onChange={this.changeFilter}
+        type='text' />
+    } else {
+      return null
+    }
+  }
+
+  get content () {
     let {data} = this.props
+    let {textFilter} = this.state
 
     if (data.length === 0) {
       return null
@@ -54,17 +93,25 @@ class ListBox extends Component {
 
     let Component = this.getComponent()
 
-    return data.map(
+    return data
+    .filter(x => JSON.stringify(x).includes(textFilter))
+    .map(
       (x, i) => <Component data={x} key={i} />
     )
   }
 
+  changeFilter = e => this.setState({...this.state,
+    textFilter: e.currentTarget.value
+  })
+
   render () {
     return (
       <Container>
+          <HitListModal />
         <SectionTitle left> {this.props.title} </SectionTitle>
+        {this.filter}
         {this.props.children}
-        {this.getContent()}
+        {this.content}
       </Container>
     )
   }

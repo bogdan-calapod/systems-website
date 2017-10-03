@@ -12,15 +12,14 @@ import {
 
 import { ThemeProvider } from 'styled-components'
 
-import AsyncComponent from './AsyncComponent'
+import Home from 'routes/Home'
+import People from 'routes/People'
+import Bachelor from 'routes/Bachelor'
+import Master from 'routes/Master'
 
 let theme = {
   primary: '#F7931E'
 }
-
-const Home = AsyncComponent(_ => import('routes/Home'))
-const People = AsyncComponent(_ => import('routes/People'))
-const Bachelor = AsyncComponent(_ => import('routes/Bachelor'))
 
 class MainRouter extends Component {
   render () {
@@ -31,6 +30,7 @@ class MainRouter extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/people' component={People} />
             <Route exact path='/bachelor' component={Bachelor} />
+            <Route exact path='/master' component={Master} />
           </Switch>
         </Router>
       </ThemeProvider>

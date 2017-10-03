@@ -3631,7 +3631,7 @@ class HitListModal extends Component {
 
   render () {
     let selectedYear = this.state.year
-    let {visible, onClose} = this.props
+    let {visible, onClose, abbreviation} = this.props
 
     return (
       <Modal visible={visible} onClose={onClose} width={1200} height={800}>
@@ -3640,6 +3640,7 @@ class HitListModal extends Component {
           years={this.years}
           selectedYear={selectedYear}
           tables={this.tables}
+          abbreviation={abbreviation}
           />
       </Modal>
     )

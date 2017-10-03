@@ -77,7 +77,7 @@ class CourseBox extends Component {
         </a>)
     }
 
-    if (true || this.props.data.hitList) {
+    if (this.props.data.hitlist && this.props.data.hitlist.length > 0) {
       buttons.push(
         <div onClick={this.toggleModal}>
           <Button key={1}>
@@ -91,13 +91,13 @@ class CourseBox extends Component {
   }
 
   render () {
-    let {name, description} = this.props.data
+    let {name, description, abbreviation, hitlist} = this.props.data
     let {modalOpen} = this.state
 
     return (
       <Column main>
         <Row>
-          <Logo src='http://systems.bogdancalapod.com/img/courses/uso.svg' alt='' />
+          <Logo src={'/courses/' + abbreviation.toLowerCase() + '.svg'} alt='' />
           <Column>
             <Title>{name}</Title>
             <Para>{description}</Para>
@@ -106,7 +106,9 @@ class CourseBox extends Component {
         <Row>
           {this.getButtons()}
         </Row>
-        <HitListModal visible={modalOpen} onClose={this.toggleModal} />
+        <HitListModal visible={modalOpen} onClose={this.toggleModal}
+          abbreviation={abbreviation}
+          data={hitlist} />
       </Column>
     )
   }

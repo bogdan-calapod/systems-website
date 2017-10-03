@@ -44,7 +44,7 @@ const Lists = styled.div`
   justify-content: center;
 `
 
-class Bachelor extends Component {
+class Master extends Component {
   render () {
     let {projects, courses, people} = this.props
 
@@ -52,7 +52,7 @@ class Bachelor extends Component {
       <div>
         <Header small />
         <Container>
-          <SectionTitle> Bachelor </SectionTitle>
+          <SectionTitle> Master </SectionTitle>
           <p>
             It all starts with meeting new teachers, mentors, colleagues and friends. Get a first taste of engineering in Operating Systems and Computer Networks, then go in depth to explore Design and security challenges. Test your insights with a diploma project in Systems’ research group, and break new ground through mentored research and development.
           </p>
@@ -74,7 +74,7 @@ class Bachelor extends Component {
   }
 }
 
-Bachelor.propTypes = propTypes
-Bachelor.defaultProps = defaultProps
+Master.propTypes = propTypes
+Master.defaultProps = defaultProps
 
-export default Bachelor
+export default Master

@@ -4,27 +4,26 @@
 
 import React, { Component } from 'react'
 
-import Container from 'components/Bachelor'
+import Container from 'components/Master'
 
 import request from 'axios'
 
-class Bachelor extends Component {
+class Master extends Component {
   constructor (props) {
     super(props)
 
     this.state = {
       projects: [],
-      courses: [],
-      people: []
+      courses: []
     }
   }
 
   componentWillMount () {
     request.get('/api/projects/')
-      .then(x => this.setState({...this.state, projects: x.data.filter(x => x.type === 'bachelor')}))
+      .then(x => this.setState({...this.state, projects: x.data.filter(x => x.type === 'master')}))
 
     request.get('/api/courses/')
-      .then(x => this.setState({...this.state, courses: x.data.filter(x => x.type === 'bachelor')}))
+      .then(x => this.setState({...this.state, courses: x.data.filter(x => x.type === 'master')}))
 
     request.get('/api/people/')
       .then(x => this.setState({...this.state, people: x.data}))
@@ -39,4 +38,4 @@ class Bachelor extends Component {
   }
 }
 
-export default Bachelor
+export default Master

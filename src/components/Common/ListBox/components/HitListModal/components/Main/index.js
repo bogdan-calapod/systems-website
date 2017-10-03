@@ -13,7 +13,12 @@ import Table from '../Table'
 const propTypes = {
   setYear: PropTypes.func,
   years: PropTypes.arrayOf(PropTypes.string),
-  selectedYear: PropTypes.string
+  selectedYear: PropTypes.string,
+  abbreviation: PropTypes.string
+}
+
+const defaultProps = {
+  abbreviation: ''
 }
 
 const ModalTitle = styled(SectionTitle)`
@@ -39,12 +44,12 @@ class Main extends Component {
   }
 
   render () {
-    let {setYear, years, selectedYear} = this.props
+    let {setYear, years, selectedYear, abbreviation} = this.props
 
     return (
       <Container>
         <ModalTitle left>
-          <img src='http://systems.bogdancalapod.com/img/courses/uso.svg' alt='' />
+          <img src={'/courses/' + abbreviation.toLowerCase() + '.svg'} alt='' />
           Student hit list
         </ModalTitle>
 
@@ -59,5 +64,6 @@ class Main extends Component {
 }
 
 Main.propTypes = propTypes
+Main.defaultProps = defaultProps
 
 export default Main

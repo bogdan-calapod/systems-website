@@ -74,6 +74,14 @@ class Project extends Component {
     return template.replace('%%ID%%', id)
   }
 
+  get iframe () {
+    if (this.state.modalOpen) {
+      return <IFrame src={this.url} title='doc' />
+    } else {
+      return null
+    }
+  }
+
   render () {
     let {name, teachers} = this.props.data
     let {modalOpen} = this.state
@@ -89,7 +97,7 @@ class Project extends Component {
           onClose={this.toggleModal} 
           width={600}
           height={600}>
-          <IFrame src={this.url} title='doc' />
+          {this.iframe}
         </Modal>
       </Container>
     )

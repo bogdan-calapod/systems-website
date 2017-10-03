@@ -24,6 +24,8 @@ const defaultProps = {
 const Container = styled.div`
   background-color: #E6E6E6;
   max-width: 800px;
+  max-height: 900px;
+  overflow: auto;
   padding: 10px;
   margin: 0 30px 30px 30px;
 

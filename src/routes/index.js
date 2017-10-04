@@ -28,6 +28,7 @@ class MainRouter extends Component {
         <Router>
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/dev/' component={Home} />
             <Route exact path='/people' component={People} />
             <Route exact path='/bachelor' component={Bachelor} />
             <Route exact path='/master' component={Master} />

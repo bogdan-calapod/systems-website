@@ -13,6 +13,7 @@
     "styled-components": "^2.2.0"
   },
   "proxy": "http://localhost:9000",
+  "homepage": "http://systems.cs.pub.ro/dev",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && react-snapshot",

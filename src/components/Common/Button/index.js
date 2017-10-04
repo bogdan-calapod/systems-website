@@ -5,7 +5,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const Button = styled.button`
+export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;

@@ -7,6 +7,7 @@ import React, { Component } from 'react'
 import Header from 'components/Common/Header'
 import About from 'components/About'
 import People from 'components/People'
+import Contact from 'components/Contact'
 
 import request from 'axios'
 
@@ -30,6 +31,7 @@ class Home extends Component {
         <Header />
         <About />
         <People data={this.state.people} />
+        <Contact />
       </div>
     )
   }

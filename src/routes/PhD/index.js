@@ -20,6 +20,12 @@ class PhD extends Component {
   }
 
   componentWillMount () {
+    request.get('/api/phdProjects/')
+      .then(x => this.setState({...this.state, projects: x.data}))
+
+    request.get('/api/collaborators/')
+      .then(x => this.setState({...this.state, collaborators: x.data}))
+
     request.get('/api/people/')
       .then(x => this.setState({...this.state, people: x.data}))
   }

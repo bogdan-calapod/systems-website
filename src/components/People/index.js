@@ -6,8 +6,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 import SectionTitle from 'components/Common/SectionTitle'
-
-import Person from './components/Person'
+import Person from 'components/Common/Person'
 
 import styled from 'styled-components'
 import bg from './bg.jpg'

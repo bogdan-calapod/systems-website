@@ -6,6 +6,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import Person from 'components/Common/Person'
 import Project from './components/Project'
 import CourseBox from './components/CourseBox'
 import SectionTitle from 'components/Common/SectionTitle'
@@ -33,6 +34,16 @@ const Container = styled.div`
     font-weight: 800;
     margin: 0;
     padding: 0;
+  }
+
+  > div div {
+    cursor: default;
+    margin: 10px 0;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 100px;
   }
 `
 
@@ -68,6 +79,8 @@ class ListBox extends Component {
         return CourseBox
       case 'project':
         return Project
+      case 'people':
+        return Person
       default:
         return null
     }
@@ -98,7 +111,7 @@ class ListBox extends Component {
     return data
     .filter(x => JSON.stringify(x).includes(textFilter))
     .map(
-      (x, i) => <Component data={x} key={i} />
+      (x, i) => <Component noModal data={x} key={i} />
     )
   }
 

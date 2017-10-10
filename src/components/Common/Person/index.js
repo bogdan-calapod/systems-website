@@ -41,16 +41,26 @@ class Person extends Component {
     this.setState({...this.state, modalOpen: !this.state.modalOpen})
   }
 
-  render () {
+  get modal () {
     let {modalOpen} = this.state
+    let {data} = this.props
+
+    if (this.props.noModal) {
+      return null
+    } else {
+      return <Modal modalOpen={modalOpen}
+        toggleModal={this.toggleModal} 
+        data={data} />
+    }
+  }
+
+  render () {
     let {data} = this.props
 
     return (
       <div onClick={this.toggleModal}>
         <Container data={data} />
-        <Modal modalOpen={modalOpen}
-          toggleModal={this.toggleModal} 
-          data={data} />
+        {this.modal}
       </div>
     )
   }

@@ -16,6 +16,18 @@ const Container = styled.div`
 
   padding: 0 5px;
 
+  
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+
+    h2,
+    p,
+    button {
+      margin: 5px;
+    }
+  }
+
   > * {
     flex: 1;
   }

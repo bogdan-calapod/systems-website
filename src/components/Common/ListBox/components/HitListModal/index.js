@@ -56,12 +56,25 @@ class HitListModal extends Component {
     return values.map(x => {return {data: tables[x], type: x}})
   }
 
+  get modalSize () {
+    if (window.innerWidth < 900) {
+      return {
+        width: 250,
+        height: 400
+      }
+    }
+    return {
+      width: 1200,
+      height: 800
+    }
+  }
+
   render () {
     let selectedYear = this.state.year
     let {visible, onClose, abbreviation} = this.props
 
     return (
-      <Modal visible={visible} onClose={onClose} width={1200} height={800}>
+      <Modal visible={visible} onClose={onClose} {...this.modalSize}>
         <Main
           setYear={this.setYear}
           years={this.years}

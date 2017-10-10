@@ -28,7 +28,14 @@ const Container = styled.div`
   max-height: 900px;
   overflow: auto;
   padding: 10px;
+  box-sizing: border-box;
   margin: 0 30px 30px 30px;
+
+  
+  @media screen and (max-width: 900px) {
+    width: 300px;
+    max-height: none;
+  }
 
   > h1 {
     font-weight: 800;
@@ -36,7 +43,7 @@ const Container = styled.div`
     padding: 0;
   }
 
-  > div div {
+  > div div:not(.rodal-dialog) {
     cursor: default;
     margin: 10px 0;
   }

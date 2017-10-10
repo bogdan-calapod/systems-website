@@ -30,6 +30,7 @@ const Split = styled.div`
   
   @media screen and (max-width: 900px) {
     flex-direction: column;
+    height: 60%;
   }
 `
 

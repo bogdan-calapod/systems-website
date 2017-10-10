@@ -21,6 +21,11 @@ const Container = styled.div`
 
   width: 450px;
 
+  @media screen and (max-width: 900px) {
+    width: 300px;
+    flex-wrap: nowrap;
+  }
+
   > img {
     width: 120px;
     height: 120px;
@@ -28,6 +33,12 @@ const Container = styled.div`
     object-fit: cover;
     margin-right: 10px;
     transition: 0.4s box-shadow;
+    
+    @media screen and (max-width: 900px) {
+      margin-right: 5px;
+      width: 80px;
+      height: 80px;
+    }
   }
 
   &:hover > img {
@@ -43,7 +54,7 @@ const Text = styled.div`
   h2 {
     margin: 0;
     font-size: 30px;
-    max-width: 300px;
+    max-width: 250px;
   }
 
   h2 {

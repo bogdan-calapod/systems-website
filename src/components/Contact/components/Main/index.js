@@ -25,6 +25,11 @@ const Container = styled.div`
   background-repeat: no-repeat;
   background-image: url(${bg});
 
+  @media screen and (max-width: 900px) {
+    background-image: none;
+    padding: 10px;
+  }
+
   img {
     width: 30px;
     height: 30px;
@@ -48,9 +53,18 @@ const Contact = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 30px 0;
+  
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `
 const Item = styled.div`
   width: 50%;
+
+  
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
 
   a {
     display: flex;

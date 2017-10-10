@@ -30,6 +30,11 @@ const Container = styled.div`
   margin: 5px 0;
   padding: 15px 0;
 
+      
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+
   img {
     width: 150px;
     margin-right: 15px;
@@ -65,6 +70,13 @@ const Row = styled(Header)`
 `
 
 class Table extends Component {
+  get columns () {
+    if (window.innerWidth < 900) {
+      return ['course', 'pin', 'id', 'comment']
+    } else {
+      return ['course', 'pin', 'oldpin']
+    }
+  }
   get keys () {
     let {data} = this.props.data
 
@@ -72,7 +84,7 @@ class Table extends Component {
       return []
     }
 
-    return Object.keys(data[0]).filter(x => !['course', 'pin', 'oldpin'].includes(x))
+    return Object.keys(data[0]).filter(x => !this.columns.includes(x))
   }
 
   get header () {

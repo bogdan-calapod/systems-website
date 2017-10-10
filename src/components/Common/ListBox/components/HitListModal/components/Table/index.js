@@ -77,6 +77,7 @@ class Table extends Component {
       return ['course', 'pin', 'oldpin']
     }
   }
+
   get keys () {
     let {data} = this.props.data
 

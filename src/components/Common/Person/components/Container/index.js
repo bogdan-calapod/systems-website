@@ -43,12 +43,13 @@ const Text = styled.div`
   h2 {
     margin: 0;
     font-size: 30px;
+    max-width: 300px;
   }
 
   h2 {
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 `
 

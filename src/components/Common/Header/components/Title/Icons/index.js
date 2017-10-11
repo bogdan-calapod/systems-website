@@ -45,8 +45,8 @@ const Container = styled.div`
   }
 
   img {
-    width: 40px;
-    height: 40px;
+    width: ${props => props.small ? '15px' : '40px'};
+    height: ${props => props.small ? '15px' : '40px'};
 
     @media screen and (max-width: 900px) {
       width: 20px;

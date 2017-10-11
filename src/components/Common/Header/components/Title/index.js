@@ -10,7 +10,7 @@ import Icons from './Icons'
 const Container = styled.div`
   height: 90%;
 
-  display: flex;
+  display: ${props => props.small ? 'none' : 'flex'};
   justify-content: center;
   align-items: center;
 `
@@ -60,7 +60,7 @@ const Text = styled.div`
 class Title extends Component {
   render () {
     return (
-      <Container>
+      <Container {...this.props}>
         <Text>
           <h2>develop</h2>
           <h1>your skills</h1>

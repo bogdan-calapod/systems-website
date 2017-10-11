@@ -26,7 +26,7 @@ const Container = styled.div`
   &:before {
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: ${props => props.small ? '0' : '50vh'};
     top: 0;
     left: 0;
     content: '';
@@ -89,7 +89,7 @@ const LinkWrapper = styled.div`
 class Menu extends Component {
   render () {
     return (
-      <Container>
+      <Container {...this.props}>
         <Link to='/'>
           <Logo src={logo} />
         </Link>

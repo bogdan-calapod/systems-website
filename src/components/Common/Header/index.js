@@ -20,7 +20,7 @@ const defaultProps = {
 
 // Component styles
 const Container = styled.div`
-  height: ${props => props.small ? '80vh' : '95vh'};
+  height: ${props => props.small ? '80px' : '95vh'};
   background-image: url(${bg});
   background-size: cover;
   background-position: 80% 90%;
@@ -30,8 +30,8 @@ class Header extends Component {
   render () {
     return (
       <Container {...this.props}>
-        <Menu />
-        <Title />
+        <Menu {...this.props} />
+        <Title {...this.props} />
       </Container>
     )
   }

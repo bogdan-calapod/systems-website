@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 
 import logo from './logo.svg'
 import facebook from './facebook.svg'
-import mail from './mail.svg'
+//import mail from './mail.svg'
 
 const Container = styled.div`
   width: 100%;
@@ -86,6 +86,15 @@ const LinkWrapper = styled.div`
   }
 `
 
+/*
+
+        <LinkWrapper >
+          <a href='mailto:#'>
+            <img alt='' src={mail} />
+          </a>
+        </LinkWrapper>
+*/
+
 class Menu extends Component {
   render () {
     return (
@@ -119,17 +128,10 @@ class Menu extends Component {
         </LinkWrapper>
 
         <LinkWrapper >
-          <a href='http://www.facebook.com/'>
+          <a href='http://www.facebook.com/systems.cs.pub.ro' target='_blank' rel='noopener noreferrer'>
             <img alt='' src={facebook} />
           </a>
         </LinkWrapper>
-
-        <LinkWrapper >
-          <a href='mailto:#'>
-            <img alt='' src={mail} />
-          </a>
-        </LinkWrapper>
-
       </Container>
     )
   }

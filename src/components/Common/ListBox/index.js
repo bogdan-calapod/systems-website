@@ -24,7 +24,6 @@ const defaultProps = {
 const Container = styled.div`
   background-color: #E6E6E6;
   max-width: ${props => props.wide ? 'none' : '800px'};
-  max-height: 900px;
   overflow: auto;
   padding: 10px;
   box-sizing: border-box;
@@ -33,7 +32,6 @@ const Container = styled.div`
   
   @media screen and (max-width: 900px) {
     width: 300px;
-    max-height: none;
   }
 
   > h1 {
@@ -42,7 +40,7 @@ const Container = styled.div`
     padding: 0;
   }
 
-  > div div:not(.rodal-dialog) {
+  > div div:not(.rodal-dialog):not(:last-child) {
     cursor: default;
     margin: 10px 0;
   }
@@ -56,6 +54,7 @@ const Container = styled.div`
 const List = styled.div`
   display: ${props => props.wide ? 'flex' : 'block'};
   flex-wrap: wrap;
+  justify-content: center;
 `
 
 const Filter = styled.input`

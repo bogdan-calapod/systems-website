@@ -18,12 +18,21 @@ const propTypes = {
 const Row = styled.div`
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: ${props => props.left ? 'flex-start' : 'space-between'};
 
   @media screen and (max-width: 900px) {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  div,
+  button {
+    margin: 0;
+  }
+
+  button {
+    margin: 0 10px;
   }
 `
 
@@ -37,6 +46,8 @@ const Column = styled.div`
 `
 
 const Logo = styled.img`
+  max-width: none;
+  max-height: none;
   width: 150px;
   margin: 10px;
 `
@@ -72,7 +83,7 @@ class CourseBox extends Component {
       buttons.push(
         <a href={this.props.data.presentation} key={0}>
           <Button>
-            Course presentation
+            Course
           </Button>
         </a>)
     }
@@ -81,7 +92,7 @@ class CourseBox extends Component {
       buttons.push(
         <div onClick={this.toggleModal}>
           <Button key={1}>
-            Student Hit List
+            Best students
           </Button>
         </div>
       )
@@ -96,7 +107,7 @@ class CourseBox extends Component {
 
     return (
       <Column main>
-        <Row>
+        <Row left>
           <Logo src={'/courses/' + abbreviation.toLowerCase() + '.svg'} alt='' />
           <Column>
             <Title>{name}</Title>

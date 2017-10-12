@@ -66,7 +66,7 @@ class Master extends Component {
         <Container>
           <SectionTitle> Master </SectionTitle>
           <p>
-            <a href='http://sric.cs.pub.ro' target='_blank'>
+            <a href='http://sric.cs.pub.ro' target='_blank' rel='noopener noreferrer'>
               <img src={sric} alt='' />
               Be sure to check out our Master program at sric.cs.pub.ro!
             </a>

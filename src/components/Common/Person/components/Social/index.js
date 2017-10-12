@@ -38,19 +38,19 @@ class SocialComponent extends Component {
     let {email, facebook, linkedin} = this.props.data
     let social = []
 
-    if (email && email !== '') {
+    if (email && email.trim() !== '') {
       social.push(<a href={'mailto:' + email} key={0}>
         <img src={mail} alt='' />
       </a>)
     }
 
-    if (linkedin && linkedin !== '') {
+    if (linkedin && linkedin.trim() !== '') {
       social.push(<a href={linkedin} target='_blank' rel='noreferrer' key={1}>
         <img src={lin} alt='' />
       </a>)
     }
 
-    if (facebook && facebook !== '') {
+    if (facebook && facebook.trim() !== '') {
       social.push(<a href={facebook} target='_blank' rel='noreferrer' key={2}>
         <img src={fb} alt='' />
       </a>)

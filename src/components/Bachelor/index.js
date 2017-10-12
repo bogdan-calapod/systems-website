@@ -65,7 +65,11 @@ class Bachelor extends Component {
               title='Projects'
               type='project'
               data={projects}
-              showFilter />
+              showFilter>
+              <p>
+                Register your project until {this.props.date} <a href={this.props.url}> here </a>
+              </p>
+            </ListBox>
           </Lists>
         </Container>
         <People data={people} />

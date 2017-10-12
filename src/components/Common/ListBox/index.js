@@ -10,7 +10,6 @@ import Person from 'components/Common/Person'
 import Project from './components/Project'
 import CourseBox from './components/CourseBox'
 import SectionTitle from 'components/Common/SectionTitle'
-import HitListModal from 'components/Common/ListBox/components/HitListModal'
 
 const propTypes = {
   type: PropTypes.string,
@@ -24,7 +23,7 @@ const defaultProps = {
 
 const Container = styled.div`
   background-color: #E6E6E6;
-  max-width: 800px;
+  max-width: ${props => props.wide ? 'none' : '800px'};
   max-height: 900px;
   overflow: auto;
   padding: 10px;
@@ -52,6 +51,11 @@ const Container = styled.div`
     max-width: 100px;
     max-height: 100px;
   }
+`
+
+const List = styled.div`
+  display: ${props => props.wide ? 'flex' : 'block'};
+  flex-wrap: wrap;
 `
 
 const Filter = styled.input`
@@ -116,24 +120,26 @@ class ListBox extends Component {
     let Component = this.getComponent()
 
     return data
-    .filter(x => JSON.stringify(x).includes(textFilter))
+    .filter(x => JSON.stringify(x).toLowerCase().includes(textFilter))
+    .filter(x => x.name !== 'BLANK')
     .map(
       (x, i) => <Component noModal data={x} key={i} />
     )
   }
 
   changeFilter = e => this.setState({...this.state,
-    textFilter: e.currentTarget.value
+    textFilter: e.currentTarget.value.toLowerCase()
   })
 
   render () {
     return (
-      <Container>
-          <HitListModal />
+      <Container {...this.props}>
         <SectionTitle left> {this.props.title} </SectionTitle>
         {this.filter}
         {this.props.children}
-        {this.content}
+        <List {...this.props}>
+          {this.content}
+        </List>
       </Container>
     )
   }

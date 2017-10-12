@@ -13,28 +13,18 @@ class PhD extends Component {
     super(props)
 
     this.state = {
-      projects: [],
-      collaborators: [],
-      people: []
+      projects: []
     }
   }
 
   componentWillMount () {
     request.get('/api/phdProjects/')
       .then(x => this.setState({...this.state, projects: x.data}))
-
-    request.get('/api/collaborators/')
-      .then(x => this.setState({...this.state, collaborators: x.data}))
-
-    request.get('/api/people/')
-      .then(x => this.setState({...this.state, people: x.data}))
   }
 
   render () {
     return (
-      <Container projects={this.state.projects}
-        collaborators={this.state.collaborators}
-        people={this.state.people} />
+      <Container projects={this.state.projects} />
     )
   }
 }

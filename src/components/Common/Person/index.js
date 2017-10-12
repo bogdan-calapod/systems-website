@@ -44,8 +44,9 @@ class Person extends Component {
   get modal () {
     let {modalOpen} = this.state
     let {data} = this.props
+    let {teaching} = data
 
-    if (this.props.noModal) {
+    if (this.props.noModal || teaching === undefined) {
       return null
     } else {
       return <Modal modalOpen={modalOpen}

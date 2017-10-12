@@ -22,7 +22,7 @@ const defaultProps = {
 const Container = styled.div`
   background-color: #f7bc00;
   background-image: url(${bg});
-  background-size: 50%;
+  background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: top left;
   padding-bottom: 20px;
@@ -41,9 +41,28 @@ const List = styled.div`
   > div {
     margin: 10px;
   }
+
+  &:last-child {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid white;
+  }
 `
 
 class People extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      data: []
+    }
+  }
+
+  // Filter blank values
+  componentWillReceiveProps (nextProps) {
+    this.setState({...this.state, data: nextProps.data.filter(x => x.name !== '')})
+  }
+
   get people () {
     let people = {
       g1: [],
@@ -55,7 +74,7 @@ class People extends Component {
       (x, i) => <Person data={x} key={i} />
     )
 
-    this.props.data.forEach(
+    this.state.data.forEach(
       x => {
         if (x.name === 'BLANK') {
           arr = 'g2'

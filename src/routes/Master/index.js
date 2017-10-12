@@ -27,12 +27,17 @@ class Master extends Component {
 
     request.get('/api/people/')
       .then(x => this.setState({...this.state, people: x.data}))
+      
+    request.get('/api/collaborators/')
+      .then(x => this.setState({...this.state, date: x.data[0].masterDate, url: x.data[0].masterURL}))
   }
 
   render () {
     return (
       <Container projects={this.state.projects}
         courses={this.state.courses}
+        date={this.state.date}
+        url={this.state.url}
         people={this.state.people} />
     )
   }

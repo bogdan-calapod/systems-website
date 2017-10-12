@@ -10,6 +10,7 @@ import People from 'components/People'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
 
+import sric from './sric.svg'
 import styled from 'styled-components'
 
 const propTypes = {
@@ -36,6 +37,17 @@ const Container = styled.div`
     display: block;
     text-align: center;
   }
+
+  a {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    color: currentColor;
+
+    img {
+      height: 50px;
+    }
+  }
 `
 
 const Lists = styled.div`
@@ -54,7 +66,13 @@ class Master extends Component {
         <Container>
           <SectionTitle> Master </SectionTitle>
           <p>
-            It all starts with meeting new teachers, mentors, colleagues and friends. Get a first taste of engineering in Operating Systems and Computer Networks, then go in depth to explore Design and security challenges. Test your insights with a diploma project in Systems’ research group, and break new ground through mentored research and development.
+            <a href='http://sric.cs.pub.ro' target='_blank'>
+              <img src={sric} alt='' />
+              Be sure to check out our Master program at sric.cs.pub.ro!
+            </a>
+          </p>
+          <p>
+            Delve in-depth in the upcoming information infrastructures, and learn to tame the wildest networks. Prepare to confront attacks with dedicated techniques and equipment. Get a better grip on mobile systems, and secure the biggest and the smallest devices. Find your path in the research community of applied and fundamental ICT scholars, and join dedicated mentors and instructors in R&D projects of your choice. 
           </p>
           <Lists>
             <ListBox
@@ -65,7 +83,11 @@ class Master extends Component {
               title='Projects'
               type='project'
               data={projects}
-              showFilter />
+              showFilter>
+              <p>
+                Register your project until {this.props.date} <a href={this.props.url}> here </a>
+              </p>
+            </ListBox>
           </Lists>
         </Container>
         <People data={people} />

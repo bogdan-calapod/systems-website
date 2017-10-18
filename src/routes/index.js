@@ -28,11 +28,11 @@ class MainRouter extends Component {
       <ThemeProvider theme={theme}>
         <Router>
           <Switch>
-            <Route exact path='/people' component={People} />
-            <Route exact path='/bachelor' component={Bachelor} />
-            <Route exact path='/master' component={Master} />
-            <Route exact path='/phd' component={PhD} />
-            <Route path='/' component={Home} />
+            <Route path='/people' component={People} />
+            <Route path='/bachelor' component={Bachelor} />
+            <Route path='/master' component={Master} />
+            <Route path='/phd' component={PhD} />
+            <Route component={Home} />
           </Switch>
         </Router>
       </ThemeProvider>

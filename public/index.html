@@ -34,12 +34,25 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+    <style>
+      html {
+        background-color: #F7931E;
+      }
+
+      .loader {
+        animation-name: loader;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes loader {
+        from {transform: scale(0.8)}
+        50% {transform: scale(1)}
+        to {transform: scale(0.8)}
+      }
+    </style>
     <div id="root">
       <style>
-        html {
-          background-color: #f38629;
-        }
-  
         body {
           width: 100vw;
           height: 100vh;
@@ -48,18 +61,6 @@
           justify-content: center;
           margin: 0;
           padding: 0;
-        }
-  
-        .loader {
-          animation-name: loader;
-          animation-duration: 2s;
-          animation-iteration-count: infinite;
-        }
-  
-        @keyframes loader {
-          from {transform: scale(0.8)}
-          50% {transform: scale(1)}
-          to {transform: scale(0.8)}
         }
       </style>
       <img class='loader' src='favicon/ms-icon-70x70.png' />

@@ -83,6 +83,7 @@ const Input = styled.div`
 
   &:last-child {
     width: 100%;
+    flex: 1;
   }
 
   padding: 5px 5px 5px 0;
@@ -94,6 +95,8 @@ const Input = styled.div`
     background-color: transparent;
     resize: none;
     height: 30px;
+    padding: 0 5px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   textarea {
@@ -101,9 +104,30 @@ const Input = styled.div`
   }
 `
 
-const Form = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+const Form = styled.form`
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &:before {
+      content: 'Message sent!';
+      position: absolute;
+      width: 100%;
+      height: ${props => props.sent ? 'calc(100% + 50px)' : '0%'};
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: 0.4s all;
+
+      font-size: ${props => props.sent ? '40px' : '0'};
+      font-weight: 100px;
+
+      background-color: #EEEEEE;
+    }
+  }
 `
 
 const ContactButton = Button.extend`
@@ -111,10 +135,26 @@ const ContactButton = Button.extend`
   margin-right: 5px;
 `
 
+const IFrame = styled.iframe`
+  border: 0;
+  width: 0;
+  height: 0;
+`
+
 class Main extends Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      sent: false
+    }
+  }
+
+  submit = _ => this.setState({...this.state, sent: true})
+
   render () {
     return (
-      <Container>
+      <Container id='contact'>
         <Title> Let's keep in touch </Title>
         <Contact>
           <Item>
@@ -142,21 +182,27 @@ class Main extends Component {
             </a>
           </Item>
         </Contact>
-        <Form>
-          <Input>
-            <label> Name </label>
-            <input type='text' />
-          </Input>
-          <Input>
-            <label> E-mail </label>
-            <input type='text' />
-          </Input>
-          <Input>
-            <label> Message </label>
-            <textarea />
-          </Input>
+        <Form method="POST" 
+          target="frame"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSftWsMaSxd0griW5p622okTaUGOFsHguJmGj6L8B2aFxd0Psg/formResponse" onSubmit={this.submit}
+        sent={this.state.sent}>
+          <div>
+            <Input>
+              <label> Name </label>
+              <input name="entry.649128642" type='text' />
+            </Input>
+            <Input>
+              <label> E-mail </label>
+              <input name="entry.2134513646" type='text' />
+            </Input>
+            <Input>
+              <label> Message </label>
+              <textarea name="entry.861169742"/>
+            </Input>
+          </div>
+            <ContactButton> Send </ContactButton>
         </Form>
-        <ContactButton> Send </ContactButton>
+        <IFrame name="frame" />
       </Container>
     )
   }

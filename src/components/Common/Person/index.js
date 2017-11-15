@@ -37,6 +37,20 @@ class Person extends Component {
     }
   }
 
+  componentDidMount() {
+    let cleanedName = this.props.data.name
+      .toLowerCase()
+      .replace(' ', '.')
+      .replace(/ă/g, 'a')
+      .replace(/ș/g, 's')
+      .replace(/ț/g, 't')
+      .replace(/î/g, 'i')
+
+    if (window.location.href.includes(cleanedName)) {
+      this.setState({...this.state, modalOpen: true})
+    }
+  }
+
   toggleModal = _ => {
     this.setState({...this.state, modalOpen: !this.state.modalOpen})
   }

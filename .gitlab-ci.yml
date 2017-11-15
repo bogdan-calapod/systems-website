@@ -3,7 +3,7 @@ image: node:8
 before_script:
   - rm -rf node_modules
   - npm install -g yarn
-  - yarn && yarn run build-css
+  - yarn
 
 jest_react_tests:
   script:

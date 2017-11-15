@@ -8,3 +8,4 @@ before_script:
 jest_react_tests:
   script:
     - yarn test
+  covearge: All files[^|]*\|[^|]*\s+([\d\.]+)

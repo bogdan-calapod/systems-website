@@ -71,8 +71,15 @@ class CourseBox extends Component {
     }
   }
 
+  componentDidMount() {
+    let cleanedName = '/' + this.props.data.abbreviation.toLowerCase()
+
+    if (window.location.href.toLowerCase().includes(cleanedName)) {
+      this.setState({...this.state, modalOpen: true})
+    }
+  }
+
   toggleModal = _ => {
-    console.log('hola')
     this.setState({modalOpen: !this.state.modalOpen})
   }
 

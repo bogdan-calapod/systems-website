@@ -35,6 +35,18 @@ class HitListModal extends Component {
     }
   }
 
+  componentDidMount () {
+    let years = this.years
+
+    years.forEach(
+      year => {
+        if (window.location.href.includes('/' + year)) {
+          this.setState({...this.state, year})
+        }
+      }
+    )
+  }
+
   setYear = year => this.setState({...this.state, year: year.toString()})
 
   get data () {

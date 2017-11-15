@@ -2,9 +2,9 @@ image: node:8
 
 before_script:
   - rm -rf node_modules
-  - npm install -g npm@latest
-  - npm install && npm run build-css
+  - npm install -g yarn
+  - yarn && yarn run build-css
 
 jest_react_tests:
   script:
-    - npm run test
+    - yarn test

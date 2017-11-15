@@ -9,6 +9,7 @@ import Header from 'components/Common/Header'
 import People from 'components/People'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
+import Button from 'components/Common/Button'
 
 import sric from './sric.svg'
 import styled from 'styled-components'
@@ -85,7 +86,11 @@ class Master extends Component {
               data={projects}
               showFilter>
               <p>
-                Register your project until {this.props.date} <a href={this.props.url}> here </a>
+              <a href={this.props.url}>
+                <Button style={{margin: '10px 0', width: 'auto'}}>
+                  Register your project until {this.props.date}  here
+                </Button> 
+              </a>
               </p>
             </ListBox>
           </Lists>

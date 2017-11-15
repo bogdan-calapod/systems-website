@@ -47,6 +47,7 @@ const Container = styled.div`
 
     button {
       width: 120px;
+      margin: 10px;
     }
   }
 `

@@ -9,6 +9,7 @@ import Header from 'components/Common/Header'
 import People from 'components/People'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
+import Button from 'components/Common/Button'
 
 import styled from 'styled-components'
 
@@ -67,7 +68,11 @@ class Bachelor extends Component {
               data={projects}
               showFilter>
               <p>
-                Register your project until {this.props.date} <a href={this.props.url}> here </a>
+                <a href={this.props.url}>
+                  <Button>
+                    Register your project until {this.props.date} here 
+                  </Button>
+                </a>
               </p>
             </ListBox>
           </Lists>

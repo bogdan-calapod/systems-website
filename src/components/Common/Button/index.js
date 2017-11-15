@@ -11,8 +11,7 @@ export const Button = styled.button`
   justify-content: center;
   background-color: transparent;
 
-  margin: 10px;
-  width: 180px;
+  margin: 10px 0;
   height: 40px;
   border: 1px solid gray;
 

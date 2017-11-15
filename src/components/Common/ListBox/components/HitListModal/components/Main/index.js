@@ -6,6 +6,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import Markdown from 'react-markdown'
+
 import SectionTitle from 'components/Common/SectionTitle'
 import YearSelector from '../YearSelector'
 import Table from '../Table'
@@ -13,12 +15,20 @@ import Table from '../Table'
 const propTypes = {
   setYear: PropTypes.func,
   years: PropTypes.arrayOf(PropTypes.string),
-  selectedYear: PropTypes.string,
-  abbreviation: PropTypes.string
+  selectedYear: PropTypes.number,
+  abbreviation: PropTypes.string,
+  tables: PropTypes.array,
+  announcements: PropTypes.arrayOf(PropTypes.shape({
+    year: PropTypes.number,
+    text: PropTypes.string
+  }))
 }
 
 const defaultProps = {
-  abbreviation: ''
+  abbreviation: '',
+  years: [],
+  tables: [],
+  announcements: []
 }
 
 const ModalTitle = styled(SectionTitle)`
@@ -36,11 +46,32 @@ const Container = styled.div`
   height: 100%;
 `
 
+const Announcement = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
 class Main extends Component {
   get tables () {
     let {tables} = this.props
 
     return tables.map((x, i) => <Table key={i} data={x} />)
+  }
+
+  get announcement () {
+    const {selectedYear, announcements} = this.props
+
+    let selectedAnnouncement = announcements
+      .filter(x => x.year === selectedYear)
+
+    if (selectedAnnouncement.length === 0) {
+      return ''
+    }
+
+    return selectedAnnouncement[0].text
+
+    // return 'In 2017-2018 there will be awarded 58 USO badges:\n* 8 badges for midterm results\n* 8 badges for lecture engagement\n* 18 badges for lab activity\n* 16 badges for final exam results\n* 8 extra badges for digital engagement on cs.curs.pub.ro and Facebook'
   }
 
   render () {
@@ -57,6 +88,9 @@ class Main extends Component {
           years={years}
           selectedYear={selectedYear} />
 
+        <Announcement>
+          <Markdown source={this.announcement} />
+        </Announcement>
         {this.tables}
       </Container>
     )

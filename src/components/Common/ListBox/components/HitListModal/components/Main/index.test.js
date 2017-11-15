@@ -8,11 +8,11 @@ describe('HitListModal Main component', () => {
       const props = {
         announcements: [
           {
-            year: 2017,
+            year: '2017',
             text: 'Hello'
           }
         ],
-        selectedYear: 2017
+        selectedYear: '2017'
       }
 
       const wrapper = shallow(<Main {...props} />)
@@ -22,7 +22,7 @@ describe('HitListModal Main component', () => {
     it ('renders correctly if no announcement for current year', () => {
       const props = {
         announcements: [],
-        selectedYear: 2016
+        selectedYear: '2016'
       }
       const wrapper = shallow(<Main {...props} />)
       expect(wrapper.html()).not.toBe('')
@@ -32,22 +32,21 @@ describe('HitListModal Main component', () => {
       const props = {
         announcements: [
           {
-            year: 2015,
+            year: '2015',
             text: 'test'
           },
           {
-            year: 2016,
+            year: '2016',
             text: 'rendered'
           }
         ],
-        selectedYear: 2016
+        selectedYear: '2016'
       }
 
       const wrapper = shallow(<Main {...props} />)
       expect(wrapper.html()).toContain('rendered')
-      wrapper.setProps({...props, selectedYear: 2015})
+      wrapper.setProps({...props, selectedYear: '2015'})
       expect(wrapper.html()).toContain('test')
-
     })
   })
 })

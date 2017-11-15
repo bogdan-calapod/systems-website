@@ -10,12 +10,14 @@ import Main from './components/Main'
 
 const propTypes = {
   data: PropTypes.array,
+  announcements: PropTypes.array,
   visible: PropTypes.bool,
   onClose: PropTypes.func
 }
 
 const defaultProps = {
   visible: false,
+  announcements: [],
   onClose: _ => {},
   data: []
 }
@@ -71,11 +73,12 @@ class HitListModal extends Component {
 
   render () {
     let selectedYear = this.state.year
-    let {visible, onClose, abbreviation} = this.props
+    let {visible, onClose, abbreviation, announcements} = this.props
 
     return (
       <Modal visible={visible} onClose={onClose} {...this.modalSize}>
         <Main
+          announcements={announcements}
           setYear={this.setYear}
           years={this.years}
           selectedYear={selectedYear}

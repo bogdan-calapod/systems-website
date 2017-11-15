@@ -102,7 +102,7 @@ class CourseBox extends Component {
   }
 
   render () {
-    let {name, description, abbreviation, hitlist} = this.props.data
+    let {name, description, abbreviation, announcements, hitlist} = this.props.data
     let {modalOpen} = this.state
 
     return (
@@ -119,7 +119,8 @@ class CourseBox extends Component {
         </Row>
         <HitListModal visible={modalOpen} onClose={this.toggleModal}
           abbreviation={abbreviation}
-          data={hitlist} />
+          data={hitlist}
+          announcements={announcements} />
       </Column>
     )
   }

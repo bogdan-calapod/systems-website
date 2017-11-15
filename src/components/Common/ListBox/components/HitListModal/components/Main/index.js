@@ -15,11 +15,11 @@ import Table from '../Table'
 const propTypes = {
   setYear: PropTypes.func,
   years: PropTypes.arrayOf(PropTypes.string),
-  selectedYear: PropTypes.number,
+  selectedYear: PropTypes.string,
   abbreviation: PropTypes.string,
   tables: PropTypes.array,
   announcements: PropTypes.arrayOf(PropTypes.shape({
-    year: PropTypes.number,
+    year: PropTypes.string,
     text: PropTypes.string
   }))
 }
@@ -64,6 +64,8 @@ class Main extends Component {
 
     let selectedAnnouncement = announcements
       .filter(x => x.year === selectedYear)
+
+    console.log(announcements, selectedYear, selectedAnnouncement)
 
     if (selectedAnnouncement.length === 0) {
       return ''

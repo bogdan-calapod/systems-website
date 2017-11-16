@@ -3,11 +3,12 @@ image: node:8
 before_script:
   - 'which ssh-agent || (apt-get update -y && apt-get install openssh-client -y)'
   - 'which tar || (apt-get update -y && apt-get install tar -y)'
-  - '[[ -f /.dockerenv ]] && mkdir -p ~/.ssh'
-  - '[[ -f /.dockerenv ]] && echo $SSH_PUBLIC_KEY > ~/.ssh/id_rsa.pub'
-  - '[[ -f /.dockerenv ]] && echo $SSH_PRIVATE_KEY > ~/.ssh/id_rsa'
-  - '[[ -f /.dockerenv ]] && chmod 0600 ~/.ssh/id_rsa.pub'
-  - '[[ -f /.dockerenv ]] && chmod 0600 ~/.ssh/id_rsa'
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  - echo $SSH_PUBLIC_KEY > ~/.ssh/id_rsa.pub
+  - echo $SSH_PRIVATE_KEY > ~/.ssh/id_rsa
+  - chmod 0600 ~/.ssh/id_rsa.pub
+  - chmod 0600 ~/.ssh/id_rsa
   - '[[ -f /.dockerenv ]] && echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
   - rm -rf node_modules
   - npm install -g yarn

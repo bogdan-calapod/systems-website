@@ -8,6 +8,8 @@ before_script:
   - mkdir -p ~/.ssh
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   - mkdir -p ~/.ssh
+  - echo $SSH_PUBLIC_KEY > ~/.ssh/id_rsa.pub
+  - echo $SSH_PRIVATE_KEY > ~/.ssh/id_rsa
   - '[[ -f /.dockerenv ]] && echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
   - rm -rf node_modules
   - npm install -g yarn

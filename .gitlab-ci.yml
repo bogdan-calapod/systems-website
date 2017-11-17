@@ -22,4 +22,4 @@ jest_react_tests:
 
 after_script:
   - yarn build
-  - scp build/ bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/
+  - scp -r build/* bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/

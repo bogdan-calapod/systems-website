@@ -2,7 +2,6 @@ image: node:8
 
 before_script:
   - 'which ssh-agent || (apt-get update -y && apt-get install openssh-client -y)'
-  - 'which tar || (apt-get update -y && apt-get install tar -y)'
   #- eval $(ssh-agent -s)
   #- ssh-add <(echo "$SSH_PRIVATE_KEY")
   #- ssh-add <(echo "$SSH_PUBLIC_KEY")
@@ -23,6 +22,4 @@ jest_react_tests:
 
 after_script:
   - yarn build
-  - tar -cvf build.zip build/
-  - scp -vvv build.zip bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/
-  - ssh -t bogdan.calapod@systems.cs.pub.ro "cd /var/www/systems.cs.pub.ro/www/ && tar -xzvf build.zip -C ./ && exit"
+  - scp build/ bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/

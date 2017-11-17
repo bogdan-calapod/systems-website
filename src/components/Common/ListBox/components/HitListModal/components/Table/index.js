@@ -47,13 +47,12 @@ const Wrapper = styled.div`
 
 const Header = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   text-transform: capitalize;
 
   ${Cell} {
     font-weight: 600;
-    text-align: center;
   }
 `
 const Row = styled(Header)`

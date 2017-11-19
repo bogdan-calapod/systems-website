@@ -66,10 +66,10 @@ class HitListModal extends Component {
     return data
       .filter(x => x.date)
       .filter(x => checkValidCurrentYear(x)
-        || (x.date.includes('11.' + parseInt(year - 1, 10))
+        || ((x.date.includes('11.' + parseInt(year - 1, 10))
           || x.date.includes('12.' + parseInt(year - 1, 10)))
         && (!x.date.includes('11.' + parseInt(year, 10))
-          || !x.date.includes('12.' + parseInt(year, 10)))
+          || !x.date.includes('12.' + parseInt(year, 10))))
     )
   }
 

@@ -50,12 +50,36 @@ class HitListModal extends Component {
   setYear = year => this.setState({...this.state, year: year.toString()})
 
   get data () {
-    return this.props.data.filter(x => x.date.includes(this.state.year))
+    let {year} = this.state
+    let {data} = this.props
+
+    let validM = [1,2,3,4,5,6,7,8,9,10]
+    let checkValidCurrentYear = x => {
+      let m = validM.filter(z => x.date.includes(z + '.' + year))
+      if (m.length === 0) {
+        return false
+      }
+
+      return true
+    }
+
+    return data
+      .filter(x => x.date)
+      .filter(x => checkValidCurrentYear(x)
+        || (x.date.includes('11.' + parseInt(year - 1, 10))
+          || x.date.includes('12.' + parseInt(year - 1, 10)))
+        && (!x.date.includes('11.' + parseInt(year, 10))
+          || !x.date.includes('12.' + parseInt(year, 10)))
+    )
   }
 
   get years () {
-    let years = this.props.data.map(x => x.date.split('.')[2])
-    return unique(years).sort().reverse()
+    let {data} = this.props
+    let years = data.filter(x => x.date).map(x => x.date.split('.')[2])
+    let extraYears = data.filter(x => x.date)
+      .filter(x => x.date.includes('11.20') || x.date.includes('12.20'))
+      .map(x => x.date.split('.')[2])
+    return unique([...years, ...extraYears]).sort().reverse()
   }
 
   get tables () {

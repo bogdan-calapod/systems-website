@@ -65,8 +65,6 @@ class Main extends Component {
     let selectedAnnouncement = announcements
       .filter(x => x.year === selectedYear)
 
-    console.log(announcements, selectedYear, selectedAnnouncement)
-
     if (selectedAnnouncement.length === 0) {
       return ''
     }

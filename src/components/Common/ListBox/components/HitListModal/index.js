@@ -31,7 +31,7 @@ class HitListModal extends Component {
     super(props)
 
     this.state = {
-      year: '2017'
+      year: '2018'
     }
   }
 

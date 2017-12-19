@@ -87,8 +87,12 @@ class Master extends Component {
                 Research reports should be uploaded until February 5th.
               </p>
               <p>
-                Research report defence will take place on February 7th, 9:00 AM for SRIC2, and on February 8th, 9:00 AM for SRIC1.
+                Research report defence will take place on the following dates:
               </p>
+              <ul>
+                <li>February 7th, 9:00 AM for SRIC2</li>
+                <li>February 8th, 9:00 AM for SRIC1</li>
+              </ul>
             </ListBox>
           </Lists>
         </Container>

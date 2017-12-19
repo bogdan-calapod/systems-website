@@ -9,7 +9,7 @@ import Header from 'components/Common/Header'
 import People from 'components/People'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
-import Button from 'components/Common/Button'
+// import Button from 'components/Common/Button'
 
 import sric from './sric.svg'
 import styled from 'styled-components'
@@ -59,7 +59,7 @@ const Lists = styled.div`
 
 class Master extends Component {
   render () {
-    let {projects, courses, people} = this.props
+    let { projects, courses, people } = this.props
 
     return (
       <div>
@@ -67,30 +67,27 @@ class Master extends Component {
         <Container>
           <SectionTitle> Master </SectionTitle>
           <p>
-            <a href='http://sric.cs.pub.ro' target='_blank' rel='noopener noreferrer'>
+            <a
+              href='http://sric.cs.pub.ro'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src={sric} alt='' />
               Be sure to check out our Master program at sric.cs.pub.ro!
             </a>
           </p>
           <p>
-            Delve in-depth in the upcoming information infrastructures, and learn to tame the wildest networks. Prepare to confront attacks with dedicated techniques and equipment. Get a better grip on mobile systems, and secure the biggest and the smallest devices. Find your path in the research community of applied and fundamental ICT scholars, and join dedicated mentors and instructors in R&D projects of your choice. 
+            Delve in-depth in the upcoming information infrastructures, and learn to tame the wildest networks. Prepare to confront attacks with dedicated techniques and equipment. Get a better grip on mobile systems, and secure the biggest and the smallest devices. Find your path in the research community of applied and fundamental ICT scholars, and join dedicated mentors and instructors in R&D projects of your choice.
+            {' '}
           </p>
           <Lists>
-            <ListBox
-              title='Courses'
-              type='course'
-              data={courses} />
-            <ListBox
-              title='Projects'
-              type='project'
-              data={projects}
-              showFilter>
+            <ListBox title='Courses' type='course' data={courses} />
+            <ListBox title='Projects' type='project' data={projects} showFilter>
               <p>
-              <a href={this.props.url}>
-                <Button style={{margin: '10px 0', width: 'auto'}}>
-                  Register your project until {this.props.date}  here
-                </Button> 
-              </a>
+                Research reports should be uploaded until February 5th.
+              </p>
+              <p>
+                Research report defence will take place on February 7th, 9:00 AM for SRIC2, and on February 8th, 9:00 AM for SRIC1.
               </p>
             </ListBox>
           </Lists>

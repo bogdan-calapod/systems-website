@@ -38,47 +38,39 @@ class HitListModal extends Component {
   componentDidMount () {
     let years = this.years
 
-    years.forEach(
-      year => {
-        if (window.location.href.includes('/' + year)) {
-          this.setState({...this.state, year})
-        }
+    years.forEach(year => {
+      if (window.location.href.includes('/' + year)) {
+        this.setState({ ...this.state, year })
       }
-    )
+    })
   }
 
-  setYear = year => this.setState({...this.state, year: year.toString()})
+  setYear = year => this.setState({ ...this.state, year: year.toString() })
 
   get data () {
-    let {year} = this.state
-    let {data} = this.props
+    const { year } = this.state
+    const { data } = this.props
+    const prevYear = parseInt(year, 10) - 1
 
-    let validM = [1,2,3,4,5,6,7,8,9,10]
-    let checkValidCurrentYear = x => {
-      let m = validM.filter(z => x.date.includes(z + '.' + year))
-      if (m.length === 0) {
-        return false
-      }
-
-      return true
-    }
-
-    return data
-      .filter(x => x.date)
-      .filter(x => checkValidCurrentYear(x)
-        || ((x.date.includes('11.' + parseInt(year - 1, 10))
-          || x.date.includes('12.' + parseInt(year - 1, 10)))
-        && (!x.date.includes('11.' + parseInt(year, 10))
-          || !x.date.includes('12.' + parseInt(year, 10))))
+    return data.filter(
+      x =>
+        (x.date.includes('11.' + prevYear) ||
+          x.date.includes('12.' + prevYear) ||
+          x.date.includes(year)) &&
+        !x.date.includes('11.' + year)
     )
   }
 
   get years () {
-    let {data} = this.props
-    let years = data.filter(x => x.date).map(x => x.date.split('.')[2])
-    let extraYears = data.filter(x => x.date)
-      .filter(x => x.date.includes('11.20') || x.date.includes('12.20'))
-      .map(x => x.date.split('.')[2])
+    let { data } = this.props
+    let years = data.map(x => x.date).map(x => x.split('.')[2])
+    let extraYears = data
+      .map(x => x.date)
+      .filter(x => x.includes('11.20') || x.includes('12.20'))
+      .map(x => x.split('.')[2]) // Get Year
+      .map(x => parseInt(x, 10) + 1)
+      .map(x => x.toString())
+
     return unique([...years, ...extraYears]).sort().reverse()
   }
 
@@ -88,10 +80,12 @@ class HitListModal extends Component {
     let data = this.data
 
     values.forEach(
-      category => tables[category] = data.filter(x => x.pin === category)
+      category => (tables[category] = data.filter(x => x.pin === category))
     )
 
-    return values.map(x => {return {data: tables[x], type: x}})
+    return values.map(x => {
+      return { data: tables[x], type: x }
+    })
   }
 
   get modalSize () {
@@ -109,7 +103,7 @@ class HitListModal extends Component {
 
   render () {
     let selectedYear = this.state.year
-    let {visible, onClose, abbreviation, announcements} = this.props
+    let { visible, onClose, abbreviation, announcements } = this.props
 
     return (
       <Modal visible={visible} onClose={onClose} {...this.modalSize}>
@@ -120,7 +114,7 @@ class HitListModal extends Component {
           selectedYear={selectedYear}
           tables={this.tables}
           abbreviation={abbreviation}
-          />
+        />
       </Modal>
     )
   }

@@ -70,7 +70,7 @@ class PersonContainer extends Component {
 
     return (
       <Container>
-        <img alt={name} src={'/files/' + name + 'photo.jpg'} />
+        <img alt={name} src={'/files/' + name + 'photo.png'} />
         <Text>
           <h1>{name}</h1>
           <h2>{position}</h2>

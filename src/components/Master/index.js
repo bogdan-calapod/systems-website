@@ -9,7 +9,7 @@ import Header from 'components/Common/Header'
 import People from 'components/People'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
-// import Button from 'components/Common/Button'
+import Button from 'components/Common/Button'
 
 import sric from './sric.svg'
 import styled from 'styled-components'
@@ -92,6 +92,11 @@ class Master extends Component {
               <ul>
                 <li>February 7th, 9:00 AM for SRIC2</li>
                 <li>February 8th, 9:00 AM for SRIC1</li>
+              </ul>
+              <p> Research report defence will take place on the following dates: </p>
+              <ul>
+                <li> February 7th, 9:00 AM for SRIC 2 <a href='https://docs.google.com/forms/d/e/1FAIpQLSfeltSObLsd9Iw7vzoB4VLUjlBzRqUNuFM2luz_gzCxuuegjg/viewform'> <Button> Register</Button> </a> </li>
+                <li> February 8th, 9:00 AM for SRIC 1 <a href='https://docs.google.com/forms/d/e/1FAIpQLSfeltSObLsd9Iw7vzoB4VLUjlBzRqUNuFM2luz_gzCxuuegjg/viewform'> <Button> Register</Button> </a> </li>
               </ul>
             </ListBox>
           </Lists>

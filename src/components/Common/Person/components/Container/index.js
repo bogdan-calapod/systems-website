@@ -66,11 +66,11 @@ const Text = styled.div`
 
 class PersonContainer extends Component {
   render () {
-    let {name, position} = this.props.data
+    let {name, position, photo} = this.props.data
 
     return (
       <Container>
-        <img alt={name} src={'/files/' + name + 'photo.png'} />
+        <img alt={name} src={photo} />
         <Text>
           <h1>{name}</h1>
           <h2>{position}</h2>

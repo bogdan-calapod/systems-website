@@ -12,14 +12,13 @@ before_script:
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   - '[[ -f /.dockerenv ]] && echo "$SSH_SERVER_HOSTKEYS" > ~/.ssh/known_hosts'
   - rm -rf node_modules
-  - npm install -g yarn
-  - yarn
+  - npm install
 
 jest_react_tests:
   script:
-    - yarn test
+    - npm run test
   coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
 
 after_script:
-  - yarn build
+  - npm run build
   - scp -r build/* bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/

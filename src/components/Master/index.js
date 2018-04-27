@@ -84,20 +84,21 @@ class Master extends Component {
             <ListBox title='Courses' type='course' data={courses} />
             <ListBox title='Projects' type='project' data={projects} showFilter>
               <p>
-                Research reports should be uploaded until February 5th.
+                For SRIC 1, the research reports should be uploaded until June 9th
+                2018. Research report defence will take place on June 14th 2018, in
+                PR706, from 9:00.
+              </p><p>
+                For SRIC 2, the research reports should be uploaded until June 2nd
+                2018. Research report defence will take place on June 7th 2018, in
+                PR706, from 9:00.
+              </p><p>
+                For SAS 1, the research reports should be uploaded until June 7th
+                2018. Research report defence will take place on June 13th 2018, in
+                PR706, from 9:00.
               </p>
-              <p>
-                Research report defence will take place on the following dates:
-              </p>
-              <ul>
-                <li>February 7th, 9:00 AM for SRIC2</li>
-                <li>February 8th, 9:00 AM for SRIC1</li>
-              </ul>
-              <p> Research report defence will take place on the following dates: </p>
-              <ul>
-                <li> February 7th, 9:00 AM for SRIC 2 <a href='https://docs.google.com/forms/d/e/1FAIpQLSfeltSObLsd9Iw7vzoB4VLUjlBzRqUNuFM2luz_gzCxuuegjg/viewform'> <Button> Register</Button> </a> </li>
-                <li> February 8th, 9:00 AM for SRIC 1 <a href='https://docs.google.com/forms/d/e/1FAIpQLSfeltSObLsd9Iw7vzoB4VLUjlBzRqUNuFM2luz_gzCxuuegjg/viewform'> <Button> Register</Button> </a> </li>
-              </ul>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSePOIhrt_A06ZOyNX0xnT_2_v0JGdPFiCn6wOWn3XHng-zUGQ/viewform'>
+                <Button> Register here </Button>
+              </a>
             </ListBox>
           </Lists>
         </Container>

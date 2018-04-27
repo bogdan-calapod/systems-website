@@ -55,6 +55,10 @@ const Lists = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  p {
+    max-width: 400px;
+  }
 `
 
 class Master extends Component {
@@ -85,19 +89,16 @@ class Master extends Component {
               <p>
                 For SRIC 1, the research reports should be uploaded until June 9th
                 2018.
-              </p><p>
                 Research report defence will take place on June 14th 2018, in
                 PR706, from 9:00.
               </p><p>
                 For SRIC 2, the research reports should be uploaded until June 2nd
                 2018.
-              </p><p>
                 Research report defence will take place on June 7th 2018, in
                 PR706, from 9:00.
               </p><p>
                 For SAS 1, the research reports should be uploaded until June 7th
                 2018.
-              </p><p>
                 Research report defence will take place on June 13th 2018, in
                 PR706, from 9:00.
               </p>

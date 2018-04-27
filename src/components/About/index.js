@@ -43,11 +43,11 @@ const SplitContainer = styled.div`
 const Announcement = styled.div`
   max-width: 500px;
   margin: 0 auto;
-  
-  h2 {
-    margin: 0;
-    padding: 0;
-  }
+`
+
+const Title = styled.div`
+  margin: 0;
+  padding: 0;
 `
 
 const Para = styled.p`
@@ -59,7 +59,7 @@ class About extends Component {
     return (
       <Container>
         <Announcement>
-          <h2> SCSS Announement </h2>
+          <Title> SCSS Announement </Title>
           <p>
             The Student Scientific Projects Session, section Software Systems and
             Network Services will take place on May 11th, from 9:00, in EG302 and EG202.

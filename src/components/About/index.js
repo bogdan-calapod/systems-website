@@ -5,6 +5,7 @@
 import React, { Component } from 'react'
 
 import SectionTitle from 'components/Common/SectionTitle'
+import Button from 'components/Common/Button'
 
 import Icons from 'components/Common/Header/components/Title/Icons'
 
@@ -40,13 +41,26 @@ const SplitContainer = styled.div`
 `
 
 const Para = styled.p`
-  font-style: ${props => props.italic ? 'italic' : 'normal'};
+  font-style: ${props => (props.italic ? 'italic' : 'normal')};
 `
 
 class About extends Component {
   render () {
     return (
       <Container>
+        <h2> SCSS Announement </h2>
+        <p>
+          The Student Scientific Projects Session, section Software Systems and
+          Network Services will take place on May 11th, from 9:00, in EG302 and EG202.
+        </p>
+        <p>
+          The students need to write a scientific paper of 4-6 pages and give a
+          presentation of 5 minutes.
+        </p>
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLScWctkdKI8PtcPDfQ6UYtPa9oyt1SyyXVqIggfoBoWpFTq7Wg/viewform'>
+          <Button> Register here </Button>
+        </a>
+
         <SectionTitle> About </SectionTitle>
         <SplitContainer>
           <Para>

@@ -78,7 +78,6 @@ class Master extends Component {
           </p>
           <p>
             Delve in-depth in the upcoming information infrastructures, and learn to tame the wildest networks. Prepare to confront attacks with dedicated techniques and equipment. Get a better grip on mobile systems, and secure the biggest and the smallest devices. Find your path in the research community of applied and fundamental ICT scholars, and join dedicated mentors and instructors in R&D projects of your choice.
-            {' '}
           </p>
           <Lists>
             <ListBox title='Courses' type='course' data={courses} />

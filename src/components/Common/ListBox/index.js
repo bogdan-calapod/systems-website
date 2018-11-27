@@ -28,7 +28,8 @@ const Container = styled.div`
   padding: 10px;
   box-sizing: border-box;
   margin: 0 30px 30px 30px;
-
+  max-height: 600px;
+  padding-right: 10px;
   
   @media screen and (max-width: 900px) {
     width: 300px;
@@ -75,7 +76,7 @@ const Filter = styled.input`
 `
 
 class ListBox extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
@@ -83,7 +84,7 @@ class ListBox extends Component {
     }
   }
 
-  getComponent () {
+  getComponent() {
     switch (this.props.type) {
       case 'course':
         return CourseBox
@@ -96,7 +97,7 @@ class ListBox extends Component {
     }
   }
 
-  get filter () {
+  get filter() {
     let { showFilter } = this.props
 
     if (showFilter) {
@@ -108,9 +109,9 @@ class ListBox extends Component {
     }
   }
 
-  get content () {
-    let {data} = this.props
-    let {textFilter} = this.state
+  get content() {
+    let { data } = this.props
+    let { textFilter } = this.state
 
     if (data.length === 0) {
       return null
@@ -119,18 +120,19 @@ class ListBox extends Component {
     let Component = this.getComponent()
 
     return data
-    .filter(x => JSON.stringify(x).toLowerCase().includes(textFilter))
-    .filter(x => x.name !== 'BLANK')
-    .map(
-      (x, i) => <Component noModal data={x} key={i} />
-    )
+      .filter(x => JSON.stringify(x).toLowerCase().includes(textFilter))
+      .filter(x => x.name !== 'BLANK')
+      .map(
+        (x, i) => <Component noModal data={x} key={i} />
+      )
   }
 
-  changeFilter = e => this.setState({...this.state,
+  changeFilter = e => this.setState({
+    ...this.state,
     textFilter: e.currentTarget.value.toLowerCase()
   })
 
-  render () {
+  render() {
     return (
       <Container {...this.props}>
         <SectionTitle left> {this.props.title} </SectionTitle>

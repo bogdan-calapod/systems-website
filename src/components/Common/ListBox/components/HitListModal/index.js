@@ -18,24 +18,24 @@ const propTypes = {
 const defaultProps = {
   visible: false,
   announcements: [],
-  onClose: _ => {},
+  onClose: _ => { },
   data: []
 }
 
-function unique (list) {
+function unique(list) {
   return list.filter((x, i) => list.indexOf(x) === i)
 }
 
 class HitListModal extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
-      year: '2018'
+      year: '2019'
     }
   }
 
-  componentDidMount () {
+  componentDidMount() {
     let years = this.years
 
     years.forEach(year => {
@@ -47,7 +47,7 @@ class HitListModal extends Component {
 
   setYear = year => this.setState({ ...this.state, year: year.toString() })
 
-  get data () {
+  get data() {
     const { year } = this.state
     const { data } = this.props
     const prevYear = parseInt(year, 10) - 1
@@ -61,7 +61,7 @@ class HitListModal extends Component {
     )
   }
 
-  get years () {
+  get years() {
     let { data } = this.props
     let years = data.map(x => x.date).map(x => x.split('.')[2])
     let extraYears = data
@@ -74,7 +74,7 @@ class HitListModal extends Component {
     return unique([...years, ...extraYears]).sort().reverse()
   }
 
-  get tables () {
+  get tables() {
     let values = ['Midterm', 'Lab', 'Lecture', 'Final', 'Community', 'Extra']
     let tables = {}
     let data = this.data
@@ -88,7 +88,7 @@ class HitListModal extends Component {
     })
   }
 
-  get modalSize () {
+  get modalSize() {
     if (window.innerWidth < 900) {
       return {
         width: 250,
@@ -101,7 +101,7 @@ class HitListModal extends Component {
     }
   }
 
-  render () {
+  render() {
     let selectedYear = this.state.year
     let { visible, onClose, abbreviation, announcements } = this.props
 

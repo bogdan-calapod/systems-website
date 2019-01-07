@@ -96,7 +96,7 @@ class Master extends Component {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSePOIhrt_A06ZOyNX0xnT_2_v0JGdPFiCn6wOWn3XHng-zUGQ/viewform">
                 <Button>Register your presentation here</Button>
               </a>
-              <p>All research reports should be sumbited by Februrary 4th.</p>
+              <p>All research reports should be sumbited by Februrary 3th, 11pm.</p>
               <p>Research report defence will take place: </p>
               <ul>
                 <li>SAS1: Februrary 6th, 9:00, PR705</li>

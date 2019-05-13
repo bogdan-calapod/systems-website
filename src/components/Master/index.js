@@ -96,13 +96,13 @@ class Master extends Component {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSePOIhrt_A06ZOyNX0xnT_2_v0JGdPFiCn6wOWn3XHng-zUGQ/viewform">
                 <Button>Register your presentation here</Button>
               </a>
-              <p>All research reports should be sumbited by Februrary 3th, 11pm.</p>
+              <p>All research reports should be sumbited by June 4th, 11pm.</p>
               <p>Research report defence will take place: </p>
               <ul>
-                <li>SAS1: Februrary 6th, 9:00, PR705</li>
-                <li>SAS2: Februrary 7th, 9:00, PR705</li>
-                <li>SRIC1: Februrary 6th, 9:00, PR706 </li>
-                <li>SRIC2: Februrary 7th, 9:00, PR706</li>
+                <li>SAS1: June 13th, 9:00, PR705</li>
+                <li>SAS2: June 6th, 9:00, PR705</li>
+                <li>SRIC1: June 13th, 9:00, PR706 </li>
+                <li>SRIC2: June 6th, 9:00, PR703</li>
               </ul>
             </ListBox>
           </Lists>

@@ -1,7 +1,7 @@
 image: node:8
 
 before_script:
-  - 'which ssh-agent || (apt-get update -y && apt-get install openssh-client -y)'
+  - "which ssh-agent || (apt-get update -y && apt-get install openssh-client -y)"
   #- eval $(ssh-agent -s)
   #- ssh-add <(echo "$SSH_PRIVATE_KEY")
   #- ssh-add <(echo "$SSH_PUBLIC_KEY")
@@ -14,11 +14,8 @@ before_script:
   - rm -rf node_modules
   - npm install
 
-jest_react_tests:
+deploy:
   script:
     - npm run test
-  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
-
-after_script:
-  - npm run build
-  - scp -r build/* bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/
+    - npm run build
+    - scp -r build/* bogdan.calapod@systems.cs.pub.ro:/var/www/systems.cs.pub.ro/www/

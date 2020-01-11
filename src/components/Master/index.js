@@ -2,29 +2,29 @@
  * Bachelor page presentational component
  */
 
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react"
+import PropTypes from "prop-types"
 
-import Header from "components/Common/Header";
-import People from "components/People";
-import SectionTitle from "components/Common/SectionTitle";
-import ListBox from "components/Common/ListBox";
-import Button from "components/Common/Button";
+import Header from "components/Common/Header"
+import People from "components/People"
+import SectionTitle from "components/Common/SectionTitle"
+import ListBox from "components/Common/ListBox"
+import Button from "components/Common/Button"
 
-import sric from "./sric.svg";
-import styled from "styled-components";
+import sric from "./sric.svg"
+import styled from "styled-components"
 
 const propTypes = {
   projects: PropTypes.array,
   courses: PropTypes.array,
   people: PropTypes.array
-};
+}
 
 const defaultProps = {
   projects: [],
   courses: [],
   people: []
-};
+}
 
 const Container = styled.div`
   background-color: white;
@@ -49,7 +49,7 @@ const Container = styled.div`
       height: 50px;
     }
   }
-`;
+`
 
 const Lists = styled.div`
   display: flex;
@@ -59,11 +59,11 @@ const Lists = styled.div`
   p {
     max-width: 400px;
   }
-`;
+`
 
 class Master extends Component {
   render() {
-    let { projects, courses, people } = this.props;
+    let { projects, courses, people } = this.props
 
     return (
       <div>
@@ -96,24 +96,24 @@ class Master extends Component {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSePOIhrt_A06ZOyNX0xnT_2_v0JGdPFiCn6wOWn3XHng-zUGQ/viewform">
                 <Button>Register your presentation here</Button>
               </a>
-              <p>All research reports should be sumbited by June 4th, 11pm.</p>
+              <p>All research reports should be submitted by January 28th 2020, 11pm.</p>
               <p>Research report defence will take place: </p>
               <ul>
-                <li>SAS1: June 13th, 9:00, PR705</li>
-                <li>SAS2: June 6th, 9:00, PR705</li>
-                <li>SRIC1: June 13th, 9:00, PR706 </li>
-                <li>SRIC2: June 6th, 9:00, PR703</li>
+                <li>SAS1: February 6th, 9:00, PR706</li>
+                <li>SAS2: February 7th, 9:00, PR706</li>
+                <li>SRIC1: January 30th, 9:00, PR706 </li>
+                <li>SRIC2: February 1st, 9:00, PR706</li>
               </ul>
             </ListBox>
           </Lists>
         </Container>
         <People data={people} />
       </div>
-    );
+    )
   }
 }
 
-Master.propTypes = propTypes;
-Master.defaultProps = defaultProps;
+Master.propTypes = propTypes
+Master.defaultProps = defaultProps
 
-export default Master;
+export default Master

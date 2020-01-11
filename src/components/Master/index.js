@@ -99,9 +99,9 @@ class Master extends Component {
               <p>All research reports should be submitted by January 28th 2020, 11pm.</p>
               <p>Research report defence will take place: </p>
               <ul>
-                <li>SAS1: February 6th, 9:00, PR706</li>
-                <li>SAS2: February 7th, 9:00, PR706</li>
-                <li>SRIC1: January 30th, 9:00, PR706 </li>
+                <li>SAS1: February 6th, 9:00, PR703</li>
+                <li>SAS2: February 5th, 10:00, PR703</li>
+                <li>SRIC1: January 30th, 9:00, PR706</li>
                 <li>SRIC2: February 1st, 9:00, PR706</li>
               </ul>
             </ListBox>

@@ -100,8 +100,8 @@ class Master extends Component {
               <ul>
                 <li>SAS1: June 11th, 9:00</li>
                 <li>SAS2: June 4th, 9:00</li>
-                <li>SRIC1: June 9th, 9:00</li>
-                <li>SRIC2: June 2nd, 9:00</li>
+                <li>SRIC1: September 3rd, 9:00</li>
+                <li>SRIC2: September 3rd, 9:00</li>
               </ul>
             </ListBox>
           </Lists>

@@ -92,20 +92,13 @@ class Master extends Component {
           <Lists>
             <ListBox title="Courses" type="course" data={courses} />
             <ListBox title="Projects" type="project" data={projects} showFilter>
-            Research reports should be uploaded on curs.upb.ro no later than February 1st, 23:00.
+            <p>Research reports should be uploaded on curs.upb.ro no later than February 1st, 23:00.</p>
 
-              Research presentation will take place on February 18th, 9:00, for SRIC1 and SAS1, and on February 19th, 9:00, for SRIC2 and SAS2.
+              <p>Research presentation will take place on February 18th, 9:00, for SRIC1 and SAS1, and on February 19th, 9:00, for SRIC2 and SAS2.</p>
               
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSePOIhrt_A06ZOyNX0xnT_2_v0JGdPFiCn6wOWn3XHng-zUGQ/viewform">
                 <Button>Register your presentation here</Button>
               </a>
-              // <p>Research report exams will take place: </p>
-              // <ul>
-              //   <li>SAS1: June 11th, 9:00</li>
-              //   <li>SAS2: June 4th, 9:00</li>
-              //   <li>SRIC1: September 3rd, 9:00</li>
-              //   <li>SRIC2: September 3rd, 9:00</li>
-              // </ul>
             </ListBox>
           </Lists>
         </Container>

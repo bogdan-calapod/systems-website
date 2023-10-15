@@ -15,14 +15,14 @@ import Master from "routes/Master";
 import PhD from "routes/PhD";
 
 let theme = {
-  primary: "#F7931E"
+  primary: "#F7931E",
 };
 
 class MainRouter extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/people" component={People} />
             <Route path="/bachelor" component={Bachelor} />

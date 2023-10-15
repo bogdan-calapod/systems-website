@@ -12,13 +12,13 @@ import Button from "components/Common/Button";
 import HitListModal from "../HitListModal";
 
 const propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 const Row = styled.div`
   display: flex;
   align-items: flex-start;
-  justify-content: ${props => (props.left ? "flex-start" : "space-between")};
+  justify-content: ${(props) => (props.left ? "flex-start" : "space-between")};
 
   @media screen and (max-width: 900px) {
     flex-direction: column;
@@ -40,7 +40,7 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-width: ${props => (props.main ? "500px" : "none")};
+  max-width: ${(props) => (props.main ? "500px" : "none")};
   background-color: white;
   margin: 10px 0;
 `;
@@ -67,12 +67,13 @@ class CourseBox extends Component {
     super(props);
 
     this.state = {
-      modalOpen: false
+      modalOpen: false,
     };
   }
 
   componentDidMount() {
-    let cleanedName = "/" + this.props.data.abbreviation.toLowerCase();
+    let cleanedName =
+      `${process.env.BASE_URL}/` + this.props.data.abbreviation.toLowerCase();
 
     console.log(cleanedName);
 
@@ -81,7 +82,7 @@ class CourseBox extends Component {
     }
   }
 
-  toggleModal = _ => {
+  toggleModal = (_) => {
     this.setState({ modalOpen: !this.state.modalOpen });
   };
 
@@ -92,7 +93,7 @@ class CourseBox extends Component {
       buttons.push(
         <a href={this.props.data.presentation} key={0}>
           <Button>Course</Button>
-        </a>
+        </a>,
       );
     }
 
@@ -100,7 +101,7 @@ class CourseBox extends Component {
       buttons.push(
         <div onClick={this.toggleModal}>
           <Button key={1}>Best students</Button>
-        </div>
+        </div>,
       );
     }
 
@@ -108,13 +109,8 @@ class CourseBox extends Component {
   }
 
   render() {
-    let {
-      name,
-      description,
-      abbreviation,
-      announcements,
-      hitlist
-    } = this.props.data;
+    let { name, description, abbreviation, announcements, hitlist } =
+      this.props.data;
     let { modalOpen } = this.state;
 
     return (

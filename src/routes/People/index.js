@@ -2,35 +2,36 @@
  * People Routing Component
  */
 
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import Header from 'components/Common/Header'
-import People from 'components/People'
+import Header from "components/Common/Header";
+import People from "components/People";
 
-import request from 'axios'
+import request from "axios";
 
 class PeopleRoute extends Component {
-  constructor (props) {
-    super(props)
+  constructor(props) {
+    super(props);
 
     this.state = {
-      people: []
-    }
+      people: [],
+    };
   }
 
-  componentWillMount () {
-    request.get('/api/people/')
-      .then(x => this.setState({...this.state, people: x.data}))
+  componentWillMount() {
+    request
+      .get(`${process.env.PUBLIC_URL}/api/people.json`)
+      .then((x) => this.setState({ ...this.state, people: x.data }));
   }
 
-  render () {
+  render() {
     return (
       <div>
         <Header small />
         <People data={this.state.people} />
       </div>
-    )
+    );
   }
 }
 
-export default PeopleRoute
+export default PeopleRoute;

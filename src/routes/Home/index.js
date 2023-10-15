@@ -2,30 +2,31 @@
  * Home Routing Component
  */
 
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import Header from 'components/Common/Header'
-import About from 'components/About'
-import People from 'components/People'
-import Contact from 'components/Contact'
+import Header from "components/Common/Header";
+import About from "components/About";
+import People from "components/People";
+import Contact from "components/Contact";
 
-import request from 'axios'
+import request from "axios";
 
 class Home extends Component {
-  constructor (props) {
-    super(props)
+  constructor(props) {
+    super(props);
 
     this.state = {
-      people: []
-    }
+      people: [],
+    };
   }
 
-  componentWillMount () {
-    request.get('/api/people/')
-      .then(x => this.setState({...this.state, people: x.data}))
+  componentWillMount() {
+    request
+      .get(`${process.env.PUBLIC_URL}/api/people.json`)
+      .then((x) => this.setState({ ...this.state, people: x.data }));
   }
 
-  render () {
+  render() {
     return (
       <div>
         <Header />
@@ -33,8 +34,8 @@ class Home extends Component {
         <People data={this.state.people} />
         <Contact />
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;

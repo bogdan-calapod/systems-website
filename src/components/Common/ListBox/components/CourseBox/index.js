@@ -72,8 +72,7 @@ class CourseBox extends Component {
   }
 
   componentDidMount() {
-    let cleanedName =
-      `${process.env.BASE_URL}/` + this.props.data.abbreviation.toLowerCase();
+    let cleanedName = "/" + this.props.data.abbreviation.toLowerCase();
 
     console.log(cleanedName);
 
@@ -117,7 +116,11 @@ class CourseBox extends Component {
       <Column main>
         <Row left>
           <Logo
-            src={"/courses/" + abbreviation.toLowerCase() + ".svg"}
+            src={
+              `${process.env.PUBLIC_URL}/courses/` +
+              abbreviation.toLowerCase() +
+              ".svg"
+            }
             alt=""
           />
           <Column>

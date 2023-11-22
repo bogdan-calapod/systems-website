@@ -24,8 +24,10 @@ jobs:
         run: yarn && yarn build
           
       - name: build rust
+        working-directory: ./rust-project
         run: cargo build --verbose
       - name: run rust
+        working-directory: ./rust-project
         env: 
           ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
         run: cargo run --verbose

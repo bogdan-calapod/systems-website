@@ -33,8 +33,8 @@
   },
   {
     "": "",
-    "description": "Areas of interest: Numerical analysis, Functional programming, Circuit design",
-    "email": "stefan_dan.ciocirlan@upb.ro",
+    "description": "",
+    "email": "stefandan.ciocirlan@gmail.com",
     "facebook": "",
     "linkedin": "",
     "name": "Ștefan-Dan Ciocîrlan",
@@ -43,7 +43,7 @@
     "paper3": "Agrigoroaie, R., Ciocirlan, S. D., & Tapus, A. (2019). In the Wild HRI Scenario : Influence ofRegulatory Focus Theory. Frontiers in Robotics and AI",
     "paper4": "",
     "paper5": "",
-    "photo": "https://drive.google.com/file/d/1yGMQW1dKprHub4FQmXldb75-XOh36ZdK/view?usp=sharing",
+    "photo": "https://drive.google.com/open?id=1yGMQW1dKprHub4FQmXldb75-XOh36ZdK",
     "position": "Teaching Assistant, PhD Candidate",
     "teaching": "Computer Networks, Computer Architecture, Signal Processing"
   },
@@ -219,9 +219,9 @@
     "paper3": "B. Hess, F. von Reischach, and L. Gheorghe, “Establishing Trust in Industrial WSN”, User-Centred Trust in Interactive Systems, Workshop at 7th Nordic Conference on Human-Computer Interaction (NordiCHI), 2012, pp. 1\u0015-4.",
     "paper4": "M. Wehner, S. Zeisberg, N. Oualha, A. Olivereau, M. Ludwig, D. Tudose, L. Gheorghe, E. Slusanschi, B. Hess, F. von Reischach, and D. Bateman, “Challenges and Current Results of the TWISNet FP7 Project,” in Trust, Privacy and Security in Digital Business, vol. 7449, S. Fischer-Hübner, S. Katsikas, and G. Quirchmayr, Eds. Springer Berlin / Heidelberg, 2012, pp. 232–233.",
     "paper5": "L. Gheorghe, D. Tudose, M. Wehner, and S. Zeisberg, “Securing Virtual Networks for Multi-Owner Wireless Sensor Networks”, International Workshop on Secure Internet of Things, in the 4th International Conference on Intelligent Networking and Collaborative Systems, 2012, pp. 630-635.",
-    "photo": "https://drive.google.com/file/d/1tPhvfYiO8ZCNsDe48lJUnzPSjsN4mWzH",
+    "photo": "https://drive.google.com/open?id=0BxcQ9B8_KMTTWWowaHVLRTNSdDQ",
     "position": "Assistant Professor, PhD",
-    "teaching": "RL, SO, OSP, PL, SMD, SCR, SI"
+    "teaching": "RL, SO, OSP, PL, SMD, SCR"
   },
   {
     "": "",
@@ -286,22 +286,6 @@
     "photo": "https://drive.google.com/open?id=1s0r2vx-tNG2b510_YjK8E_lcVuAs-0ci",
     "position": "Teaching Assistant, PhD Candidate",
     "teaching": "USO, MPS, PL"
-  },
-  {
-    "": "",
-    "description": "Wireless networking, mobile computing, systems ",
-    "email": "dragos.niculescu@cs.pub.ro",
-    "facebook": "",
-    "linkedin": "",
-    "name": "Dragoș Niculescu",
-    "paper1": "https://wi-fi.cs.pub.ro/~dniculescu/cercetare ",
-    "paper2": "",
-    "paper3": "",
-    "paper4": "",
-    "paper5": "",
-    "photo": "https://drive.google.com/file/d/1BLLpM3zsUK6D6PK7LKBEIsmtCAYEUoJ6/view?usp=sharing",
-    "position": "",
-    "teaching": "IOCLA(2), EIM(C1), ISRM(SRIC)"
   },
   {
     "": "",
@@ -481,7 +465,7 @@
   },
   {
     "": "",
-    "description": "Areas of interest: Entrepreneurship, Medtech, Networking, UX&HCI, Marketing&Business",
+    "description": "Areas of interest: Entrepreneurship, Networking, UX, Marketing",
     "email": "oprea.fla.flavia@gmail.com",
     "facebook": "",
     "linkedin": "https://www.linkedin.com/in/flavia-oprea/",

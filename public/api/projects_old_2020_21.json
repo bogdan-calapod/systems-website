@@ -66,7 +66,7 @@
     "url": "https://docs.google.com/document/d/1zDsr6RVHzcEn6IHVtIk_B2s_y94o27igADopAa4H_M4/edit?usp=sharing"
   },
   {
-    "name": "Framework for AGL security estimation",
+    "name": "Framework for attack surface estimation",
     "teachers": "Alexandru Vaduva",
     "type": "master",
     "url": "https://docs.google.com/document/d/1GiArj-I80cvZOY6gMG-njvjEFnAnPwy_eO8WqGRHvJc/edit?usp=sharing"
@@ -78,10 +78,16 @@
     "url": "https://docs.google.com/document/d/1NltwV8qQIEx3i02ZxgdB0HFo11p-zLBBPsWycaEujO0/edit?usp=sharing"
   },
   {
+    "name": "Erori de reprezentare numerică în seturi de date",
+    "teachers": "Ștefan-Dan Ciocîrlan",
+    "type": "master",
+    "url": "https://docs.google.com/document/d/1lfAlPTDNudD0Q5lxHgW2LFgJCw1NXkzzByuPesyS8Cg/edit?usp=sharing"
+  },
+  {
     "name": "Eficientizarea sistemelor prin reprezentări numerice",
     "teachers": "Ștefan-Dan Ciocîrlan",
     "type": "master",
-    "url": "https://docs.google.com/document/d/1Rv-l9BiGjrkESPKc-tdR-Tf1ETTZr3uvNenu6N_Ia3c/edit?usp=sharing"
+    "url": "https://docs.google.com/document/d/1lfAlPTDNudD0Q5lxHgW2LFgJCw1NXkzzByuPesyS8Cg/edit?usp=sharing"
   },
   {
     "name": "Low cost autonomous RC vehicle",
@@ -90,7 +96,7 @@
     "url": "https://docs.google.com/document/d/1aCh4hQNhMbaPFLyTBlnPtWBqfT8PhhEw70VSRvKFcUc/edit?usp=sharing"
   },
   {
-    "name": "Central gateway solution for formula student vehicle",
+    "name": "Telematics solution for formula student vehicle",
     "teachers": "Alexandru Vaduva",
     "type": "master",
     "url": "https://docs.google.com/document/d/1wW39iay-n_YRNqu41NVWnrhq4FOJXPZ79MqQR2sEfNY/edit?usp=sharing"
@@ -138,34 +144,34 @@
     "url": "https://drive.google.com/open?id=18MfasHbakrLvu61mu1v5bqs2VC7QgSfZPi2LCWi8myE"
   },
   {
-    "name": "Games",
+    "name": "FITBIT: User Identification using biometric factors",
     "teachers": "Emilian Rădoi",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1RLIMcPqiSpPCmZJKL7U1lTTyX4napST8ptI5nO6bWA0/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1kzQwgcReDwR032aL2d_Dwntw5LS95xi4322EDfZo79o"
   },
   {
-    "name": "Card Store",
-    "teachers": "Emilian Rădoi",
+    "name": "FITBIT: Gesture app/clockface",
+    "teachers": "Laura Ruse",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/14EJugmTc-DE0N9xJx1bHl_CMof5IsZNwjFgZx-iXn0w/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1QtxkLWtzADHWdsIIZDhjNzZSDG-wSV1u-Z7XMgYYm9A"
   },
   {
-    "name": "City Itinerary",
+    "name": "FITBIT: Podcast recorder",
     "teachers": "Emilian Rădoi",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1Ibie6iGEVTxgcAohz3B7uSXAH1eDxMuzZgrCReCEu4Y/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=14SpOTjz-14f6UHTii8-do7ZIak5JT6q-00s5wY7IioI"
   },
   {
-    "name": "Design 2 Code",
-    "teachers": "Emilian Rădoi",
+    "name": "FITBIT: Watchface creator",
+    "teachers": "Laura Ruse",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/13VHWzQ6Fje8NoMfO9A58t0uKBOwChcEevP2dBUgcrCU/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=16aMASiQuFsNlfPSrfqTgWo36YsCLrxLbV2aEOv3VGws"
   },
   {
-    "name": "Live Streaming System",
+    "name": "FITBIT: IoT integration",
     "teachers": "Emilian Rădoi",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1De3ZQl3P11X9Pg-7y8qAiHDBEOQvGrg0fHS-mz8PxAg/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=18RZ-7yUcsgAO5dD-52nL2kust1p7jKJQj8IrEXnip9o"
   },
   {
     "name": "Wearable Air Quality Monitor",
@@ -192,28 +198,34 @@
     "url": "https://drive.google.com/open?id=1YX3XGmzE9kfpLfGTxC3QRZyjO102YcEJ7_G_NQpSvEw"
   },
   {
-    "name": "Aplicații pentru numerele unum",
+    "name": "ROS2 over Fedora on Rocket-Chip",
     "teachers": "Ștefan-Dan Ciocîrlan",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1rCUcGCaiYhKYNohefD2Tvmlfph7U3mQ2VJ_UK81z0DU/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1vofNGGOPbaEcLBvDuWXwzXeemTWO8D1vkaX2pCAK5Ps"
   },
   {
-    "name": "Framework for AGL security estimation",
-    "teachers": "Alexandru Vaduva",
+    "name": "Training lower-depth with different bit-size layers DNN from complex DNN",
+    "teachers": "Ștefan-Dan Ciocîrlan",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1GiArj-I80cvZOY6gMG-njvjEFnAnPwy_eO8WqGRHvJc/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1uUnpbNFeHtG3F4cyfpuT5NBi-ztbGShiYU7dXLQTTtI"
+  },
+  {
+    "name": "Posit module for RISC-V GCC",
+    "teachers": "Ștefan-Dan Ciocîrlan",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=17U2MM9aVoqrT7XLov3VCfjLCWbU3PVxacFZEsOtwY9s"
   },
   {
     "name": "Low cost autonomous RC vehicle",
     "teachers": "Alexandru Vaduva",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1aCh4hQNhMbaPFLyTBlnPtWBqfT8PhhEw70VSRvKFcUc/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1Vdo5t0OMytkmSqdYh63ZDSVejgtRX-zRPwzFvd1xJIU"
   },
   {
-    "name": "Central gateway solution for formula student vehicle",
+    "name": "Telematics solution for formula student vehicle",
     "teachers": "Alexandru Vaduva",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1wW39iay-n_YRNqu41NVWnrhq4FOJXPZ79MqQR2sEfNY/edit?usp=sharing"
+    "url": "https://drive.google.com/open?id=1Ob2rkjYNdUYdZUfFOCiIxnKcdTmWr2T-PapnpdxPgH0"
   },
   {
     "name": " Text Classification using Private Machine Learning",
@@ -238,6 +250,18 @@
     "teachers": "Cristi Trancă",
     "type": "bachelor",
     "url": "https://docs.google.com/document/d/1G9RnfZfBFH_Ckubh1bzF1mbkxF7rVNc-E2UnAdICU2Y"
+  },
+  {
+    "name": "D Language Client Libraries for Google APIs",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1mjN_Wi2jJM4uUfvfEkxUEcMGsyzy_9w_MeUld46xA_U"
+  },
+  {
+    "name": "DMD Compiler as a Library",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1303JeCQpQToj-Hdd-B7ubNM-htycmZR1YjULu3Z2C5c"
   },
   {
     "name": "Building a knowledge hub",
@@ -267,13 +291,25 @@
     "name": "VR and haptic learning platform for medical students",
     "teachers": "Flavia Oprea",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1WD3_GnRZEf9lCN3k1wnDxGQG-HI09rwRto_8KUjgjqY/edit?usp=sharing"
+    "url": "https://docs.google.com/document/d/1CMgaMYyS7CqrnyHhfujBo44djuEnVGomRqWTK6-bWTI/edit?usp=sharing"
   },
   {
-    "name": "Healthcare Applications - Your Idea",
+    "name": "MedReminders - medication management system",
     "teachers": "Flavia Oprea",
     "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1_hhGMSOPvEcl6mxkSb-cifSsPBeZaICH7ouADjedj7o/edit?usp=sharing"
+    "url": "https://docs.google.com/document/d/1i-AI7Y0ZR-VoSskBJxBWNj9rcTgCFugr-0UbK0RqDQA/edit?usp=sharing"
+  },
+  {
+    "name": "PADDY - Your Digital Prescription assistant",
+    "teachers": "Flavia Oprea",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/17W-sMv6mz3ZJk_W_kpm2MUfc5NwynxvWCwDvJvFLFBA/edit?usp=sharing"
+  },
+  {
+    "name": "Indoor crowd risk assesment",
+    "teachers": "Flavia Oprea",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1S5LppOEeZLJ0UrVpuYjFxTgt7SBd-EqpiO2Byq8Lt5k/edit?usp=sharing"
   },
   {
     "name": "Contextual Risk Scoring based on AI-Engine",
@@ -298,6 +334,12 @@
     "teachers": "Octavian Grigorescu",
     "type": "bachelor",
     "url": "https://docs.google.com/document/d/1muQLulx7ylkeYWOs4RRhDjs8OrEK14TXgHn_4vQOe7Y/edit?usp=sharing"
+  },
+  {
+    "name": "D Backend for Bison",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1nErSN1gaCMhp2aGjTzjW9pzjrOMkG58YFKFn6nkxgk8"
   },
   {
     "name": "Implementing SHA3-512 & DSA/RSA in FPGA",
@@ -336,6 +378,24 @@
     "url": "https://docs.google.com/document/d/1eZg3ucwMgammZXm0cahuK0qD51IfbUnS1nganr7vD7k/edit?usp=sharing"
   },
   {
+    "name": "Thales: Interlocking Simulator",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1z43Ts63aRHfrQ_LuPzGVrUfcArgCZw4FTGG0lSz2SVA"
+  },
+  {
+    "name": "Thales: Automate configuration of database models and classes",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1nCsnSmbAeJprp3Os7GIGSMg5l6t_VeJttqdrY11g6VE"
+  },
+  {
+    "name": "Thales: CAN Character Device Driver for QEMU",
+    "teachers": "Eduard Stăniloiu",
+    "type": "bachelor",
+    "url": "https://docs.google.com/document/d/1-8P5-jC98NJaB60E2qI5ZFBNrsSFHb4LOP411tXBs-U"
+  },
+  {
     "name": "Automated video scoring in Functional Movement Screen",
     "teachers": "Laurentiu Neagu, Razvan Rughinis",
     "type": "bachelor",
@@ -360,99 +420,15 @@
     "url": "https://docs.google.com/document/d/19Hdv4ivUtpigj2q2QnY1TH2rclYK8pvcaqc6L3aqjJk/edit?usp=sharing"
   },
   {
+    "name": "Securing the Airdocs System",
+    "teachers": "Laura Ruse",
+    "type": "master",
+    "url": "https://docs.google.com/document/d/1L2ep0G9ToG83_LcNBPjhqb7IXJE0D5Fc8g9Gx7LyiVI/edit?usp=sharing"
+  },
+  {
     "name": "Similarity in AirDocs System",
     "teachers": "Costin Carabaș, Dragoș Niculescu",
     "type": "master",
     "url": "https://docs.google.com/document/d/1GKSNxEXw56NcHzOZ7SZi10DkjZFV4oK_cWWmSSH3p3Q/edit?usp=sharing"
-  },
-  {
-    "name": "Personal Robotic Assistant for Home Healthcare",
-    "teachers": "Laura Ruse",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1lHEdHyC54Xze0OUQm4vOpoae9jolT26w8163CUyhoU4/edit?usp=sharing"
-  },
-  {
-    "name": "Smart Home IoT",
-    "teachers": "Laura Ruse",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1s5P-0a48MAx4Az84OPOg_gaQUMBDTZ0x82JBpISN22o/edit?usp=sharing"
-  },
-  {
-    "name": "Citizen Compass – Civic Engagement Advisor app",
-    "teachers": "Răzvan Rughiniș",
-    "type": "bachelor",
-    "url": "https://drive.google.com/file/d/1Z_XLyufHySYEfFmo4O6ENHiYqxTcPeG1/view?usp=sharing"
-  },
-  {
-    "name": "ODIN - Secure Online assessment and Demonstration INfrastructure",
-    "teachers": "Răzvan Rughiniș",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1OJPhNKGp8hayV84N9-dMLvFVm2OLE2ZLQkpr1E9Dnys/edit?usp=sharing"
-  },
-  {
-    "name": "Add D to OpenAPI client / server generator",
-    "teachers": "Eduard Stăniloiu",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1I4pLax5v8ejfvp7Buqejz0uK2UeEM-2mRtypk7Pvefo"
-  },
-  {
-    "name": "Improve fuzzing support for D",
-    "teachers": "Eduard Stăniloiu",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1e6SjxeAZ2XLw581_66XwDmnlI_jzaxb87Dvemo4BXeM"
-  },
-  {
-    "name": "Expand existing data structures support",
-    "teachers": "Eduard Stăniloiu",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1M2y3ISVeEXrPKSX9Byo4WnEkOQ2NXjMxBUwcFKvTA5I"
-  },
-  {
-    "name": "HoneyPot generator with SDN controllers and containers",
-    "teachers": "Ioan-Mihail Stan",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/13018POkCKRgnErFrGj-r6bJ61sbqIXUUtFI21VfRa48/edit?usp=sharing"
-  },
-  {
-    "name": "Blockchain in other industries",
-    "teachers": "Ioan-Mihail Stan",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1W1O7xtiTcdRTim8Qpkm7Ev15aIsF1AEoDpKbXls5ncg/edit?usp=sharing"
-  },
-  {
-    "name": "Optical communication camera/screen",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1nIGTbWywvMd59OkHdqXzdrkEwbgSVgdi/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=true"
-  },
-  {
-    "name": "Accelerometer and giroscope apps",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1VpQJb65VbDbYA1u1ijVVqQ1mImgKgRaF/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=true"
-  },
-  {
-    "name": "Buffer Bloat",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/19ZLXkVWUnrhN5iYA45aus6bZBLNEzJNX/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=true"
-  },
-  {
-    "name": "Indoor positioning with radio fingerprints",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1OtOY-UqZcpYX3HlvaZsWKHqPRI3Wh84F/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=truee"
-  },
-  {
-    "name": "SOCKSv6",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1vZOx3xvY7tZW8rErYxbz7vi3o1Fs0Ne6/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=true"
-  },
-  {
-    "name": "AirDocs ",
-    "teachers": "",
-    "type": "bachelor",
-    "url": "https://docs.google.com/document/d/1B-0cfcU1TTrLTV1gk1HBGE4iSmCz1R3e/edit?usp=sharing&ouid=101269674785643234702&rtpof=true&sd=true"
   }
 ]

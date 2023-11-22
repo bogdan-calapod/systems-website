@@ -21,3 +21,7 @@ yarn-debug.log*
 yarn-error.log*
 **/*desktop.ini
 **/*.zip
+
+# rust
+./rust-project/Cargo.lock
+./rust-project/target/

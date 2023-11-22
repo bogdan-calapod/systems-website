@@ -16,10 +16,20 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+      - name: setup rust tools
+        run: ./setup_rust_tools.sh
       - name: setup node
         uses: actions/setup-node@v3
       - name: build
         run: yarn && yarn build
+          
+      - name: build rust
+        run: cargo build --verbose
+      - name: run rust
+        env: 
+          ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
+        run: cargo run --verbose
+      
       - name: upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

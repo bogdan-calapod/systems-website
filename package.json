@@ -11,7 +11,8 @@
     "react-scripts": "1.0.14",
     "react-snapshot": "^1.2.0",
     "rodal": "^1.5.5",
-    "styled-components": "^2.2.0"
+    "styled-components": "^2.2.0",
+    "yarn": "^1.22.21"
   },
   "proxy": "http://localhost:9000",
   "scripts": {

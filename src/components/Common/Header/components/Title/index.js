@@ -13,12 +13,32 @@ const Container = styled.div`
   display: ${props => props.small ? 'none' : 'flex'};
   justify-content: center;
   align-items: center;
+  /* position: relative;
+  width: fit-content;
+  margin: auto; */
 `
+
+/*
+const BlurredOverlay = styled.div`
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(1px);
+`;
+*/
+
+
 const Text = styled.div`
   color: white;
+  z-index: 1;
 
   h1,
   h2 {
+    position: relative;
     margin: 0;
     text-align: right;
     font-size: 100px;

@@ -25,7 +25,6 @@ const Container = styled.div`
   background-size: cover;
   background-position: 80% 90%;
 `
-
 class Header extends Component {
   render () {
     return (

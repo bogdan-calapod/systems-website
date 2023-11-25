@@ -19,7 +19,7 @@ static FOLDER_MIME_TYPE: &str = "application/vnd.google-apps.folder";
 
 static FOLDER_ID2 : &str = "0BzIGYtKj20XuNFZMRlpNeUFsMjA";
 
-static PHOTOS_NAME: &str = "people";
+static PHOTOS_NAME: &str = "photos";
 
 #[derive(PartialEq)]
 #[allow(dead_code)]
@@ -188,7 +188,7 @@ async fn fetch_content(current_task: Task) -> Result<(), anyhow::Error>{
 
 #[tokio::main]
 async fn main() -> Result<(), anyhow::Error> {
-    fetch_content(Task::FetchFiles).await?;
+    fetch_content(Task::FetchAll).await?;
     Ok(())
 }
 

@@ -33,6 +33,7 @@ const ImageContainer = styled.div`
 
 const Container = styled.div`
   display: flex;
+  z-index: 1;
   flex-direction: ${props => props.large ? 'row' : 'column'};
   justify-content: ${props => props.large ? 'flex-start' : 'space-between'};
   flex-wrap: wrap;

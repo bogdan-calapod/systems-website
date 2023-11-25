@@ -10,6 +10,7 @@ import styled from "styled-components";
 
 import SectionTitle from "components/Common/SectionTitle";
 import Social from "../Social";
+import ProfileImage from "../"
 
 const propTypes = {
   modalOpen: PropTypes.bool,
@@ -106,7 +107,7 @@ class Modal extends Component {
         <SectionTitle left> {name} </SectionTitle>
         <Split>
           <Section>
-            {/* <img alt='' src={'/files/' + name + 'photo.jpg'} /> */}
+            <ProfileImage name={name} />
             <h2> {position} </h2>
             <Social data={this.props.data} />
           </Section>

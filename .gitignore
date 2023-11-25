@@ -26,3 +26,6 @@ yarn-error.log*
 rust-project/Cargo.lock
 rust-project/target/
 rust-project/debug/
+
+# output
+/public/api

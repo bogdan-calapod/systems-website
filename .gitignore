@@ -23,5 +23,6 @@ yarn-error.log*
 **/*.zip
 
 # rust
-./rust-project/Cargo.lock
-./rust-project/target/
+rust-project/Cargo.lock
+rust-project/target/
+rust-project/debug/

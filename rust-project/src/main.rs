@@ -33,9 +33,8 @@ enum Task{
 /// Get the authenticator token for the service account
 /// Necessary in order to establish the scope of the request
 async fn get_auth_token() -> Result<String, anyhow::Error>{
-    let env_var_name = "ACCOUNT_KEY";
+    let env_var_name = "SERVICE_ACCOUNT_PRIVATE_KEY";
     let key_string = env::var(env_var_name).map_err(|_err| anyhow::anyhow!(format!("Failed to fetch {env_var_name}")))?;
-    println!("{:?}", key_string);
     let service_account_key = parse_service_account_key(key_string)?;
 
     let authenticator = ServiceAccountAuthenticator::builder(service_account_key).build().await.expect("Failed to create authentication");

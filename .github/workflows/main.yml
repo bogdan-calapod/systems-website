@@ -29,7 +29,7 @@ jobs:
       - name: run rust
         working-directory: ./rust-project
         env: 
-          ACCOUNT_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
+          SERVICE_ACCOUNT_PRIVATE_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
         run: cargo run --verbose
       
       - name: upload artifact

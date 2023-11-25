@@ -35,8 +35,8 @@ enum Task{
 async fn get_auth_token() -> Result<String, anyhow::Error>{
     let env_var_name = "SERVICE_ACCOUNT_PRIVATE_KEY";
     let key_string = env::var(env_var_name).map_err(|_err| anyhow::anyhow!(format!("Failed to fetch {env_var_name}")))?;
-    let service_account_key = parse_service_account_key(&key_string)?;
     println!("{:?}", key_string);
+    let service_account_key = parse_service_account_key(&key_string)?;
 
     let authenticator = ServiceAccountAuthenticator::builder(service_account_key).build().await.expect("Failed to create authentication");
     let scopes = &["https://www.googleapis.com/auth/drive.readonly"];

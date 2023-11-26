@@ -20,9 +20,7 @@ jobs:
         run: ./setup_rust_tools.sh
       - name: setup node
         uses: actions/setup-node@v3
-      - name: build
-        run: yarn && yarn build
-          
+        
       - name: build rust
         working-directory: ./rust-project
         run: cargo build --verbose
@@ -32,6 +30,8 @@ jobs:
           SERVICE_ACCOUNT_PRIVATE_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
         run: cargo run --verbose
       
+      - name: build
+        run: yarn && yarn build
       - name: upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

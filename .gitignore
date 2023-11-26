@@ -28,4 +28,4 @@ rust-project/target/
 rust-project/debug/
 
 # output
-public/api
+# public/api

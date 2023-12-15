@@ -17,8 +17,6 @@ static FOLDER_ID: &str = "0BzIGYtKj20XuZjFOekxHUWE2WlE";
 static EXCEL_MIME_TYPE: &str = "application/vnd.google-apps.spreadsheet";
 static FOLDER_MIME_TYPE: &str = "application/vnd.google-apps.folder";
 
-static FOLDER_ID2 : &str = "0BzIGYtKj20XuNFZMRlpNeUFsMjA";
-
 static PHOTOS_NAME: &str = "photos";
 
 #[derive(PartialEq)]
@@ -26,7 +24,6 @@ static PHOTOS_NAME: &str = "photos";
 enum Task{
     FetchFiles,
     FetchPhotos,
-    FetchCurriculum,
     FetchAll
 }
 
@@ -170,17 +167,6 @@ async fn fetch_content(current_task: Task) -> Result<(), anyhow::Error>{
             }
         }
         println!("Succesfully fetched photos");
-    }
-
-    if current_task == Task::FetchCurriculum || current_task == Task::FetchAll {
-        let folder_content = list_files(&token, FOLDER_ID2).await?;
-        let file_id = folder_content["files"][0]["id"].as_str().unwrap();
-
-        let sric_curriculum = convert_content(&token, file_id).await?;
-        let mut file = File::create(format!("{result_dir_path}/sric_curriculum.json"))?;
-        file.write_all(sric_curriculum.to_string().as_bytes())?;
-
-        println!("Succesfully fetched curriculum");
     }
 
     Ok(())

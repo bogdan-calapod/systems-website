@@ -4,12 +4,23 @@
 
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 import {Link} from 'react-router-dom'
+// import Title from '../Title'
 
 import logo from './logo.svg'
 import facebook from './facebook.svg'
 import mail from './mail.svg'
+import notification from './notification.svg'
+
+const propTypes = {
+  toggleModal: PropTypes.func,
+};
+
+const defaultProps = {
+  toggleModal: (_) => {},
+};
 
 const Container = styled.div`
   width: 100%;
@@ -102,11 +113,15 @@ class Menu extends Component {
         <Link to='/'>
           <Logo src={logo} />
         </Link>
+        <div onClick={this.props.toggleModal}>
+          <Logo src={notification}/>
+        </div>
+
         <Separator />
         <LinkWrapper >
-          <Link to='/people'>
+          <a href='/people' rel='noopener noreferrer'>
             people
-          </Link>
+          </a>
         </LinkWrapper>
 
         <LinkWrapper >
@@ -141,5 +156,8 @@ class Menu extends Component {
     )
   }
 }
+
+Menu.propTypes = propTypes
+Menu.defaultProps = defaultProps
 
 export default Menu

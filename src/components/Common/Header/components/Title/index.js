@@ -31,7 +31,6 @@ const BlurredOverlay = styled.div`
 `;
 */
 
-
 const Text = styled.div`
   color: white;
   z-index: 1;

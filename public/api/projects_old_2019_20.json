@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Person Identification in Video",
+    "teachers": "Emilian Rădoi",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=12NO_fSkIDyVpoaD35YATJaj_T1vdaXmpzmJpeDHuqaY"
+  },
+  {
+    "name": "In-Browser Fingerprinting",
+    "teachers": "Răzvan Rughiniș",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1CpvwJD5NjIPCKQOk_x8GrU89zim16R52xHB8WwZsgQU"
+  },
+  {
+    "name": "In-Browser Security Scanner",
+    "teachers": "Răzvan Rughiniș",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1m1dJyu6OusVOXFZXz7WucIy5aG25PRcOZagA1kEUi68"
+  },
+  {
+    "name": "GPU Processing in-browser",
+    "teachers": "Răzvan Rughiniș",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1hS0x_2AQ0afOHCtO8XgLjYY10bVoXrjkEIOK6_Xr9LM"
+  },
+  {
+    "name": "Controlling Bluetooth devices from a webapp",
+    "teachers": "Daniel Rosner",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1MrDoAT165GX1ow1Y97riZvywqiMwCSovurWCCFIy4jk"
+  },
+  {
+    "name": "Monitoring device sensors without user knowledge",
+    "teachers": "Daniel Rosner",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1gh8pjLJPQbuNdlxgusEpsqS1MNmRaz9KG2GvTO8mh5w"
+  },
+  {
+    "name": "Indoor Localisation Practice",
+    "teachers": "Emilian Rădoi",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=12NO_fSkIDyVpoaD35YATJaj_T1vdaXmpzmJpeDHuqaY"
+  },
+  {
+    "name": "Performance Evaluation of the EZ Indoor Localisation Algorithm",
+    "teachers": "Emilian Rădoi",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1o_evmSlbkbHk5E3rcKvbgoUjS_nBorDaDPxY_EE5OT8"
+  },
+  {
+    "name": "Hardware Security",
+    "teachers": "Ciocîrlan Ștefan Dan",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1qPui-LOTHbtOYzao1tV6J5Z1ZUzwtckw"
+  },
+  {
+    "name": "AI-Engine for Contextual Risk Scoring",
+    "teachers": "Octavian Grigorescu",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=16rRTuL_OYgcAsLwQBORDivRTEaFhqX3kAYQGA2LwK-c"
+  },
+  {
+    "name": "Privacy and Security - Actual solutions for today’s challenges",
+    "teachers": "Iulia Florea",
+    "type": "master",
+    "url": "https://drive.google.com/open?id=1iZHJo_lGAr-hjv0_eE5WxpiOEPqNzT8cF9XmmN972C4"
+  },
+  {
+    "name": "Person Identification in Video",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1VITnRlESE6-MJjlvOTblr9DIRpUR-nppZ1IX2AkEHsU"
+  },
+  {
+    "name": "Indoor Localisation Practice",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=12NO_fSkIDyVpoaD35YATJaj_T1vdaXmpzmJpeDHuqaY"
+  },
+  {
+    "name": "Performance Evaluation of the EZ Indoor Localisation Algorithm",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1o_evmSlbkbHk5E3rcKvbgoUjS_nBorDaDPxY_EE5OT8"
+  },
+  {
+    "name": "FITBIT: Fitbit Live Events",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1pXqGZRVyYXz6ZyixmQROQVeS-xUjIsnXAgBy9yKCyT4"
+  },
+  {
+    "name": "FITBIT: Web-based Watchface Designer",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1uBeUezzpCV14dwxy6G3In8WmQAywfLEaprxmjQgLCm4"
+  },
+  {
+    "name": "FITBIT: Wearable Enabled Security Access (Smart Lock)",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1JMkipywqTprj-RPEu5kw0PFwiA1J3kTMbyzfV17CTdI"
+  },
+  {
+    "name": "FITBIT: Training Plan - Framework",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1OfOxdqsnL8eR52NzF4ioPAaPmqLuijgBoUsSLQWa5Kk"
+  },
+  {
+    "name": "FITBIT: Fall Detection",
+    "teachers": "Emilian Rădoi",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1zaFAqj0TGFDtJpnjkSIijoyjP7dzkQYYuh4F6GO1upQ"
+  },
+  {
+    "name": "Wearable Air Quality Monitor",
+    "teachers": "Dan Tudose",
+    "type": "bachelor",
+    "url": "https://docs.google.com/open?id=1zEVOCP-_NMXRPf9btCfqhISL1TXikqeLw0VG-f2Gb0w"
+  },
+  {
+    "name": "Platform for extracting insights on psihometric data",
+    "teachers": "Răzvan Rughiniș",
+    "type": "bachelor",
+    "url": "https://drive.google.com/open?id=1YX3XGmzE9kfpLfGTxC3QRZyjO102YcEJ7_G_NQpSvEw"
+  }
+]

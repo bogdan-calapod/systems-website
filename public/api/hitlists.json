@@ -1,0 +1,7662 @@
+[
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CC",
+    "id": "602",
+    "name": "Alexandru-Constantin BALA",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CC",
+    "id": "601",
+    "name": "Laurentiu Cristian URSU",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CC",
+    "id": "600",
+    "name": "Alexandru MICU",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CB",
+    "id": "599",
+    "name": "Raul Cristian VOINEA",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CB",
+    "id": "598",
+    "name": "Iulia-Silvia PLĂIAȘU",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CB",
+    "id": "597",
+    "name": "Vladislav TIFTILOV",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CB",
+    "id": "596",
+    "name": "Andrei GÎRNEŢ",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CA",
+    "id": "595",
+    "name": "Stefan-Darius IORDACHE",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CA",
+    "id": "594",
+    "name": "Cristian Ioan SIMACHE",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CA",
+    "id": "593",
+    "name": "Mihai-Daniel SOARE",
+    "oldpin": "",
+    "pin": "Course"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311AC",
+    "id": "592",
+    "name": "Bogdan SILVASAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312AC",
+    "id": "591",
+    "name": "Mihnea APOSTOLESCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CD",
+    "id": "590",
+    "name": "Ana-Maria GÂLIE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CD",
+    "id": "589",
+    "name": "Ștefana OBLESNIUC",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CD",
+    "id": "588",
+    "name": "Valentin GHITA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CD",
+    "id": "587",
+    "name": "Andreea VODITA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "315CD",
+    "id": "586",
+    "name": "Ștefania POPA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CC",
+    "id": "585",
+    "name": "Catalin-Alexandru RIPANU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "314CC",
+    "id": "584",
+    "name": "Cosmin-Alexandru AVRAMESCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "315CC",
+    "id": "583",
+    "name": "Codruț-Ștefan URSACHE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CB",
+    "id": "582",
+    "name": "Robert-Andrei PANDELE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CB",
+    "id": "581",
+    "name": "Radu-Andrei DUMITRU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CB",
+    "id": "580",
+    "name": "Daniel-Nicușor MUȘUROI",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CB",
+    "id": "579",
+    "name": "Vladut Stefan RICIU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CA",
+    "id": "578",
+    "name": "Alexia-Elena BĂLUȚĂ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "311CA",
+    "id": "577",
+    "name": "Mihnea TUDOR",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CA",
+    "id": "576",
+    "name": "Claudiu-Marian CHELCEA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "312CA",
+    "id": "575",
+    "name": "Cosmin-Mihai DAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CA",
+    "id": "574",
+    "name": "Bianca-Daniela BAIATU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "313CA",
+    "id": "573",
+    "name": "Marius-Alexandru MANOLACHE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "26.01.2021",
+    "group": "315CA",
+    "id": "572",
+    "name": "Gabriel-Nicolae PĂVĂLOIU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "313AC",
+    "id": "571",
+    "name": "Sebastian-Ion Nae",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "312CD",
+    "id": "570",
+    "name": "Cristian-George Crăciun",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "311CD",
+    "id": "569",
+    "name": "Ana-Maria Boldeanu",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "314CD",
+    "id": "568",
+    "name": "Alex-Andrei Cioc",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "311CC",
+    "id": "567",
+    "name": "David-Ștefan Borș",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "314CC",
+    "id": "566",
+    "name": "Andrei Niculae",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "313CB",
+    "id": "565",
+    "name": "Petre-Florin Stegăruș",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "312CB",
+    "id": "564",
+    "name": "Eduard-Florin Mihăilescu",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "313CA",
+    "id": "563",
+    "name": "Luca Serițan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "24.11.2020",
+    "group": "311CA",
+    "id": "562",
+    "name": "Cosmin-Andrei Moscalu",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2020",
+    "group": "313AC",
+    "id": "561",
+    "name": "Antache Marius-Sebastian",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2020",
+    "group": "314CC",
+    "id": "560",
+    "name": "Vîrtan Răzvan-Nicolae",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2020",
+    "group": "314CC",
+    "id": "559",
+    "name": "Bejan Alexandru-Gabriel",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2020",
+    "group": "312CC",
+    "id": "558",
+    "name": "Pană Ştefan",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2020",
+    "group": "312CC",
+    "id": "557",
+    "name": "Gheorghiu Adrian",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2020",
+    "group": "315CD",
+    "id": "556",
+    "name": "Smarandi Anastasia",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2020",
+    "group": "1230F",
+    "id": "555",
+    "name": "Ghindăoanu Diana",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2020",
+    "group": "315CD",
+    "id": "554",
+    "name": "Lovin Cosmin-Viorel",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2020",
+    "group": "313CD",
+    "id": "553",
+    "name": "Petrovan Raul",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "313AC",
+    "id": "552",
+    "name": "Ciuciu Maria-Ștefania",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "313CC",
+    "id": "551",
+    "name": "Dumitrescu Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "313CC",
+    "id": "550",
+    "name": "Arvat Ovidiu-Daniel",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "312CC",
+    "id": "549",
+    "name": "Motoi Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "311CB",
+    "id": "548",
+    "name": "Săceleanu  Andrei-Iulian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "312CB",
+    "id": "547",
+    "name": "Drăghici Vlad Matei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "314CB",
+    "id": "546",
+    "name": "Stanca Aurelian Rareș",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "315CB",
+    "id": "545",
+    "name": "Petre-Antica Eduard-Dominic",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "311CD",
+    "id": "544",
+    "name": "Neatu Horia",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "313CD",
+    "id": "543",
+    "name": "Cîrceanu Bogdan-Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "314CD",
+    "id": "542",
+    "name": "Marcu Vlad Vasile",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "315CD",
+    "id": "541",
+    "name": "Luță Iulia-Andreea",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "311AC",
+    "id": "540",
+    "name": "Văduva Lorena-Mihaela",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "314CB",
+    "id": "539",
+    "name": "Blaga Ana-Maria-Andreea",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "315CD",
+    "id": "538",
+    "name": "Ionescu Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "312CC",
+    "id": "537",
+    "name": "Țeugea Ioan-Teodor",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "315CC",
+    "id": "536",
+    "name": "Sin Costin-Robert",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "314AC",
+    "id": "535",
+    "name": "Roman Andrada Liliana",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "314AC",
+    "id": "534",
+    "name": "Machedon Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "311CA",
+    "id": "533",
+    "name": "Bud Liviu-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "312CA",
+    "id": "532",
+    "name": "Saraev Ștefan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "313CA",
+    "id": "531",
+    "name": "Pricop Marius-Răzvan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "10.12.2019",
+    "group": "315CA",
+    "id": "530",
+    "name": "Gherghescu Alexandru-Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2020",
+    "group": "313CA",
+    "id": "529",
+    "name": "Matei Barbu",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2020",
+    "group": "314CA",
+    "id": "528",
+    "name": "Minea Radu",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2020",
+    "group": "315CA",
+    "id": "527",
+    "name": "Barbu Mihai-Eugen",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2020",
+    "group": "313CA",
+    "id": "526",
+    "name": "Moșneag Maria",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2020",
+    "group": "313CA",
+    "id": "525",
+    "name": "Millio Radu",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "311CB",
+    "id": "524",
+    "name": "Toader George-Cătălin",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "312AC",
+    "id": "523",
+    "name": "David Călin",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "311CA",
+    "id": "522",
+    "name": "Preoteasa Mircea-Costin",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "312CA",
+    "id": "521",
+    "name": "Cristea Theodor-Ștefan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "313CA",
+    "id": "520",
+    "name": "David  Dimitrie",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "312CB",
+    "id": "519",
+    "name": "Mica Bogdan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "313CB",
+    "id": "518",
+    "name": "Mihalcea Laurențiu",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "314CB",
+    "id": "517",
+    "name": "Floarea George-Marian",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.11.2019",
+    "group": "313CD",
+    "id": "516",
+    "name": "Florea Andrei-Bogdan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311CD",
+    "id": "515",
+    "name": "VEIS E.Ș. Onur-Șener",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2019",
+    "group": "312CD",
+    "id": "514",
+    "name": "BUŞESCU Gh. Cătălin-Nicolae",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2019",
+    "group": "313CD",
+    "id": "513",
+    "name": "GRIGORE S.V. Ioana-Maria-Alexandra",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2019",
+    "group": "313CD",
+    "id": "512",
+    "name": "IFTIMIE Marius-Valentin",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CD",
+    "id": "511",
+    "name": "VARIA D. Liviu-Ștefăniță",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CD",
+    "id": "510",
+    "name": "COȚOVANU D.S. Cristian-Florin",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2019",
+    "group": "311CC",
+    "id": "509",
+    "name": "SOROHAN Ș. Şerban",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CC",
+    "id": "508",
+    "name": "NECȘOIU P. Robert-Emanoil",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "01.02.2019",
+    "group": "315CC",
+    "id": "507",
+    "name": "GHIBAN C. Costin",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CC",
+    "id": "506",
+    "name": "NICA T.M. Andreea",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312CB",
+    "id": "505",
+    "name": "CHIRU M. Cătălin-Mihail",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2019",
+    "group": "313CB",
+    "id": "504",
+    "name": "MĂNESCU E. Emilian-Claudiu",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "8.02.2019",
+    "group": "314CB",
+    "id": "503",
+    "name": "BUZĂ C.L. Alexandru-Marian",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CB",
+    "id": "502",
+    "name": "DUŢULESCU I. Andreea-Nicoleta",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313AC",
+    "id": "501",
+    "name": "PASCU Ș.A. Mihnea-Alexandru",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313AC",
+    "id": "500",
+    "name": "STOICA C. Andrei Toma",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312CA",
+    "id": "499",
+    "name": "PÎRVULEŢ D. Mihai-Dumitru",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CA",
+    "id": "498",
+    "name": "LUNGU E. Răzvan-Gheorghe",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CA",
+    "id": "497",
+    "name": "VÎLNOIU A.I. Radu-Andrei",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2019",
+    "group": "313AC",
+    "id": "496",
+    "name": "STANCIULESCU S.C. Andrei",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2019",
+    "group": "311AC",
+    "id": "495",
+    "name": "NEDELEA G. Maria-Lavinia",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2019",
+    "group": "315CA",
+    "id": "494",
+    "name": "VARGA M. Raimond-Tiberiu",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2019",
+    "group": "314CA",
+    "id": "493",
+    "name": "MANOLEA M. Dragoş-Gabriel",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312AC",
+    "id": "492",
+    "name": "CAPOTA S. Andrei",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CD",
+    "id": "491",
+    "name": "VELEA G. Alin-Ionuţ",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CC",
+    "id": "490",
+    "name": "OLARU M. Gabriel-Iulian",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CB",
+    "id": "489",
+    "name": "PATRAŞ A. Anton-Fabian",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CA",
+    "id": "488",
+    "name": "LIPIANU F.L. Florin-Ovidiu",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CA",
+    "id": "487",
+    "name": "ROINIȚĂ C.M. Lucian-Teodor",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312CA",
+    "id": "486",
+    "name": "BUTE A. Dragoş-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311CA",
+    "id": "485",
+    "name": "PREDA C. Andrei-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CA",
+    "id": "484",
+    "name": "CIOBANU B. Bogdan-Călin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CA",
+    "id": "483",
+    "name": "PAVEL B.Al. Radu-Bogdan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CA",
+    "id": "482",
+    "name": "MIHALCEA Adrian-Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CA",
+    "id": "481",
+    "name": "VANCEA A. Cosmin-Răzvan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CB",
+    "id": "480",
+    "name": "RAIȚ V.L. Alexandru Gabriel",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CB",
+    "id": "479",
+    "name": "ȘTIUCĂ D. Roxana-Elena",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CB",
+    "id": "478",
+    "name": "GHERMAN G.L. Maria Irina",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311CB",
+    "id": "477",
+    "name": "OPREA Gh. Andrei-Dorin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CC",
+    "id": "476",
+    "name": "DAVID C. Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CC",
+    "id": "475",
+    "name": "ARGINTARU M.G. Teodora-Elena",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312CC",
+    "id": "474",
+    "name": "TANASĂ A. Ioan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CC",
+    "id": "473",
+    "name": "MACADON R.A. Andrei-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311CC",
+    "id": "472",
+    "name": "CREȚAN P. Gheorghe-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "315CC",
+    "id": "471",
+    "name": "NEDELCU N. Ioana-Teodora",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311CD",
+    "id": "470",
+    "name": "BĂRUŢA V.D. Daniel Mihail",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "314CD",
+    "id": "469",
+    "name": "GRIGORE L. Lucian-Florin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313CD",
+    "id": "468",
+    "name": "ONOFREI V.G. Horia-Vlad",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "311AC",
+    "id": "467",
+    "name": "AMARIEI V. Grigore Flavian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "312AC",
+    "id": "466",
+    "name": "SOARE D. Ioana",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "18.01.2019",
+    "group": "313AC",
+    "id": "465",
+    "name": "ZORLESCU B.F. Vlad",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "315CA",
+    "id": "464",
+    "name": "Rîcă Radu",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "312CA",
+    "id": "463",
+    "name": "Ștefan Silviu-Alexandru",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "311CA",
+    "id": "462",
+    "name": "Niculescu Tudor Horia",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "312CA",
+    "id": "461",
+    "name": "Barbu Victor",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "313CB",
+    "id": "460",
+    "name": "Perete Rareș-Daniel",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "312CB",
+    "id": "459",
+    "name": "Ioniță Dragoș",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "312CB",
+    "id": "458",
+    "name": "Trișcă Ionuț",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "314CC",
+    "id": "457",
+    "name": "Pisică Alian-Georgian",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "315CC",
+    "id": "456",
+    "name": "Stoian Andrei",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "315CC",
+    "id": "455",
+    "name": "Ranja Ionuț",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "315CD",
+    "id": "454",
+    "name": "Lăzărescu Andrei",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "313CD",
+    "id": "453",
+    "name": "Carapcea Andrei-Antonio",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2018",
+    "group": "312CD",
+    "id": "452",
+    "name": "Melinte Paul Eduard",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Best Total Score",
+    "course": "USO",
+    "date": "02.02.2018",
+    "group": "312AC",
+    "id": "451",
+    "name": "Daniel DUMITRU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Final Quiz",
+    "course": "USO",
+    "date": "02.02.2018",
+    "group": "311AC",
+    "id": "450",
+    "name": "Hakan MEVA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Final Quiz",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "313CC",
+    "id": "449",
+    "name": "Cristian-Ioan CONDRUZ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Final Quiz",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "312CC",
+    "id": "448",
+    "name": "Andrei STRĂTILĂ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Total Score",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "312CC",
+    "id": "447",
+    "name": "Mihai-Alexandru BURCEA",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Hands-on ",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "311CC",
+    "id": "446",
+    "name": "Claudiu-Alexandru DIMA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "314CB",
+    "id": "445",
+    "name": "Radu-Andrei PIROȘCA",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "314CB",
+    "id": "444",
+    "name": "Vlad LEICA",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Total Score",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "311CB",
+    "id": "443",
+    "name": "Alex-Georgian VOICU",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Final Quiz",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "311CB",
+    "id": "442",
+    "name": "Andrei-Alexandru VLAD",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "313CC",
+    "id": "441",
+    "name": "Robert Andrei CARAGICU",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "311CC",
+    "id": "440",
+    "name": "Răzvan NEACŞU",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "03.02.2018",
+    "group": "311CC",
+    "id": "439",
+    "name": "Alexandru-Lucian DIMA",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "314CB",
+    "id": "438",
+    "name": "Sandu SÎRBU",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "312CB",
+    "id": "437",
+    "name": "Mihai-Cătălin PUŞCOCI",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "27.01.2018",
+    "group": "312CB",
+    "id": "436",
+    "name": "Mihai DRĂGHICI",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "311CD",
+    "id": "435",
+    "name": "PETRE Adrian-Antonio",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "313CD",
+    "id": "434",
+    "name": "PAVEL Marian-Alexandru",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "314CD",
+    "id": "433",
+    "name": "OLTEAN Andreea-Diana",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "315CD",
+    "id": "432",
+    "name": "UNGURU Dragoş-Gabriel",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "311CD",
+    "id": "431",
+    "name": "POPA Carmen-Gabriela",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "312CD",
+    "id": "430",
+    "name": "MAREŞ Cătălin-Constantin",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "314CD",
+    "id": "429",
+    "name": "ROTARU Leonard-Claudiu",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.01.2018",
+    "group": "315CD",
+    "id": "428",
+    "name": "NONEA Victor-Andrei",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2018",
+    "group": "314CA",
+    "id": "427",
+    "name": "Antonio-Dan MACOVEI ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2018",
+    "group": "311CA",
+    "id": "426",
+    "name": "Marius-Florinel TUDOSOIU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2018",
+    "group": "313CA",
+    "id": "425",
+    "name": "Adina SMEU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Best Hands-on",
+    "course": "USO",
+    "date": "21.01.2018",
+    "group": "314CA",
+    "id": "424",
+    "name": "Octavian-Alexandru GROSU",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "315CD",
+    "id": "423",
+    "name": "Alexandru-Călin DUMITRU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "315CD",
+    "id": "422",
+    "name": "Andrei-Cristian DEATCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CD",
+    "id": "421",
+    "name": "Ştefan VODIŢĂ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CD",
+    "id": "420",
+    "name": "Liviu Nicolae MORARU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "311CD",
+    "id": "419",
+    "name": "Valentin IONIŢĂ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CC",
+    "id": "418",
+    "name": "Vlad-Ioan COSTACHE ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "313CC",
+    "id": "417",
+    "name": "Ion BĂBĂLĂU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "312CC",
+    "id": "416",
+    "name": "Paul UNGUREANU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "311CC",
+    "id": "415",
+    "name": "Daniel ZGLIMBEA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CB",
+    "id": "414",
+    "name": "Iulius VASILESCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CB",
+    "id": "413",
+    "name": "Vlad LUNGU-STAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "313CB",
+    "id": "412",
+    "name": "Răzvan-Alexandru NICU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "312CB",
+    "id": "411",
+    "name": "Gabriel DATCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "311CB",
+    "id": "410",
+    "name": "Petre-Gabriel MOISE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "314CA",
+    "id": "409",
+    "name": "Cezar CRĂCIUNOIU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "313CA",
+    "id": "408",
+    "name": "Dennis-Mircea CIUPITU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "312CA",
+    "id": "407",
+    "name": "Sorina-Theodora ALDE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "19.01.2018",
+    "group": "311CA",
+    "id": "406",
+    "name": "Ionut EPURE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "#usolife rocks",
+    "course": "USO",
+    "date": "15.01.2018",
+    "group": "315CD",
+    "id": "405",
+    "name": "Daniel SAFTA",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "#usolife rocks",
+    "course": "USO",
+    "date": "15.01.2018",
+    "group": "311CD",
+    "id": "404",
+    "name": "Marius VINTILĂ",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "#usolife rocks",
+    "course": "USO",
+    "date": "15.01.2018",
+    "group": "312CA",
+    "id": "403",
+    "name": "Alin GEORGESCU",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "#usolife rocks",
+    "course": "USO",
+    "date": "15.01.2018",
+    "group": "312CA",
+    "id": "402",
+    "name": "Mihai VELICU",
+    "oldpin": "",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2017",
+    "group": "312CA",
+    "id": "401",
+    "name": "Matei SIMTINICA",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2017",
+    "group": "313CA",
+    "id": "400",
+    "name": "Alexandra PARASCHIV",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "11.12.2017",
+    "group": "311CA",
+    "id": "399",
+    "name": "Laurentiu OLTEANU",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "315CB",
+    "id": "398",
+    "name": "Andrei HORTOPAN ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "311CC",
+    "id": "397",
+    "name": "Adelin-Nicuşor BĂCANU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "311CA",
+    "id": "396",
+    "name": "Andrei SERIŢAN",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "313CA",
+    "id": "395",
+    "name": "Lucian-Cristian MANEA",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "314CD",
+    "id": "394",
+    "name": "Vlad-Alexandru SĂNDULEAC",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "312CC",
+    "id": "393",
+    "name": "Cristian-Mihai VIJELIE",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "314CC",
+    "id": "392",
+    "name": "Andrei SIMESCU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "312CD",
+    "id": "391",
+    "name": "Filip ȚEPEȘ-ONEA",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.11.2017",
+    "group": "313CC",
+    "id": "390",
+    "name": "Andrei Alin BĂLAȘA",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 313CA",
+    "id": "389",
+    "name": "Diana Grecu ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 313CA",
+    "id": "388",
+    "name": "Alin Roșca ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 312CA",
+    "id": "387",
+    "name": "Ebru RESUL ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 311CA",
+    "id": "386",
+    "name": "Gabriel MATEI ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 313CA",
+    "id": "385",
+    "name": "Horia DRAGOMIR ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 312CA",
+    "id": "384",
+    "name": "Andrei RADUTA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 312CA",
+    "id": "383",
+    "name": "Alexandru MIHAI ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 313CA",
+    "id": "382",
+    "name": "Bogdan POPA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 311CA",
+    "id": "381",
+    "name": "Mihnea SERBAN ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "23.01.2017",
+    "group": " 313CA",
+    "id": "380",
+    "name": "Cristian CRETEANU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 315CD",
+    "id": "379",
+    "name": "Bogdan TEACA ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 312CD",
+    "id": "378",
+    "name": "Tiberiu LEPADATU ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 312CD",
+    "id": "377",
+    "name": "Andrei ZAFIU ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 311CD",
+    "id": "376",
+    "name": "Adrian NITA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 313CD",
+    "id": "375",
+    "name": "Emanuel MURARU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 314CD",
+    "id": "374",
+    "name": "Philip DUMITRU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 312CD",
+    "id": "373",
+    "name": "Robert RADA ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 311CD",
+    "id": "372",
+    "name": "Horia ION ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "21.01.2017",
+    "group": " 311CD",
+    "id": "371",
+    "name": "George NEACSU ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 314CC",
+    "id": "370",
+    "name": "Rares FOLEA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 313CD",
+    "id": "369",
+    "name": "George DIACONU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 312CB",
+    "id": "368",
+    "name": "Catalin VAJAIALA-TOMICI ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 313CC",
+    "id": "367",
+    "name": "Iuliana BRINZOI ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 312CC",
+    "id": "366",
+    "name": "Bogdan DUMITRANA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 314CA",
+    "id": "365",
+    "name": "Ionuț MIHALACHE ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 311CC",
+    "id": "364",
+    "name": "Alexandru FAZAKAS ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 311CD",
+    "id": "363",
+    "name": "Valentin MOCANU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 314CB",
+    "id": "362",
+    "name": "Edwin GRIGORE ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 311CA",
+    "id": "361",
+    "name": "Luca ISTRATE ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 315CD",
+    "id": "360",
+    "name": "Andreia OCANOAIA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 312CD",
+    "id": "359",
+    "name": "Cosmin TUDOR ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 313CA",
+    "id": "358",
+    "name": "Alexandru LAZAR ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 311CB",
+    "id": "357",
+    "name": "Theo CHIHAIA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 312CA",
+    "id": "356",
+    "name": "Paul OLARU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "20.01.2017",
+    "group": " 313CB",
+    "id": "355",
+    "name": "Gabriel BOROGHINA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 316CC",
+    "id": "354",
+    "name": "Andreea SULUGIU ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 312CC",
+    "id": "353",
+    "name": "Victor DOCA ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 315CB",
+    "id": "352",
+    "name": "Robert SAMOILESCU ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 315CA",
+    "id": "351",
+    "name": "Darius NEATU ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 311CA",
+    "id": "350",
+    "name": "Silvia PRIPOAE ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 311CA",
+    "id": "349",
+    "name": "Tudor TUDORUȚ ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 313CC",
+    "id": "348",
+    "name": "Andrei CRIVIDENCO ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 314CC",
+    "id": "347",
+    "name": "Lucian PERJU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 316CB",
+    "id": "346",
+    "name": "George PIRTOACA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 315CB",
+    "id": "345",
+    "name": "Cristina IONESCU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 314CA",
+    "id": "344",
+    "name": "Vlad PANTEA ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.12.2014",
+    "group": " 313CA",
+    "id": "343",
+    "name": "Andrei STEFANESCU ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "02.02.2014",
+    "group": "",
+    "id": "342",
+    "name": "Mihaela TUDOR",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "02.02.2014",
+    "group": "",
+    "id": "341",
+    "name": "Călin CRUCERU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "02.02.2014",
+    "group": "",
+    "id": "340",
+    "name": "Mihai MASALA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "29.01.2014",
+    "group": "",
+    "id": "339",
+    "name": "Vlad POȘTOACĂ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Workshops",
+    "course": "USO",
+    "date": "29.01.2014",
+    "group": "",
+    "id": "338",
+    "name": "Mihai NAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Workshops",
+    "course": "USO",
+    "date": "29.01.2014",
+    "group": "",
+    "id": "337",
+    "name": "Paul-Cristian-Florian GHEORGHE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Fourth Assignment",
+    "course": "USO",
+    "date": "29.01.2014",
+    "group": "",
+    "id": "336",
+    "name": "Bogdan-Marian MUREŞEANU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Third Assignment",
+    "course": "USO",
+    "date": "29.01.2014",
+    "group": "",
+    "id": "335",
+    "name": "Iulian Razvan MATESICA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Greatest score [1CA]",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "334",
+    "name": "Cristi-Alexandru VASILE",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Final quiz [1CA]",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "333",
+    "name": "Alexandru ŞORODOC",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [1CA]",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "332",
+    "name": "Gabriel CRISTACHE",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "331",
+    "name": "Mihai Cătălin ARSENESCU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Workshops",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "330",
+    "name": "Denisa TROZNAY",
+    "oldpin": "Workshops",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Workshops",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "329",
+    "name": "Dennis – Adrian PLOSCEANU",
+    "oldpin": "Workshops",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Workshops",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "328",
+    "name": "Flavia OPREA",
+    "oldpin": "Workshops",
+    "pin": "Lab"
+  },
+  {
+    "comment": "First Assignment",
+    "course": "USO",
+    "date": "21.01.2014",
+    "group": "",
+    "id": "327",
+    "name": "Alexandru-Bogdan IARU",
+    "oldpin": "First Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Course activity [1CA]",
+    "course": "USO",
+    "date": "13.01.2014",
+    "group": "",
+    "id": "326",
+    "name": "Doru FILIP",
+    "oldpin": "Course activity [1CA]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "First Assignment",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "325",
+    "name": "Ştefan MANCIU",
+    "oldpin": "First Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on [1CC]",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "324",
+    "name": "Marius PETCU",
+    "oldpin": "Hands-on Exams Midterm [1CC]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on [1CA]",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "323",
+    "name": "Alin GHEORGHE",
+    "oldpin": "Hands-on Exams Midterm [1CA]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "322",
+    "name": "Vlad MUSCALU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "321",
+    "name": "Mihai BRĂNESCU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "320",
+    "name": "Codruț GROSU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "319",
+    "name": "Theodor SAVUSCAN",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "25.11.2013",
+    "group": "",
+    "id": "318",
+    "name": "Ştefan BUŞILĂ",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "317",
+    "name": "Tiberiu BARBU",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Lab  Author",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "316",
+    "name": "Mihai BĂRBULESCU",
+    "oldpin": "Lab Author",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "315",
+    "name": "Petre EFTIMIE",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Lab Review",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "314",
+    "name": "Adrian STRATULAT",
+    "oldpin": "Lab Reviewer",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "313",
+    "name": "Alex TOMESCU",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Lab Review",
+    "course": "USO",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "312",
+    "name": "Silvia STEGARU",
+    "oldpin": "Lab Review",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "311",
+    "name": "Ioana CULIC",
+    "oldpin": "Greatest score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "310",
+    "name": "Cosmin BOACĂ",
+    "oldpin": "Greatest score ",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "309",
+    "name": "Alexandru ORHEAN",
+    "oldpin": "Final Quiz",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on Exams",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "308",
+    "name": "Robert BÎNDAR",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on Exams",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "307",
+    "name": "Eugen STOICA",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "306",
+    "name": "Cosmin PETRIȘOR",
+    "oldpin": "Final Quiz",
+    "pin": "Final"
+  },
+  {
+    "comment": "Greatest score",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "305",
+    "name": "Alexandru ȚIFREA",
+    "oldpin": "Greatest score",
+    "pin": "Final"
+  },
+  {
+    "comment": "Workshop",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "304",
+    "name": "Ștefan MIREA",
+    "oldpin": "Workshop",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Workshop",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "303",
+    "name": "Robert ALEXE",
+    "oldpin": "Workshop",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "302",
+    "name": "Vlad Dumitrescu",
+    "oldpin": "Overall Activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "301",
+    "name": "Roxana CIOBANU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "300",
+    "name": "Cristian SOARE",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "299",
+    "name": "Cristian BUZĂ",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "298",
+    "name": "Diana DESPA",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "297",
+    "name": "Răzvan MATEI",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "296",
+    "name": "Constantin SOARE",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "295",
+    "name": "Mădălina HRISTACHE",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "294",
+    "name": "Bogdan MARIN",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "293",
+    "name": "Marius UNGUREANU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "292",
+    "name": "Andrei APRODU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "08.02.2013",
+    "group": "",
+    "id": "291",
+    "name": "Andrei ȚUICU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Fifth Assignment",
+    "course": "USO",
+    "date": "14.01.2013",
+    "group": "",
+    "id": "290",
+    "name": "Cristian-Alexandru MOCANU",
+    "oldpin": "Fifth Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Fourth Assignment",
+    "course": "USO",
+    "date": "14.01.2013",
+    "group": "",
+    "id": "289",
+    "name": "Dragos Andrei Calinescu",
+    "oldpin": "Fourth Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Third Assignment",
+    "course": "USO",
+    "date": "14.01.2013",
+    "group": "",
+    "id": "288",
+    "name": "Andrei-Dragoş MANEA",
+    "oldpin": "Third Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "14.01.2013",
+    "group": "",
+    "id": "287",
+    "name": "Adrian-Mihai IOSIF",
+    "oldpin": "Course activity",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "286",
+    "name": "Alexander Stöckel",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "285",
+    "name": "Georgiana-Diana Ciocîrdel",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "284",
+    "name": "Nicolae Cudlenco",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "283",
+    "name": "Andrei-Dorian Duma",
+    "oldpin": "Hands-on Exams",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "282",
+    "name": "Bogdan Calapod",
+    "oldpin": "Course activity",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Second Assignment",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "281",
+    "name": "Nicolae Bădescu",
+    "oldpin": "Second Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "First Assignment",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "280",
+    "name": "Andrei Costin Lică",
+    "oldpin": "First Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "279",
+    "name": "Andrei Vasiliu",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "USO",
+    "date": "17.12.2012",
+    "group": "",
+    "id": "278",
+    "name": "Tudor Vișan",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Infrastructure",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "277",
+    "name": "Alex Juncu",
+    "oldpin": "Lab Infrastructure",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "276",
+    "name": "Voichița Iancu",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Engine WoUSO",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "275",
+    "name": "Mihnea Dobrescu",
+    "oldpin": "Engine WoUSO",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "274",
+    "name": "Alexandru Radovici",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Author",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "273",
+    "name": "Sorina Sandu",
+    "oldpin": "Lab Author",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Author",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "272",
+    "name": "Paul Vlase",
+    "oldpin": "Lab Author",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "271",
+    "name": "Valentin Ilie",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "270",
+    "name": "Răzvan Pricope",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Assignments",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "269",
+    "name": "Adrian Șendroiu",
+    "oldpin": "Assignments",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Lab Infrastructure",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "268",
+    "name": "Fănel Ghiță",
+    "oldpin": "Lab Infrastructure",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "267",
+    "name": "Eliana Târșa",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Linux Assignment",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "266",
+    "name": "Răzvan Dobre",
+    "oldpin": "Linux Assignment",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Course Quiz",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "265",
+    "name": "Alexandru Olteanu",
+    "oldpin": "Course Quiz",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Engine WoUSO",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "264",
+    "name": "Alexandru Eftimie",
+    "oldpin": "Engine WoUSO",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Author",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "263",
+    "name": "Mihai Maruseac",
+    "oldpin": "Lab Author",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "262",
+    "name": "Răzvan Deaconescu",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "261",
+    "name": "Răzvan Rughiniș",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "260",
+    "name": "Alexandru Heișanu",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Linux Assignment",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "259",
+    "name": "Mircea Bardac",
+    "oldpin": "Linux Assignment",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2009",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "258",
+    "name": "George Milescu",
+    "oldpin": "Curriculum Lead 2009",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2010",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "257",
+    "name": "Vlad Dogaru",
+    "oldpin": "Curriculum Lead 2010",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2012",
+    "course": "USO",
+    "date": "07.10.2012",
+    "group": "",
+    "id": "256",
+    "name": "Laura Vasilescu",
+    "oldpin": "Curriculum Lead 2012",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "336CC",
+    "id": "566",
+    "name": "STĂNILĂ Ciprian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "335CC",
+    "id": "565",
+    "name": "GRÜNBERG Edar-Alin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "335CC",
+    "id": "564",
+    "name": "ARGINTARU Teodora",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "334CC",
+    "id": "563",
+    "name": "SANDU Geanina-Maria",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "333CC",
+    "id": "562",
+    "name": "RĂDULESCU Florin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "333CC",
+    "id": "561",
+    "name": "DAVID Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "332CC",
+    "id": "560",
+    "name": "CAPANU Andrei-Claudiu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "336CB",
+    "id": "559",
+    "name": "SOARE Radu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "335CB",
+    "id": "558",
+    "name": "GHICULESCU Alexandru-Ionuț",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "334CB",
+    "id": "557",
+    "name": "GHERMAN Maria-Irina",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "331CB",
+    "id": "556",
+    "name": "MICUȚ Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "336CA",
+    "id": "555",
+    "name": "PAIU Andreea",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "335CA",
+    "id": "554",
+    "name": "GRECU Andrei-George",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "334CA",
+    "id": "553",
+    "name": "URSU Dan-Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "333CA",
+    "id": "552",
+    "name": "BIU-PÎSLARU Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "332CA",
+    "id": "551",
+    "name": "SALCIE Ioan-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "331CA",
+    "id": "550",
+    "name": "BUTE Dragoș-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.12.2020",
+    "group": "331CA",
+    "id": "549",
+    "name": "NICHITA Radu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "331CC",
+    "id": "548",
+    "name": "CLICINSCHI Andrei Catalin",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "331CC",
+    "id": "547",
+    "name": "VÎRȚAN Alina-Elena",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "336CC",
+    "id": "546",
+    "name": "MELINTE Paul-Eduard",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "334CB",
+    "id": "545",
+    "name": "DRĂGUŞ Alexandru",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "333CB",
+    "id": "544",
+    "name": "MĂNESCU Emilian-Claudiu",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "332CB",
+    "id": "543",
+    "name": "CHIRICU Miruna-Cătălina",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "331CB",
+    "id": "542",
+    "name": "VASILESCU Alexandru-Mădălin",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "331CB",
+    "id": "541",
+    "name": "DRĂGHICESCU Adrian-Ioan",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "336CA",
+    "id": "540",
+    "name": "VAMEȘU Alexandru-Victor",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "331CA",
+    "id": "539",
+    "name": "PREDA Andrei-Alexandru",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "01.12.2020",
+    "group": "334CA",
+    "id": "538",
+    "name": "TOPALĂ Andrei Tudor",
+    "oldpin": "",
+    "pin": "Miderm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2020",
+    "group": "331CC",
+    "id": "537",
+    "name": "ZGLIMBEA R.G. Daniel",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2020",
+    "group": "333CC",
+    "id": "536",
+    "name": "ROTARU D. Leonard-Claudiu",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Written exam",
+    "course": "RL",
+    "date": "19.01.2020",
+    "group": "331CC",
+    "id": "535",
+    "name": "NEACŞU T. Răzvan",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Written exam",
+    "course": "RL",
+    "date": "19.01.2020",
+    "group": "331CA",
+    "id": "534",
+    "name": "SERIȚAN Andrei",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Written exam",
+    "course": "RL",
+    "date": "19.01.2020",
+    "group": "335CC",
+    "id": "533",
+    "name": "SIMESCU V. Andrei",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2020",
+    "group": "334CB",
+    "id": "532",
+    "name": "PIROŞCA C.M. Radu-Andrei",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2020",
+    "group": "332CB",
+    "id": "531",
+    "name": "DATCU C. Gabriel",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2020",
+    "group": "331CB",
+    "id": "530",
+    "name": "NĂSTĂSESCU D. George-Silviu",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "331CA",
+    "id": "529",
+    "name": "NIŢU M. Daniel-Samuel",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "334CA",
+    "id": "528",
+    "name": "GHEOACE A.S. Mihai",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "334CA",
+    "id": "527",
+    "name": "JOICĂ Gh. Daniel-Mihai",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "331CA",
+    "id": "526",
+    "name": "COSTINESCU B. Teodora",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "335CA",
+    "id": "525",
+    "name": "GEORGESCU A. Alin-Andrei",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.01.2020",
+    "group": "331CA",
+    "id": "524",
+    "name": "DIEACONU F. Vlad-Ştefan",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2020",
+    "group": "336CB",
+    "id": "523",
+    "name": "VODIŢĂ V.E. Ştefan",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2020",
+    "group": "331CB",
+    "id": "522",
+    "name": "NICU Al. Răzvan-Alexandru",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "331CC",
+    "id": "521",
+    "name": "MOCANU V.V. Viorel-Gabriel",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332AB",
+    "id": "520",
+    "name": "GRIGORUȚĂ Bogdan-Ioan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "331CA",
+    "id": "519",
+    "name": "GEMAN S.I. Dorin-Andrei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "336CC",
+    "id": "518",
+    "name": "DUMITRU R.A. Alexandru-Călin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "336CC",
+    "id": "517",
+    "name": "DEATCU V. Andrei-Cristian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "335CB",
+    "id": "516",
+    "name": "PAVEL S. Marian-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "335CC",
+    "id": "515",
+    "name": "BURCEA F. Mihai-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "334CC",
+    "id": "514",
+    "name": "COSTACHE A.N. Vlad-Ioan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CC",
+    "id": "513",
+    "name": "VIJELIE C.M. Cristian-Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CC",
+    "id": "512",
+    "name": "IRIDON D.Gh. Ştefan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CB",
+    "id": "511",
+    "name": "DIMOIU M. Cezar-Gabriel",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CB",
+    "id": "510",
+    "name": "FOCŞA D. Ştefan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "336CA",
+    "id": "509",
+    "name": "VINTILĂ M. Marius-Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "335CA",
+    "id": "508",
+    "name": "DUŢU L. Teodor-Ştefan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "335CA",
+    "id": "507",
+    "name": "SMEU L. Adina",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "333CA",
+    "id": "506",
+    "name": "MIREA F. Teodor-Adrian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CA",
+    "id": "505",
+    "name": "MIRCEA V. Alexandru - Alin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.12.2019",
+    "group": "332CA",
+    "id": "504",
+    "name": "GHELDIU M. Bianca-Andreea",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "331CA",
+    "id": "503",
+    "name": "DINCĂ Al. Alexandra-Maria",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "332AA",
+    "id": "502",
+    "name": "VASILE Victor",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "333CC",
+    "id": "501",
+    "name": "CONSTANTIN T. Ioan-Mihai",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "332CC",
+    "id": "500",
+    "name": "NICOLAE D. Gabriel",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "332CC",
+    "id": "499",
+    "name": "CĂTRUNĂ A. Andy-Eduard",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "336CB",
+    "id": "498",
+    "name": "NEGOIŢĂ B.G. Estella-Paula",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "333CB",
+    "id": "497",
+    "name": "ŢEPEŞ-ONEA F. Filip",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "333CB",
+    "id": "496",
+    "name": "DREHUŢĂ V.C. Alexandra",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "335CA",
+    "id": "495",
+    "name": "SIMTINICĂ M.C. Matei-Ştefan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "334CA",
+    "id": "494",
+    "name": "MACOVEI C.C. Antonio-Dan",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "334CA",
+    "id": "493",
+    "name": "GHERGHIŢĂ R. David",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "15.11.2019",
+    "group": "331CA",
+    "id": "492",
+    "name": "FLEANCU E.C. Ingrid-Adina",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "333CA",
+    "id": "491",
+    "name": "LAZĂR Alexandru",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "332CA",
+    "id": "490",
+    "name": "OLARU Paul-Stelian",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "332CB",
+    "id": "489",
+    "name": "VÂJÂIALĂ-TOMICI Cătălin-Mihai",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "333CB",
+    "id": "488",
+    "name": "BRĂTESCU Ștefan-Gabriel",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "331CC",
+    "id": "487",
+    "name": "MOCANU Valentin",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "333CC",
+    "id": "486",
+    "name": "DIACONU George-Marius",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "335CC",
+    "id": "485",
+    "name": "METEREZ Alexandru",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "12.01.2019",
+    "group": "333CC",
+    "id": "484",
+    "name": "NIȚU Ioan-Florin-Cătălin",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "335CA",
+    "id": "483",
+    "name": "FAZAKAȘ Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "334CA",
+    "id": "482",
+    "name": "MIHALACHE Ionuț",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "336CA",
+    "id": "481",
+    "name": "VOCHESCU Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "333CA",
+    "id": "480",
+    "name": "FILOTE Bogdan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "336CB",
+    "id": "479",
+    "name": "MĂRGINEANU Cristan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "334CB",
+    "id": "478",
+    "name": "MITRAN Andreea",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "331CB",
+    "id": "477",
+    "name": "ILIE Vlad Florin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "332CB",
+    "id": "476",
+    "name": "COSTEA Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "333CB",
+    "id": "475",
+    "name": "MARIN Cristian-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "331CB",
+    "id": "474",
+    "name": "MÎNDRU Alexandru-Ionuţ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "335CC",
+    "id": "473",
+    "name": "RUSULEANU Octav",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "336CC",
+    "id": "472",
+    "name": "CĂLCÎI Cosmin-Florin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "333CC",
+    "id": "471",
+    "name": "MURARU Emanuel-Ioan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "332CC",
+    "id": "470",
+    "name": "TUDOSIE Ionuț-Raul",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "331CC",
+    "id": "469",
+    "name": "ION Horia-Paul",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "18.01.2019",
+    "group": "335CC",
+    "id": "468",
+    "name": "BITIRE Cătălin",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "332CC",
+    "id": "467",
+    "name": "Robert-Gabriel RADA",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "332CC",
+    "id": "466",
+    "name": "Sergiu-Adrian MUNTEANU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "334CC",
+    "id": "465",
+    "name": "Philip DUMITRU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "336CB",
+    "id": "464",
+    "name": "Daniel DINCĂ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "331CB",
+    "id": "463",
+    "name": "Cristian TUDOR",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "331CB",
+    "id": "462",
+    "name": "Florin-George HAŢEGAN",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "331CA",
+    "id": "461",
+    "name": "Gabriel-Dănuţ MATEI",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "333CA",
+    "id": "460",
+    "name": "Maria-Ruxandra AVRAM",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.11.2018",
+    "group": "333CA",
+    "id": "459",
+    "name": "Alexandru-Gabriel POPESCU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2018",
+    "group": "332CC",
+    "id": "458",
+    "name": "VÎJIALĂ Tudor-Gabriel",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2018",
+    "group": "332CC",
+    "id": "457",
+    "name": "PETRESCU Dragoş",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2018",
+    "group": "332CC",
+    "id": "456",
+    "name": "HOGEA Alexandru-Ionuţ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2018",
+    "group": "331CC",
+    "id": "455",
+    "name": "BRATU Andrei",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "335CC",
+    "id": "454",
+    "name": "Octavian GUZU",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "331CC",
+    "id": "453",
+    "name": "George TUDOR",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "331CC",
+    "id": "452",
+    "name": "Dumitru BRIGALDA",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "336CC",
+    "id": "451",
+    "name": "Cristina-Maria NEAGU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "334 CC",
+    "id": "450",
+    "name": "Sorin Cătălin GHEORGHE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "334CC",
+    "id": "449",
+    "name": "Vlad-Cristian DUMITRU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "333CC",
+    "id": "448",
+    "name": "Dan BELIBOV",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "331 CC",
+    "id": "447",
+    "name": "BABU Liza Elena ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "331CC",
+    "id": "446",
+    "name": "Ricardo UNGUREANU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "336CB",
+    "id": "445",
+    "name": "Dimitria-Oana-Maria RĂDOI",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "335CB",
+    "id": "444",
+    "name": "Valeriu PRODAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "334CB",
+    "id": "443",
+    "name": "Gheorghiță CĂULEA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "333CB",
+    "id": "442",
+    "name": "Cătălin GHENEA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "332 CB",
+    "id": "441",
+    "name": "Cosmin-Ionuţ TITILIUC",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "331CB",
+    "id": "440",
+    "name": "Nicolae-Ovidiu DĂNCILĂ",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "336CA",
+    "id": "439",
+    "name": "Marius-Robert DRĂGHICI",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "336CA",
+    "id": "438",
+    "name": "Corina-Teodora PALADE",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "335CA",
+    "id": "437",
+    "name": "Răzvan ŞERBAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "335CA",
+    "id": "436",
+    "name": "Andrada CHELARU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "333CA",
+    "id": "435",
+    "name": "Alina-Irina PÎRVAN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "19.01.2018",
+    "group": "332CA",
+    "id": "434",
+    "name": "Ioana CHIRCA",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "332CC",
+    "id": "433",
+    "name": "Andrei-Valentin CIUPITU ",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "331CC",
+    "id": "432",
+    "name": "Bogdan-Alexandru CIONCA",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "333CB",
+    "id": "431",
+    "name": "Daniel-Ilie SÎRBU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "332CB",
+    "id": "430",
+    "name": "Tudor-Antonio BARBU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "331CA",
+    "id": "429",
+    "name": "Eusebiu RIZESCU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "21.11.2017",
+    "group": "331CA",
+    "id": "428",
+    "name": "Radu-Nicolae NICOLAU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 335CC",
+    "id": "427",
+    "name": "Adrian PANDELICĂ ",
+    "oldpin": "Lecture activity [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 334CC",
+    "id": "426",
+    "name": "Robert Tănase ",
+    "oldpin": "Lecture activity [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 333CC",
+    "id": "425",
+    "name": "Alexandra CÎRSTIAN ",
+    "oldpin": "Lecture activity [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 335CC",
+    "id": "424",
+    "name": "Alexandru ACHIRIŢOAEI ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 334CC",
+    "id": "423",
+    "name": "Cristian MONDIRU ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 333CC",
+    "id": "422",
+    "name": "Alexandru ELISEI ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 335CA",
+    "id": "421",
+    "name": "Andreea DIEACONU ",
+    "oldpin": "Lecture activity [CA]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 334CA",
+    "id": "420",
+    "name": "Andrei IONEANU ",
+    "oldpin": "Lecture activity [CA]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 331CA",
+    "id": "419",
+    "name": "Sabina HORINCAR ",
+    "oldpin": "Lecture activity [CA]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 333CA",
+    "id": "418",
+    "name": "Andrei ŞTEFĂNESCU ",
+    "oldpin": "Written exam [CA]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 333CA",
+    "id": "417",
+    "name": "Laurențiu PICIU ",
+    "oldpin": "Written exam [CA]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CA",
+    "course": "RL",
+    "date": "28.01.2017",
+    "group": " 332CA",
+    "id": "416",
+    "name": "Ciprian COSTEA ",
+    "oldpin": "Written exam [CA]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 335CB",
+    "id": "415",
+    "name": "Andreea GURIŢĂ ",
+    "oldpin": "Lecture activity [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 334CB",
+    "id": "414",
+    "name": "Ionut OPREA ",
+    "oldpin": "Lecture activity [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 333CB",
+    "id": "413",
+    "name": "Rareș VISALOM ",
+    "oldpin": "Lecture activity [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 331CB",
+    "id": "412",
+    "name": "Raul PIPIS ",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 335CB",
+    "id": "411",
+    "name": "GeorgePÎRTOACĂ ",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 335CB",
+    "id": "410",
+    "name": "Mircea TĂNASE ",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 335CA",
+    "id": "409",
+    "name": "Liana PĂNĂTĂU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.01.2017",
+    "group": " 335CA",
+    "id": "408",
+    "name": "Elena MARINICA ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 334CA",
+    "id": "407",
+    "name": "Alexandra GAMAN ",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [89 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 333CB",
+    "id": "406",
+    "name": "Sergiu WEISZ ",
+    "oldpin": "Hands-on Exam [89 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [87 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 331CB",
+    "id": "405",
+    "name": "Relu DRAGAN ",
+    "oldpin": "Hands-on Exam [87 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [87 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 332CA",
+    "id": "404",
+    "name": "Denisa SANDU ",
+    "oldpin": "Hands-on Exam [87 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [80 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 331CA",
+    "id": "403",
+    "name": "Tudor TUDORUT ",
+    "oldpin": "Hands-on Exam [80 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [79 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 335CC",
+    "id": "402",
+    "name": "Vlad CORNECI ",
+    "oldpin": "Hands-on Exam [79 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [75 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 333CB",
+    "id": "401",
+    "name": "Dragos STURZU ",
+    "oldpin": "Hands-on Exam [75 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [73 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 332CC",
+    "id": "400",
+    "name": "Cosmin PRUNARU ",
+    "oldpin": "Hands-on Exam [73 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [71 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 331CB",
+    "id": "399",
+    "name": "Alexandru MUSTATA ",
+    "oldpin": "Hands-on Exam [71 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [59 min]",
+    "course": "RL",
+    "date": "14.01.2017",
+    "group": " 331CB",
+    "id": "398",
+    "name": "Andrei PETRESCU ",
+    "oldpin": "Hands-on Exam [59 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 335CC",
+    "id": "397",
+    "name": "Cristiana TRIFU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 334CC",
+    "id": "396",
+    "name": "Lucian PERJU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 332CC",
+    "id": "395",
+    "name": "Victor Silviu DOCA ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 335CB",
+    "id": "394",
+    "name": "Roxana RADU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 332CB",
+    "id": "393",
+    "name": "Filip MUNTEANU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 335CA",
+    "id": "392",
+    "name": "Razvan CHITU ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 332CA",
+    "id": "391",
+    "name": "Radu Stochitoiu ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "05.12.2016",
+    "group": " 331 CA",
+    "id": "390",
+    "name": "Silvia PRIPOAE ",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2016",
+    "group": " 331CC",
+    "id": "389",
+    "name": "Mircea PLATON ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2016",
+    "group": " 334CB",
+    "id": "388",
+    "name": "Andrei MARDALE ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2016",
+    "group": " 335CB",
+    "id": "387",
+    "name": "Robert-Florian SAMOILESCU ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2016",
+    "group": " 331CB",
+    "id": "386",
+    "name": "Alexandru MOCANU ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2016",
+    "group": " 331CA",
+    "id": "385",
+    "name": "Ştefan-Adrian POPA ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "384",
+    "name": "FILIP Ion-Dorinel",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "383",
+    "name": "PREDA Ştefan-Alexandru",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "382",
+    "name": "GHIȚĂ Cristian-Alin",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "381",
+    "name": "PETCU Marius",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "380",
+    "name": "Diana ION",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "379",
+    "name": "Vasile ŢONCU",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "23.01.2016",
+    "group": "",
+    "id": "378",
+    "name": "Iulian-Răzvan MATEŞICĂ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "377",
+    "name": "MURARU George-Cristian",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "376",
+    "name": "ENE Orlando-Georgian",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "375",
+    "name": "Alin-Andrei GRIGOREAN",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "374",
+    "name": "Bogdan Cristian BĂLOI",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "373",
+    "name": "Ştefan STAMATE",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "372",
+    "name": "Călin-Cristian CRUCERU",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "371",
+    "name": "Andrei-Alexandru STOIA",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "370",
+    "name": "Andrei URSACHE",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "369",
+    "name": "MUSCALU Vlad",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "22.01.2016",
+    "group": "",
+    "id": "368",
+    "name": "Paul DUMITRIU",
+    "oldpin": "Overall involvement",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "367",
+    "name": "Bogdan GHIŢĂ",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "366",
+    "name": "Andrei-Silviu DRAGNEA",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "365",
+    "name": "Flavia OPREA",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "364",
+    "name": "Alexandru BĂLAN",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "363",
+    "name": "Dragoş-Florin COSTEA",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "362",
+    "name": "Alexandros DIMOS",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on ",
+    "course": "RL",
+    "date": "19.01.2016",
+    "group": "",
+    "id": "361",
+    "name": "Dennis-Adrian PLOSCEANU",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "360",
+    "name": "Călin-Cristian CRUCERU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "359",
+    "name": "Radu-Adrian OANCEA",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "358",
+    "name": "Ştefan-Cristian ŞTEFANCA",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "357",
+    "name": "Dan-Ioan BOLOHAN",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "356",
+    "name": "George Bogdan OPREA",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "355",
+    "name": "Răzvan ZAVATE",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "354",
+    "name": "Răzvan-Marcel BĂRBĂSCU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "23.11.2015",
+    "group": "",
+    "id": "353",
+    "name": "Ştefan-Dan CIOCÎRLAN",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Hands-on [80 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "352",
+    "name": "Lucian OANCEA",
+    "oldpin": "Hands-on Exam [80 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [77 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "351",
+    "name": "Andrei DUMA",
+    "oldpin": "Hands-on Exam [77 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [75 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "350",
+    "name": "Andrei Costin LICA",
+    "oldpin": "Hands-on Exam [75 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [74 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "349",
+    "name": "Ciprian NUȚESCU",
+    "oldpin": "Hands-on Exam [74 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [70 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "348",
+    "name": "Alexandra GHIȚĂ",
+    "oldpin": "Hands-on Exam [70 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [69 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "347",
+    "name": "Victor CIUREL",
+    "oldpin": "Hands-on Exam [69 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [64 min]",
+    "course": "RL",
+    "date": "17.01.2015",
+    "group": "",
+    "id": "346",
+    "name": "Marius Stefan UNGUREANU",
+    "oldpin": "Hands-on Exam [64 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "week 14",
+    "course": "RL",
+    "date": "16.01.2015",
+    "group": "",
+    "id": "345",
+    "name": "Andreea-Lucia ILIEș",
+    "oldpin": "Overall involvement [week 14]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "14.01.2015",
+    "group": "",
+    "id": "344",
+    "name": "Constantin-Eduard STANILOIU",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "14.01.2015",
+    "group": "",
+    "id": "343",
+    "name": "Robert-Ioan ROVENTA",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "week 12",
+    "course": "RL",
+    "date": "14.01.2015",
+    "group": "",
+    "id": "342",
+    "name": "Ioana TEODORESCU",
+    "oldpin": "Overall involvement [week 12]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 9",
+    "course": "RL",
+    "date": "14.01.2015",
+    "group": "",
+    "id": "341",
+    "name": "Constantin COSTESCU",
+    "oldpin": "Overall involvement [week 9]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "340",
+    "name": "Octavian GRIGORESCU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "339",
+    "name": "Oana STROIE",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "338",
+    "name": "Alexandru Marian STANCIOIU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "337",
+    "name": "Radu CONSTANTINESCU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "336",
+    "name": "Mihai-Alexandru VASILIU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "week 6",
+    "course": "RL",
+    "date": "02.12.2014",
+    "group": "",
+    "id": "335",
+    "name": "Bogdan CIOBANU",
+    "oldpin": "Overall involvement [week 6]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "12.11.2014",
+    "group": "",
+    "id": "334",
+    "name": "Stefan-Gabriel MIREA",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "11.11.2014",
+    "group": "",
+    "id": "333",
+    "name": "Gabriel SAMOILĂ",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "week 3",
+    "course": "RL",
+    "date": "11.11.2014",
+    "group": "",
+    "id": "332",
+    "name": "Madalina HRISTACHE",
+    "oldpin": "Overall involvement [week 3]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Lecture involvement [CC]",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "331",
+    "name": "Cristian GRIGORAŞ",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Lecture involvement [CC]",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "330",
+    "name": "Lorena-Roberta DOBRESCU",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Lecture involvement [CB]",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "329",
+    "name": "Ramon NĂSTASE",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Lecture involvement [CB]",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "328",
+    "name": "Bogdan Daniel NICULA",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "Lecture involvement [CB]",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "327",
+    "name": "Mădălina-Andreea GROSU",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "326",
+    "name": "Ionuţ-Răzvan IONIŢĂ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "325",
+    "name": "Theodor-Cosmin DIDII",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "324",
+    "name": "Mihai-Dragoş TIRIPLICĂ",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "323",
+    "name": "Alexandru CONSTANTIN",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "322",
+    "name": "Raul-Constantin TABACU",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "18.01.2014",
+    "group": "",
+    "id": "321",
+    "name": "Valentina-Camelia BOJAN",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "week 14",
+    "course": "RL",
+    "date": "15.01.2014",
+    "group": "",
+    "id": "320",
+    "name": "Nicolae IVAN",
+    "oldpin": "Overall involvement [week 14]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on [80 min]",
+    "course": "RL",
+    "date": "11.01.2014",
+    "group": "",
+    "id": "319",
+    "name": "Alexandru-Ciprian FĂRCĂŞANU",
+    "oldpin": "Hands-on Exam [80 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [80 min]",
+    "course": "RL",
+    "date": "11.01.2014",
+    "group": "",
+    "id": "318",
+    "name": "Corneliu-Florin PASCU",
+    "oldpin": "Hands-on Exam [80 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [73 min]",
+    "course": "RL",
+    "date": "11.01.2014",
+    "group": "",
+    "id": "317",
+    "name": "Andrei POENARU",
+    "oldpin": "Hands-on Exam [73 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [71 min]",
+    "course": "RL",
+    "date": "11.01.2014",
+    "group": "",
+    "id": "316",
+    "name": "Andrei Daniel DATCU",
+    "oldpin": "Hands-on Exam [71 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on [64 min]",
+    "course": "RL",
+    "date": "11.01.2014",
+    "group": "",
+    "id": "315",
+    "name": "Dragos BADEA",
+    "oldpin": "Hands-on Exam [64 min]",
+    "pin": "Final"
+  },
+  {
+    "comment": "week 12",
+    "course": "RL",
+    "date": "08.01.2014",
+    "group": "",
+    "id": "314",
+    "name": "Mihai ZAMFIRESCU",
+    "oldpin": "Overall involvement [week 12]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 9",
+    "course": "RL",
+    "date": "18.12.2013",
+    "group": "",
+    "id": "313",
+    "name": "Andrei Marius DINCU",
+    "oldpin": "Overall involvement [week 9]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.11.2013",
+    "group": "",
+    "id": "312",
+    "name": "Ionuţ-Gabriel RĂDUCU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.11.2013",
+    "group": "",
+    "id": "311",
+    "name": "Andrei PREDA",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.11.2013",
+    "group": "",
+    "id": "310",
+    "name": "Ionel Valentin GHIŢĂ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.11.2013",
+    "group": "",
+    "id": "309",
+    "name": "Dragoş DUMITRESCU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "20.11.2013",
+    "group": "",
+    "id": "308",
+    "name": "Laura-Adriana SAVU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "week 6",
+    "course": "RL",
+    "date": "19.11.2013",
+    "group": "",
+    "id": "307",
+    "name": "Paul URZICEANU",
+    "oldpin": "Overall involvement [week 6]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 3",
+    "course": "RL",
+    "date": "29.10.2013",
+    "group": "",
+    "id": "306",
+    "name": "Alexandru SURDU",
+    "oldpin": "Overall involvement [week 3]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "305",
+    "name": "Constantin CARAPENCEA",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "304",
+    "name": "Alexandru SÎRBU",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "303",
+    "name": "Vladimir DIACONESCU",
+    "oldpin": "Written exam [CB]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "302",
+    "name": "Oana Georgiana NICULĂESCU",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "301",
+    "name": "Marius AVRAM",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CB",
+    "course": "RL",
+    "date": "21.01.2013",
+    "group": "",
+    "id": "300",
+    "name": "Şerban-Mihnea WALTTER",
+    "oldpin": "Lecture involvement [CB]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "299",
+    "name": "Constantin-Alin UNGUREANU",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "298",
+    "name": "Nicolae Valentin CIOBANU",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "297",
+    "name": "Valentina Mihaela MANEA",
+    "oldpin": "Written exam [CC]",
+    "pin": "Final"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "296",
+    "name": "Marian  Octavian PREDA",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "295",
+    "name": "Vlad-Daniel BAROSAN",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "CC",
+    "course": "RL",
+    "date": "20.01.2013",
+    "group": "",
+    "id": "294",
+    "name": "Robert DOLCA",
+    "oldpin": "Lecture involvement [CC]",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "week 14",
+    "course": "RL",
+    "date": "16.01.2013",
+    "group": "",
+    "id": "293",
+    "name": "Andreea MARTINOVICI",
+    "oldpin": "Overall involvement [week 14]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 12",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "292",
+    "name": "Vlad-Ştefan GRIGORIŢĂ",
+    "oldpin": "Overall involvement [week 12]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "291",
+    "name": "Mihai-Cristian COŞĂREANU",
+    "oldpin": "Top score [hands-on exam]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "290",
+    "name": "Ancuţa-Petronela BÂRZU",
+    "oldpin": "Top score [hands-on exam]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "289",
+    "name": "Andrei Radu PĂTRĂŞCOIU",
+    "oldpin": "Top score [hands-on exam]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "288",
+    "name": "Simion Vlad BOGOLIN",
+    "oldpin": "Top score [hands-on exam]",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "12.01.2013",
+    "group": "",
+    "id": "287",
+    "name": "Andrei Bogdan PARVU",
+    "oldpin": "Top score [hands-on exam]",
+    "pin": "Final"
+  },
+  {
+    "comment": "week 9",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "286",
+    "name": "Paul SĂPUNARU",
+    "oldpin": "Overall involvement [week 9]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "285",
+    "name": "Carol Robert MUTULEANU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "284",
+    "name": "Mariana MĂRĂȘOIU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "283",
+    "name": "Cozmin VELCIU",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "282",
+    "name": "Cristian RUŢĂ",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "RL",
+    "date": "28.11.2012",
+    "group": "",
+    "id": "281",
+    "name": "Alexandru  Teodor PREDA",
+    "oldpin": "Top score [midterm quiz]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "week 6",
+    "course": "RL",
+    "date": "20.11.2012",
+    "group": "",
+    "id": "280",
+    "name": "Dragos FOIANU",
+    "oldpin": "Overall involvement [week 6]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 3",
+    "course": "RL",
+    "date": "31.10.2012",
+    "group": "",
+    "id": "279",
+    "name": "Victor DODON",
+    "oldpin": "Overall involvement [week 3]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Linux Homework",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "278",
+    "name": "Alexandru JUNCU",
+    "oldpin": "Linux Homework",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Hands-on Exam Coordinator",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "277",
+    "name": "George Milescu",
+    "oldpin": "Hands-on Exam Coordinator",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "276",
+    "name": "Florin Stancu",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "275",
+    "name": "Razvan Prejbeanu",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Lecture Quizzes",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "274",
+    "name": "Alina Vlăduțu",
+    "oldpin": "Lecture Quizzes",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Quiz",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "273",
+    "name": "Silvia Marcu",
+    "oldpin": "Quiz",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "272",
+    "name": "Rares Dumitrache",
+    "oldpin": "Hands-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Site de curs",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "271",
+    "name": "Andrei Epure",
+    "oldpin": "Site de curs",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Hands-on Exam Supervisor",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "270",
+    "name": "Cătălin Frățilă",
+    "oldpin": "Hands-on Exam Supervisor",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lecture Slides",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "269",
+    "name": "Sergiu Costea",
+    "oldpin": "Lecture Slides",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Facilities",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "268",
+    "name": "Fănel Ghiță",
+    "oldpin": "Facilities",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Content Supervisor",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "267",
+    "name": "Mihai Prică",
+    "oldpin": "Lab Content Supervisor",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lecture Slides",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "266",
+    "name": "Cristian Chilipirea",
+    "oldpin": "Lecture Slides",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Lab Cheat Sheets",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "265",
+    "name": "Cătălin Nicuțar",
+    "oldpin": "Lab Cheat Sheets",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Workshop",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "264",
+    "name": "Răzvan Dobre",
+    "oldpin": "Workshop",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Quiz",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "263",
+    "name": "Laura Ruse",
+    "oldpin": "Quiz",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Linux Homework",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "262",
+    "name": "Răzvan Deaconescu",
+    "oldpin": "Linux Homework",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "261",
+    "name": "Răzvan Rughiniș",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "260",
+    "name": "Nicolae Țăpuș",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2009",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "259",
+    "name": "Mircea Bardac",
+    "oldpin": "Curriculum Lead 2009",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2010",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "258",
+    "name": "Traian Popeea",
+    "oldpin": "Curriculum Lead 2010",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2011",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "257",
+    "name": "Mihai Bucicoiu",
+    "oldpin": "Curriculum Lead 2011",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2012",
+    "course": "RL",
+    "date": "06.10.2012",
+    "group": "",
+    "id": "256",
+    "name": "Mihai Carabaș",
+    "oldpin": "Curriculum Lead 2012",
+    "pin": "Extra"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "343C1",
+    "id": "361",
+    "name": "Cosmin-Răzvan Vancea",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "342C1",
+    "id": "360",
+    "name": "Andrei-Antonio Carapcea",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "341C1",
+    "id": "359",
+    "name": "Delia-Maria Pavel",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "343C1",
+    "id": "358",
+    "name": "Florea-Dan Șerboi",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "343C1",
+    "id": "357",
+    "name": "Dan-Andrei Ursu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "344C1",
+    "id": "356",
+    "name": "Maria-Irina Gherman",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "344C1",
+    "id": "355",
+    "name": "Gabriel-Răzvan Busuioc",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "23.11.2021",
+    "group": "341C2",
+    "id": "354",
+    "name": "Cosmin Alioanei",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "342C1",
+    "id": "353",
+    "name": "Mihai-Vlad Cătălina",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "343C1",
+    "id": "352",
+    "name": "Victoria Tașcău",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "342C1",
+    "id": "351",
+    "name": "Claudiu-Alexandru Dima",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "341C3",
+    "id": "350",
+    "name": "Teodor-Ștefan Duțu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "341C3",
+    "id": "349",
+    "name": "Andrei-Nicolae Albișoru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "341C3",
+    "id": "348",
+    "name": "Andrei Serițan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "342C1",
+    "id": "347",
+    "name": "Mihai-Bogdan Zanfir",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "20.01.2021",
+    "group": "342C3",
+    "id": "346",
+    "name": "Andrei-Alin Georgescu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "341C4",
+    "id": "345",
+    "name": "Vlad-Constantin Lungu-Stan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "341C4",
+    "id": "344",
+    "name": "George-Silviu Năstăsescu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "341C3",
+    "id": "343",
+    "name": "Adina Smeu",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "341C3",
+    "id": "342",
+    "name": "Dorin-Andrei Geman",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "342C1",
+    "id": "341",
+    "name": "Valentin Ioniță",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "343C1",
+    "id": "340",
+    "name": "Cătălin Mareș",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "342C2",
+    "id": "339",
+    "name": "Andrei Simescu",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "26.11.2020",
+    "group": "343C3",
+    "id": "338",
+    "name": "Ștefan Vodiță",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "16.01.2020",
+    "group": "342C3",
+    "id": "337",
+    "name": "PENCIU Andrei",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "16.01.2020",
+    "group": "341C2",
+    "id": "336",
+    "name": "DOGARU Cristian-Gabriel",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "16.01.2020",
+    "group": "341C1",
+    "id": "335",
+    "name": "VOCHESCU Alexandru",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "341C1",
+    "id": "334",
+    "name": "NICOLA Mihai-Eduard",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "341C1",
+    "id": "333",
+    "name": "VIȘAN Mihai-Damian",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "343C3",
+    "id": "332",
+    "name": "VÂJÂIALĂ-TOMICI Cătălin-Mihai",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "341C3",
+    "id": "331",
+    "name": "POPA Bogdan",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "343C1",
+    "id": "330",
+    "name": "MARIN Cristian-Alexandru",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "12.12.2019",
+    "group": "343C3",
+    "id": "329",
+    "name": "ȘUIU Alice-Florența",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2019",
+    "group": "341C1",
+    "id": "328",
+    "name": "MANOLE Aida-Ștefania",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2019",
+    "group": "341C1",
+    "id": "327",
+    "name": "SELEA Iosif-Alexandru",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2019",
+    "group": "343C1",
+    "id": "326",
+    "name": "CATRINA Mihaela-Florentina",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2019",
+    "group": "341C3",
+    "id": "325",
+    "name": "GORGOVAN Alina-Valentina",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2019",
+    "group": "341C5",
+    "id": "324",
+    "name": "BÎRZÎCHE Andrei-Lucian",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "323",
+    "name": "UNGUREANU I. Diana-Gabriela",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "322",
+    "name": "LECU I. Andrei-Ionuţ",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "342C1",
+    "id": "321",
+    "name": "RADU M.C. Raluca-Elena",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "320",
+    "name": "ŞTEFĂNESCU A. Vlad-Adrian",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "342C1",
+    "id": "319",
+    "name": "HOGEA M. Alexandru-Ionuţ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "342C1",
+    "id": "318",
+    "name": "NICA C. Cristi",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "317",
+    "name": "UNGUREANU R. Theodor",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "316",
+    "name": "BĂLTEANU I. Vasile-Daniel",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "343C1",
+    "id": "315",
+    "name": "DIMA C. Andreea-Alexandra",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "343C1",
+    "id": "314",
+    "name": "MIHUŢESCU M.D.D. Diana",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "343C1",
+    "id": "313",
+    "name": "GUŞĂ R.Şt. Ştefan-Ciprian",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "342C1",
+    "id": "312",
+    "name": "MIHĂESCU-BOERU I. Ileana",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "342C2",
+    "id": "311",
+    "name": "NECULAI Alexandru",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "19.01.2019",
+    "group": "341C1",
+    "id": "310",
+    "name": "BOLOJAN F. Andrei",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2017",
+    "group": "341C1",
+    "id": "309",
+    "name": "Adrian-Mihai CUSTURĂ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2017",
+    "group": "343C1",
+    "id": "308",
+    "name": "Roxana-Maria DOMNIȘORU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2017",
+    "group": "341C4",
+    "id": "307",
+    "name": "Alexandru MOCANU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2017",
+    "group": "342C2",
+    "id": "306",
+    "name": "Ioan ORGHICI",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "21.11.2017",
+    "group": "341C1",
+    "id": "305",
+    "name": "Andrei-Mădălin PETRESCU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Top score & Hands-on",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "343C2",
+    "id": "304",
+    "name": "Ana Ruxandra STAMATIU",
+    "oldpin": "Hand-on Exam & Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "341C1",
+    "id": "303",
+    "name": "Horia STOENESCU",
+    "oldpin": "Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "342C1",
+    "id": "302",
+    "name": "Radu-Paul RĂDULESCU ",
+    "oldpin": "Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "342C1",
+    "id": "301",
+    "name": "Darius MIHAI ",
+    "oldpin": "Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "341C1",
+    "id": "300",
+    "name": "Flavia OPREA ",
+    "oldpin": "Hand-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Hands-on",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "343C1",
+    "id": "299",
+    "name": "Irina-Georgiana VLĂDULESCU ",
+    "oldpin": "Hand-on Exam",
+    "pin": "Final"
+  },
+  {
+    "comment": "Top score & Hands-on",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "341C1",
+    "id": "298",
+    "name": "Ion-Dorinel FILIP ",
+    "oldpin": "Hand-on Exam & Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "343C1",
+    "id": "297",
+    "name": "Cristian-Marian MĂRCULESCU ",
+    "oldpin": "Final Quiz",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.02.2017",
+    "group": "342C1",
+    "id": "296",
+    "name": "Iulian-Răzvan MATEȘICĂ ",
+    "oldpin": "Final Quiz",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "08.02.2017",
+    "group": "341C3",
+    "id": "295",
+    "name": "CRUCERU Călin-Cristian ",
+    "oldpin": "Final Quiz",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "08.02.2017",
+    "group": "341C1",
+    "id": "294",
+    "name": "Madalin-Andrei ANDREICA ",
+    "oldpin": "Final Quiz",
+    "pin": "Final "
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "1232E",
+    "id": "293",
+    "name": "Laurentiu Ionut POPESCU ",
+    "oldpin": "Midterm Quiz",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "342C1",
+    "id": "292",
+    "name": "George Bogdan OPREA ",
+    "oldpin": "Midterm Quiz & Top score",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "341C1",
+    "id": "291",
+    "name": "Dragoș-Florin COSTEA ",
+    "oldpin": "Midterm Quiz",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "Top score & Hands-on",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "341C1",
+    "id": "291",
+    "name": "Dragoș-Florin COSTEA ",
+    "oldpin": "Hand-on Exam Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "Top score & Hands-on",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "343C1",
+    "id": "290",
+    "name": "Dan-Ștefan CIOCÎRLAN",
+    "oldpin": "Final Quiz\r\nHand-on Exam Top score",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "24.11.2016",
+    "group": "343C1",
+    "id": "290",
+    "name": "Dan-Ștefan CIOCÎRLAN ",
+    "oldpin": "Midterm Quiz\n",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.12.2015",
+    "group": "",
+    "id": "289",
+    "name": "Octavian GRIGORESCU",
+    "oldpin": "Midterm Quiz",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.12.2015",
+    "group": "",
+    "id": "288",
+    "name": "Adrian DOBRICĂ",
+    "oldpin": "Midterm Quiz",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "10.12.2015",
+    "group": "",
+    "id": "287",
+    "name": "Eliza-Maria MARCU",
+    "oldpin": "Midterm Quiz",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "04.12.2014",
+    "group": "",
+    "id": "286",
+    "name": "Ionuț RADUCU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "04.12.2014",
+    "group": "",
+    "id": "285",
+    "name": "Florin PAPA",
+    "oldpin": "Best score [midterm]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "04.12.2014",
+    "group": "",
+    "id": "284",
+    "name": "Valentina BOJAN",
+    "oldpin": "Best score [midterm]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "04.12.2014",
+    "group": "",
+    "id": "283",
+    "name": "Valentin GHITA",
+    "oldpin": "Best score [midterm]",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "PR",
+    "date": "04.12.2014",
+    "group": "",
+    "id": "282",
+    "name": "Raul TABACU",
+    "oldpin": "Overall activity",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Best time for hands-on exam [20.01.2014]",
+    "course": "PR",
+    "date": "20.01.2014",
+    "group": "",
+    "id": "281",
+    "name": "Cristian Ruță",
+    "oldpin": "Best time for hands-on exam [20.01.2014]",
+    "pin": "Final"
+  },
+  {
+    "comment": "week 14",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "280",
+    "name": "Mihail Dunaev",
+    "oldpin": "Overall involvement [Week 14]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 14",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "279",
+    "name": "Laura Savu",
+    "oldpin": "Overall involvement [Week 14]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Question of the Night",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "278",
+    "name": "Ruxandra Trandafir",
+    "oldpin": "Question of the Night",
+    "pin": "Extra"
+  },
+  {
+    "comment": "On-line activity",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "277",
+    "name": "Oana Niculăescu",
+    "oldpin": "On-line activity",
+    "pin": "Extra"
+  },
+  {
+    "comment": "week 12",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "276",
+    "name": "Vlad Traistă Popescu",
+    "oldpin": "Overall involvement [Week 12]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 9",
+    "course": "PR",
+    "date": "16.01.2014",
+    "group": "",
+    "id": "275",
+    "name": "Victor Dodon",
+    "oldpin": "Overall involvement [Week 9]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Question of the Night",
+    "course": "PR",
+    "date": "28.10.2013",
+    "group": "",
+    "id": "274",
+    "name": "Andreea Martinovici",
+    "oldpin": "Question of the Night",
+    "pin": "Extra"
+  },
+  {
+    "comment": "On-line activity",
+    "course": "PR",
+    "date": "28.10.2013",
+    "group": "",
+    "id": "273",
+    "name": "Mariana Mărășoiu",
+    "oldpin": "On-line activity",
+    "pin": "Extra"
+  },
+  {
+    "comment": "week 6",
+    "course": "PR",
+    "date": "28.10.2013",
+    "group": "",
+    "id": "272",
+    "name": "Dragoș Foianu",
+    "oldpin": "Overall involvement [Week 6]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "week 3",
+    "course": "PR",
+    "date": "14.10.2013",
+    "group": "",
+    "id": "271",
+    "name": "Mihai Coșăreanu",
+    "oldpin": "Overall involvement [Week 3]",
+    "pin": "Lab"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "270",
+    "name": "Mihai Pleșea",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "269",
+    "name": "Cosmin Stoica",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "268",
+    "name": "Iulia Florea",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "267",
+    "name": "Răzvan Prejbeanu",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "266",
+    "name": "Dana Apostol",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "265",
+    "name": "Andreea Dragomir",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "264",
+    "name": "Alex Juncu",
+    "oldpin": "Teaching Assistant",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant 2009",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "263",
+    "name": "Cristian Ocnărescu",
+    "oldpin": "Teaching Assistant 2009",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Teaching Assistant 2009",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "262",
+    "name": "Andrei Ciorba",
+    "oldpin": "Teaching Assistant 2009",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Course",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "261",
+    "name": "Răzvan Rughiniș",
+    "oldpin": "Course",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Design",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "260",
+    "name": "Sergiu Costea",
+    "oldpin": "Curriculum Design",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2010",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "259",
+    "name": "Mihai Bucicoiu",
+    "oldpin": "Curriculum Lead 2010",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2011",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "258",
+    "name": "Bogdan Doinea",
+    "oldpin": "Curriculum Lead 2011",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2012",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "257",
+    "name": "Traian Popeea",
+    "oldpin": "Curriculum Lead 2012",
+    "pin": "Extra"
+  },
+  {
+    "comment": "Curriculum Lead 2013",
+    "course": "PR",
+    "date": "01.10.2013",
+    "group": "",
+    "id": "256",
+    "name": "Lucia Roșculete",
+    "oldpin": "Curriculum Lead 2013",
+    "pin": "Extra"
+  }
+]

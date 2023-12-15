@@ -92,8 +92,8 @@ class People extends Component {
 
   render () {
     return (
-      <Container>
-        <SectionTitle light> People </SectionTitle>
+      <Container id="people-list">
+        <SectionTitle dark> People </SectionTitle>
         <List>
           {this.people[0]}
         </List>

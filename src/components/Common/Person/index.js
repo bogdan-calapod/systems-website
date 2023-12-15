@@ -40,7 +40,7 @@ class Person extends Component {
   componentDidMount() {
     let cleanedName = this.props.data.name
       .toLowerCase()
-      .replace(' ', '.')
+      .replace(' ', '_')
       .replace(/ă/g, 'a')
       .replace(/ș/g, 's')
       .replace(/ț/g, 't')

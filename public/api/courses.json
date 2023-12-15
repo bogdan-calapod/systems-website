@@ -1,0 +1,121 @@
+[
+  {
+    "abbreviation": "USO",
+    "description": "This course familiarizes 1st  year students with uses of Operating Systems. Linux is used as a platform for introducing Operating Systems concepts such as processes and files.",
+    "name": "Operating Systems Usage",
+    "presentation": "https://ocw.cs.pub.ro/courses/uso",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "RL",
+    "description": "This course guides students in understanding the design and functioning of Computer Networks.",
+    "name": "Computer Networks",
+    "presentation": "https://ocw.cs.pub.ro/courses/rl",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "SO",
+    "description": "This course supports students towards a more advanced understanding of Operating Systems.",
+    "name": "Operating Systems",
+    "presentation": "https://ocw.cs.pub.ro/courses/so",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "PR",
+    "description": "This course familiarizes students with Network Design concepts such as switching and routing.",
+    "name": "Network Design",
+    "presentation": "https://ocw.cs.pub.ro/courses/pr",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "SO2",
+    "description": "This course introduces students into the internal mechanics of Operating Systems.",
+    "name": "Operating Systems Design",
+    "presentation": "https://ocw.cs.pub.ro/courses/so2",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "ISC",
+    "description": "Fundamentals of computer security",
+    "name": "Computer Security",
+    "presentation": "https://ocw.cs.pub.ro/courses/isc",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "EP",
+    "description": "This course equips students with the concepts and techniques for conducting relevant performance evaluations and comparisons.",
+    "name": "Performance Evaluation",
+    "presentation": "https://ocw.cs.pub.ro/courses/ep",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "EIM",
+    "description": "Opportunities and challenges in designing mobile infrastructures",
+    "name": "Mobile Systems",
+    "presentation": "https://ocw.cs.pub.ro/courses/eim",
+    "type": "bachelor"
+  },
+  {
+    "abbreviation": "CNS",
+    "description": "This course provides a set of tools for vulnerability assesment and security calibration, both at the network and at operating system levels.",
+    "name": "Computer and Network Security",
+    "presentation": "https://ocw.cs.pub.ro/courses/cns",
+    "type": "master"
+  },
+  {
+    "abbreviation": "SRED",
+    "description": "This course focuses on the planification, implementation and configuration of a secure, scalable, redundant and convergent network using dedicated firewalls and Unified Threat Management.",
+    "name": "Dedicated Solutions for Network Security",
+    "presentation": "https://ocw.cs.pub.ro/courses/sred",
+    "type": "master"
+  },
+  {
+    "abbreviation": "SE",
+    "description": "How do you get from an idea to a sound engineering plan",
+    "name": "Startup Engineering",
+    "presentation": "",
+    "type": "master"
+  },
+  {
+    "abbreviation": "ISRM",
+    "description": "The course covers topics in most popular wireless access methods today: WiFi and 3G/4G. These last hop networks are in every pocket today, but they don’t always deliver a seamless Internet experience.",
+    "name": "Infrastructures and Services for Mobile Networks",
+    "presentation": "https://ocw.cs.pub.ro/courses/isrm",
+    "type": "master"
+  },
+  {
+    "abbreviation": "SMD",
+    "description": "This course presents the security architecture of mobile operating systems and describes attacks against mobile devices.",
+    "name": "Mobile Security",
+    "presentation": "https://ocw.cs.pub.ro/courses/smd",
+    "type": "master"
+  },
+  {
+    "abbreviation": "TEAM",
+    "description": "How do you get from a sound engineering plan to a minimum viable product",
+    "name": "Technical Entrepreneurship and Management",
+    "presentation": "innovationlabs.ro",
+    "type": "master"
+  },
+  {
+    "abbreviation": "ASR",
+    "description": "The course will address main concepts regarding the design of an audit for information system, starting from technical principles and current technologies, and then including considerations concerning ethical issues and legal concerns of implementation.",
+    "name": "Auditing Network Security",
+    "presentation": "",
+    "type": "master"
+  },
+  {
+    "abbreviation": "CS",
+    "description": "The course presents a new approach of parallel and distributed system, which consists of a collection of interconnected stand-alone heterogeneous systems cooperatively working together as a single, integrated computing resource.",
+    "name": "Cloud Security",
+    "presentation": "https://ocw.cs.pub.ro/courses/saisp",
+    "type": "master"
+  },
+  {
+    "abbreviation": "MPSIT",
+    "description": "How do you make you IT project a success",
+    "name": "IT Project Management",
+    "presentation": "https://ocw.cs.pub.ro/courses/mpsit",
+    "type": "master"
+  }
+]

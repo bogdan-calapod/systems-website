@@ -4,7 +4,7 @@
 
 import React, { Component } from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 
 import { ThemeProvider } from "styled-components";
 
@@ -22,7 +22,7 @@ class MainRouter extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/people" component={People} />
             <Route path="/bachelor" component={Bachelor} />
@@ -30,7 +30,7 @@ class MainRouter extends Component {
             <Route path="/phd" component={PhD} />
             <Route component={Home} />
           </Switch>
-        </Router>
+        </HashRouter>
       </ThemeProvider>
     );
   }

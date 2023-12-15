@@ -17,6 +17,7 @@ class Home extends Component {
 
     this.state = {
       people: [],
+      notifications: [],
     };
   }
 
@@ -24,12 +25,16 @@ class Home extends Component {
     request
       .get(`${process.env.PUBLIC_URL}/api/people.json`)
       .then((x) => this.setState({ ...this.state, people: x.data }));
+
+    request
+      .get(`${process.env.PUBLIC_URL}/api/notifications.json`)
+      .then((x) => this.setState({ ...this.state, notifications: x.data }));
   }
 
   render() {
     return (
       <div>
-        <Header />
+        <Header data={this.state.notifications}/>
         <About />
         <People data={this.state.people} />
         <Contact />

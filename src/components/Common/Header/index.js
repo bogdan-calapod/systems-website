@@ -8,7 +8,7 @@ import styled from 'styled-components'
 
 import Menu from './components/Menu'
 import Title from './components/Title'
-import bg from './img/bg.jpg'
+import bg from './img/acorn-background.jpg'
 
 import Modal from '../Announcements/Modal'
 

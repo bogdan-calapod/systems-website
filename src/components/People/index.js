@@ -9,7 +9,7 @@ import SectionTitle from 'components/Common/SectionTitle'
 import Person from 'components/Common/Person'
 
 import styled from 'styled-components'
-import bg from './bg.jpg'
+import bg from './bg_mirrored.jpg'
 
 const propTypes = {
   data: PropTypes.array
@@ -23,8 +23,8 @@ const Container = styled.div`
   background-color: #f7bc00;
   background-image: url(${bg});
   background-size: 50% auto;
-  background-repeat: no-repeat;
-  background-position: top left;
+  background-repeat: repeat-y;
+  background-position: top left bottom left;
   padding-bottom: 20px;
 
   @media screen and (max-width: 900px) {
@@ -37,15 +37,17 @@ const List = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 
   > div {
     margin: 10px;
   }
 
   &:last-child {
+    /*
     margin-top: 25px;
     padding-top: 25px;
-    border-top: 1px solid white;
+    border-top: 10px double black; */
   }
 `
 
@@ -93,10 +95,11 @@ class People extends Component {
   render () {
     return (
       <Container id="people-list">
-        <SectionTitle dark> People </SectionTitle>
+        <SectionTitle color="black"> People </SectionTitle>
         <List>
           {this.people[0]}
         </List>
+        <SectionTitle color="black"> Collaborators </SectionTitle>
         <List>
           {this.people[1]}
         </List>

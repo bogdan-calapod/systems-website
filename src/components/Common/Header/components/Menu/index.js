@@ -142,6 +142,13 @@ class Menu extends Component {
           </Link>
         </LinkWrapper>
 
+        <LinkWrapper >
+          <Link to='/contact'>
+            contact
+          </Link>
+        </LinkWrapper>
+
+        {/*
         <LinkWrapper>
           <a href='http://www.facebook.com/systems.cs.pub.ro' target='_blank' rel='noopener noreferrer'>
             <img alt='' src={facebook} />
@@ -151,7 +158,8 @@ class Menu extends Component {
           <a href='/#contact' rel='noopener noreferrer'>
             <img alt='' src={mail} />
           </a>
-        </LinkWrapper>
+        </LinkWrapper> 
+        */}
       </Container>
     )
   }

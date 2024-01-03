@@ -13,6 +13,7 @@ import People from "routes/People";
 import Bachelor from "routes/Bachelor";
 import Master from "routes/Master";
 import PhD from "routes/PhD";
+import Contact from "routes/Contact";
 
 let theme = {
   primary: "#F7931E",
@@ -28,6 +29,7 @@ class MainRouter extends Component {
             <Route path="/bachelor" component={Bachelor} />
             <Route path="/master" component={Master} />
             <Route path="/phd" component={PhD} />
+            <Route path="/contact" component={Contact} />
             <Route component={Home} />
           </Switch>
         </HashRouter>

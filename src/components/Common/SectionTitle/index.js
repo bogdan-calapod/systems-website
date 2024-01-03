@@ -29,8 +29,8 @@ const Title = styled.h1`
     height: 5px;
     width: ${props => props.left ? 'auto' : '100px'};
     flex: ${props => props.left ? '1' : 'none'};
-    border-top: 1px solid ${props => props.light ? 'white' : 'gray'};
-    border-bottom: 1px solid ${props => props.light ? 'white' : 'gray'};
+    border-top: 1px solid ${props => props.color };
+    border-bottom: 1px solid ${props => props.color };
     margin: 0 15px;
   }
 
@@ -48,12 +48,12 @@ const Title = styled.h1`
 `
 
 const propTypes = {
-  light: PropTypes.bool,
+  color: PropTypes.string,
   left: PropTypes.bool
 }
 
 const defaultProps = {
-  light: false,
+  color: "gray",
   left: false
 }
 

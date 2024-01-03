@@ -34,10 +34,11 @@ const BlurredOverlay = styled.div`
 const Text = styled.div`
   color: white;
   z-index: 1;
+  position: relative;
+  top: -175px;
 
   h1,
   h2 {
-    position: relative;
     margin: 0;
     text-align: right;
     font-size: 100px;

@@ -35,8 +35,9 @@ const Container = styled.div`
   display: flex;
   z-index: 1;
   flex-direction: ${props => props.large ? 'row' : 'column'};
-  justify-content: ${props => props.large ? 'flex-start' : 'space-between'};
+  justify-content: ${props => props.large ? 'flex-start' : 'strech'};
   flex-wrap: wrap;
+  margin-bottom: ${props => props.large ? 0 : 350}px;
 
   h2 {
     display: ${props => props.large ? 'block' : 'none'};

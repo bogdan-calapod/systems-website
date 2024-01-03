@@ -52,10 +52,6 @@ const List = styled.div`
 `
 
 class People extends Component {
-  constructor (props) {
-    super(props)
-  }
-
   get people () {
     let people = {
       g1: [],

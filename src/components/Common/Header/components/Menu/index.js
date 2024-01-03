@@ -10,8 +10,6 @@ import {Link} from 'react-router-dom'
 // import Title from '../Title'
 
 import logo from './logo.svg'
-import facebook from './facebook.svg'
-import mail from './mail.svg'
 import notification from './notification.svg'
 
 const propTypes = {
@@ -147,19 +145,6 @@ class Menu extends Component {
             contact
           </Link>
         </LinkWrapper>
-
-        {/*
-        <LinkWrapper>
-          <a href='http://www.facebook.com/systems.cs.pub.ro' target='_blank' rel='noopener noreferrer'>
-            <img alt='' src={facebook} />
-          </a>
-        </LinkWrapper>
-        <LinkWrapper>
-          <a href='/#contact' rel='noopener noreferrer'>
-            <img alt='' src={mail} />
-          </a>
-        </LinkWrapper> 
-        */}
       </Container>
     )
   }

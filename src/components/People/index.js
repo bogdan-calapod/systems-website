@@ -54,15 +54,6 @@ const List = styled.div`
 class People extends Component {
   constructor (props) {
     super(props)
-
-    this.state = {
-      data: []
-    }
-  }
-
-  // Filter blank values
-  componentWillReceiveProps (nextProps) {
-    this.setState({...this.state, data: nextProps.data.filter(x => x.name !== '')})
   }
 
   get people () {
@@ -76,7 +67,7 @@ class People extends Component {
       (x, i) => <Person data={x} key={i} />
     )
 
-    this.state.data.forEach(
+    this.props.data.forEach(
       x => {
         if (x.name === 'BLANK') {
           arr = 'g2'

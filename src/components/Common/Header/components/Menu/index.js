@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 // import Title from '../Title'
 
 import logo from './logo.svg'
-import notification from './notification.svg'
+import notification from './bell.svg'
 
 const propTypes = {
   toggleModal: PropTypes.func,
@@ -48,6 +48,19 @@ const Logo = styled.img`
   margin: 2px 10px;
   width: 50px;
   height: 50px;
+
+  @media screen and (max-width: 900px) {
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+  }
+`
+const Notification = styled.img`
+  margin: 5px 0px;
+  margin-right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
 
   @media screen and (max-width: 900px) {
     margin: 2px;
@@ -112,10 +125,11 @@ class Menu extends Component {
           <Logo src={logo} />
         </Link>
         <div onClick={this.props.toggleModal}>
-          <Logo src={notification}/>
+          <Notification src={notification}/>
         </div>
 
         <Separator />
+
         <LinkWrapper >
           <a href='/people' rel='noopener noreferrer'>
             people

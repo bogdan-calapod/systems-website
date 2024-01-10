@@ -27,18 +27,29 @@ const Section = styled.div`
   }
 `;
 
+const Text = styled.div`
+  margin-top: -25px;
+  font-size: 18px;
+`;
+
+function Link({props}){
+  let {link, linkname} = props;
+  
+  if(link !== "")
+    return <a href={link}>
+        <Button> {linkname} </Button>
+      </a>
+  return <div></div>
+}
+
 function NotificationDisplay({props}){
-  let {text, title, link, linkname} = props;
+  let {text, title} = props;
 
   return <div>
     <SectionTitle left> {title} </SectionTitle>
     <Section>
-      <p>
-        {text}
-      </p>
-      <a href={link}>
-        <Button> {linkname} </Button>
-      </a>
+      <Text><p>{text}</p></Text>
+      <Link props={props} />
     </Section>
   </div>
 }

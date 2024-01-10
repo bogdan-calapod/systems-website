@@ -5,7 +5,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import Header from 'components/Common/Header'
 import SectionTitle from 'components/Common/SectionTitle'
 import ListBox from 'components/Common/ListBox'
 
@@ -43,7 +42,6 @@ class PhD extends Component {
 
     return (
       <div>
-        <Header small />
         <Container>
           <SectionTitle> PhD </SectionTitle>
           <ListBox

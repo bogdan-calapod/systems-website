@@ -4,6 +4,7 @@
 
 import React, { Component } from "react";
 
+import Header from 'components/Common/Header'
 import Container from "components/PhD";
 
 import request from "axios";
@@ -21,10 +22,17 @@ class PhD extends Component {
     request
       .get(`${process.env.PUBLIC_URL}/api/phd_projects.json`)
       .then((x) => this.setState({ ...this.state, projects: x.data }));
+
+    request
+      .get(`${process.env.PUBLIC_URL}/api/notifications.json`)
+      .then((x) => this.setState({ ...this.state, notifications: x.data }));
   }
 
   render() {
-    return <Container projects={this.state.projects} />;
+    return <div>
+      <Header small data={this.state.notifications} />
+      <Container projects={this.state.projects} />;
+    </div>
   }
 }
 

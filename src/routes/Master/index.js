@@ -4,6 +4,7 @@
 
 import React, { Component } from "react";
 
+import Header from "components/Common/Header"
 import Container from "components/Master";
 
 import request from "axios";
@@ -37,6 +38,10 @@ class Master extends Component {
       .get(`${process.env.PUBLIC_URL}/api/people.json`)
       .then((x) => this.setState({ ...this.state, people: x.data }));
 
+    request
+      .get(`${process.env.PUBLIC_URL}/api/notifications.json`)
+      .then((x) => this.setState({ ...this.state, notifications: x.data }));
+
     // request
     //   .get("/api/collaborators.json")
     //   .then((x) =>
@@ -50,13 +55,16 @@ class Master extends Component {
 
   render() {
     return (
-      <Container
-        projects={this.state.projects}
-        courses={this.state.courses}
-        date={this.state.date}
-        url={this.state.url}
-        people={this.state.people}
-      />
+      <div>
+        <Header small data={this.state.notifications} />
+        <Container
+          projects={this.state.projects}
+          courses={this.state.courses}
+          date={this.state.date}
+          url={this.state.url}
+          people={this.state.people}
+        />
+      </div>
     );
   }
 }

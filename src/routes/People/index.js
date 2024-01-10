@@ -22,12 +22,16 @@ class PeopleRoute extends Component {
     request
       .get(`${process.env.PUBLIC_URL}/api/people.json`)
       .then((x) => this.setState({ ...this.state, people: x.data }));
+
+    request
+      .get(`${process.env.PUBLIC_URL}/api/notifications.json`)
+      .then((x) => this.setState({ ...this.state, notifications: x.data }));
   }
 
   render() {
     return (
       <div>
-        <Header small />
+        <Header small  data={this.state.notifications} />
         <People data={this.state.people} />
       </div>
     );

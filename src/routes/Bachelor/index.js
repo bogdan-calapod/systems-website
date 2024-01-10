@@ -5,6 +5,7 @@
 import React, { Component } from "react";
 
 import Container from "components/Bachelor";
+import Header from "components/Common/Header";
 
 import request from "axios";
 
@@ -17,6 +18,12 @@ class Bachelor extends Component {
       courses: [],
       people: [],
     };
+  }
+
+  componentWillMount(){
+    request
+      .get(`${process.env.PUBLIC_URL}/api/notifications.json`)
+      .then((x) => this.setState({ ...this.state, notifications: x.data }));
   }
 
   async componentDidMount() {
@@ -48,13 +55,16 @@ class Bachelor extends Component {
 
   render() {
     return (
-      <Container
-        projects={this.state.projects}
-        courses={this.state.courses}
-        date={this.state.date}
-        url={this.state.url}
-        people={this.state.people}
-      />
+      <div>
+        <Header small data={this.state.notifications} />
+        <Container
+          projects={this.state.projects}
+          courses={this.state.courses}
+          date={this.state.date}
+          url={this.state.url}
+          people={this.state.people}
+        />
+      </div> 
     );
   }
 }

@@ -21,10 +21,10 @@ const defaultProps = {
   small: false,
   data: [
     {
-      "title": "SCSS Announement",
-      "text": "The Student Scientific Projects Session, section Software Systems and Network Services will take place on May 11th, from 9:00, in EG302 and EG202. \n\n The students need to write a scientific paper of 4-6 pages and give a presentation of 5 minutes.",
-      "linkname": "Register Here",
-      "link": "https://docs.google.com/forms/d/e/1FAIpQLScWctkdKI8PtcPDfQ6UYtPa9oyt1SyyXVqIggfoBoWpFTq7Wg/viewform"
+      "title": "No Announcements",
+      "text": "There are no current Announcements. Please check back later!",
+      "linkname": "",
+      "link": ""
     },
   ]
 }
@@ -47,6 +47,12 @@ class Header extends Component {
 
   toggleModal = _ => {
     this.setState({...this.state, modalOpen: !this.state.modalOpen})
+  }
+
+  componentDidMount(){
+    console.log(window.location.href)
+    if(window.location.href === "http://localhost:3000/" || window.location.href === "https://systems.cs.pub.ro/")
+      this.setState({...this.state, modalOpen: true})
   }
 
   get modal(){

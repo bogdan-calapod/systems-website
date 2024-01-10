@@ -16,7 +16,7 @@ import PhD from "routes/PhD";
 import Contact from "routes/Contact";
 
 let theme = {
-  primary: "#F7931E",
+  primary: "#eeeeee",
 };
 
 class MainRouter extends Component {

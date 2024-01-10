@@ -5,7 +5,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import Header from "components/Common/Header";
 import People from "components/People";
 import SectionTitle from "components/Common/SectionTitle";
 import ListBox from "components/Common/ListBox";
@@ -51,7 +50,6 @@ class Bachelor extends Component {
 
     return (
       <div>
-        <Header small />
         <Container>
           <SectionTitle> Bachelor </SectionTitle>
           <p>

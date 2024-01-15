@@ -51,8 +51,8 @@ class Header extends Component {
 
   componentDidMount(){
     console.log(window.location.href)
-    if(window.location.href === "http://localhost:3000/" || window.location.href === "https://systems.cs.pub.ro/")
-      this.setState({...this.state, modalOpen: true})
+    // if(window.location.href === "http://localhost:3000/" || window.location.href === "https://systems.cs.pub.ro/")
+    //   this.setState({...this.state, modalOpen: true})
   }
 
   get modal(){

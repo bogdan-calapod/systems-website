@@ -96,7 +96,7 @@ class CourseBox extends Component {
       );
     }
 
-    if (this.props.data.hitlist && this.props.data.hitlist.length > 0) {
+    if (this.props.hitlists && this.props.hitlists.length > 0) {
       buttons.push(
         <div onClick={this.toggleModal}>
           <Button key={1}>Best students</Button>
@@ -108,8 +108,12 @@ class CourseBox extends Component {
   }
 
   render() {
-    let { name, description, abbreviation, announcements, hitlist } =
-      this.props.data;
+    // console.log(this.props.data.abbreviation);
+    // console.log("Hitlists: " +  JSON.stringify(this.props.hitlists));
+    // console.log("Hitlist Announcements: " + JSON.stringify(this.props.hitlist_announcements));
+
+    let { name, description, abbreviation} = this.props.data;
+    let { hitlists, hitlist_announcements } = this.props;
     let { modalOpen } = this.state;
 
     return (
@@ -129,16 +133,28 @@ class CourseBox extends Component {
           </Column>
         </Row>
         <Row>{this.getButtons()}</Row>
-        <HitListModal
+        <Hitlist
           visible={modalOpen}
-          onClose={this.toggleModal}
+          toggleModal={this.toggleModal}
           abbreviation={abbreviation}
-          data={hitlist}
-          announcements={announcements}
+          hitlists={hitlists}
+          hitlist_announcements={hitlist_announcements}
         />
       </Column>
     );
   }
+}
+
+function Hitlist({visible, toggleModal, abbreviation, hitlists, hitlist_announcements}){
+  if(hitlists === undefined)
+    return <div />;
+
+  return <HitListModal
+    visible={visible}
+    onClose={toggleModal}
+    abbreviation={abbreviation}
+    data={ {hitlists, hitlist_announcements} }
+  />
 }
 
 CourseBox.propTypes = propTypes;

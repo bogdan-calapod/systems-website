@@ -31,7 +31,7 @@ class HitListModal extends Component {
     super(props);
 
     this.state = {
-      year: "2020"
+      year: "2021"
     };
   }
 
@@ -47,24 +47,26 @@ class HitListModal extends Component {
 
   setYear = (year) => this.setState({ ...this.state, year: year.toString() });
 
-  get data() {
+  get year_people() {
     const { year } = this.state;
-    const { data } = this.props;
+    let { hitlists } = this.props.data;
     const prevYear = parseInt(year, 10) - 1;
 
-    return data.filter(
+    return hitlists.filter(
       (x) =>
-        (x.date.includes("11." + prevYear) ||
+        ( x.date.includes("11." + prevYear) ||
           x.date.includes("12." + prevYear) ||
           x.date.includes(year)) &&
-        !x.date.includes("11." + year)
+        !x.date.includes("11." + year) &&
+        !x.date.includes("12." + year)
     );
   }
 
   get years() {
-    let { data } = this.props;
-    let years = data.map((x) => x.date).map((x) => x.split(".")[2]);
-    let extraYears = data
+    let { hitlists } = this.props.data;
+
+    let years = hitlists.map((x) => x.date).map((x) => x.split(".")[2]);
+    let extraYears = hitlists
       .map((x) => x.date)
       .filter((x) => x.includes("11.20") || x.includes("12.20"))
       .map((x) => x.split(".")[2]) // Get Year
@@ -79,10 +81,11 @@ class HitListModal extends Component {
   get tables() {
     let values = ["Midterm", "Lab", "Lecture", "Final", "Community", "Extra"];
     let tables = {};
-    let data = this.data;
+    // let { hitlists } = this.props.data;
+    let hitlists = this.year_people;
 
     values.forEach(
-      (category) => (tables[category] = data.filter((x) => x.pin === category))
+      (category) => (tables[category] = hitlists.filter((x) => x.pin === category))
     );
 
     return values.map((x) => {
@@ -105,7 +108,8 @@ class HitListModal extends Component {
 
   render() {
     let selectedYear = this.state.year;
-    let { visible, onClose, abbreviation, announcements } = this.props;
+    let { visible, onClose, abbreviation } = this.props;
+    let announcements = this.props.data.hitlist_announcements;
 
     return (
       <Modal visible={visible} onClose={onClose} {...this.modalSize}>

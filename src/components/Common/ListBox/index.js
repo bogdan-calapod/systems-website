@@ -110,20 +110,30 @@ class ListBox extends Component {
   }
 
   get content() {
-    let { data } = this.props
+    let { data, hitlists, hitlist_announcements } = this.props;
     let { textFilter } = this.state
 
-    if (data.length === 0) {
-      return null
+    if (data == null || data.length === 0) {
+      return null;
     }
 
     let Component = this.getComponent()
+
+    if(hitlists == null)
+      return data
+        .filter(x => JSON.stringify(x).toLowerCase().includes(textFilter))
+        .filter(x => x.name !== 'BLANK')
+        .map(
+          (x, i) => <Component noModal data={x} key={i} />
+        )
 
     return data
       .filter(x => JSON.stringify(x).toLowerCase().includes(textFilter))
       .filter(x => x.name !== 'BLANK')
       .map(
-        (x, i) => <Component noModal data={x} key={i} />
+        (x, i) => <Component noModal data={x} key={i}
+            hitlists={hitlists.filter(y => y.course === x.abbreviation)}
+            hitlist_announcements={hitlist_announcements.filter(z => z.course === x.abbreviation)} />
       )
   }
 

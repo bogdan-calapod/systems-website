@@ -2,7 +2,13 @@
   {
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScWctkdKI8PtcPDfQ6UYtPa9oyt1SyyXVqIggfoBoWpFTq7Wg/viewform",
     "linkname": "Register Here",
-    "text": "The student scientific projects session, section software systems and network services will take place on may 11th, from 9:00, in eg302 and eg202. \\n\\n the students need to write a scientific paper of 4-6 pages and give a presentation of 5 minutes.",
-    "title": "SCSS Announcement"
+    "text": "Reports for first year students (SRIC1) should be submited by January 26th, and defended on January 29th. Reports for second year students (SRIC2) should be submited by Febryary 2nd, and defended on February 5th..",
+    "title": "SRIC "
+  },
+  {
+    "link": "",
+    "linkname": "Demo link",
+    "text": "The student scientific projects session, section software systems and network services will take place on may 11th, The students need to write a scientific paper of 4-6 pages and give a presentation of 5 minutes.",
+    "title": "SSPS"
   }
 ]

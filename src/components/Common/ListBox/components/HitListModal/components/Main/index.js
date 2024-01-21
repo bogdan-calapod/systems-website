@@ -60,6 +60,7 @@ class Main extends Component {
   }
 
   get announcement () {
+    //return 'In 2017-2018 there will be awarded 58 USO badges:\n* 8 badges for midterm results\n* 8 badges for lecture engagement\n* 18 badges for lab activity\n* 16 badges for final exam results\n* 8 extra badges for digital engagement on cs.curs.pub.ro and Facebook'
     const {selectedYear, announcements} = this.props
 
     let selectedAnnouncement = announcements
@@ -70,8 +71,6 @@ class Main extends Component {
     }
 
     return selectedAnnouncement[0].text
-
-    // return 'In 2017-2018 there will be awarded 58 USO badges:\n* 8 badges for midterm results\n* 8 badges for lecture engagement\n* 18 badges for lab activity\n* 16 badges for final exam results\n* 8 extra badges for digital engagement on cs.curs.pub.ro and Facebook'
   }
 
   render () {
@@ -91,6 +90,7 @@ class Main extends Component {
         <Announcement>
           <Markdown source={this.announcement} />
         </Announcement>
+
         {this.tables}
       </Container>
     )

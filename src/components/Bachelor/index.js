@@ -16,12 +16,18 @@ const propTypes = {
   projects: PropTypes.array,
   courses: PropTypes.array,
   people: PropTypes.array,
+
+  hitlists: PropTypes.array,
+  hitlist_announcements: PropTypes.array,
 };
 
 const defaultProps = {
   projects: [],
   courses: [],
   people: [],
+
+  hitlists: [],
+  hitlist_announcements: [],
 };
 
 const Container = styled.div`
@@ -46,7 +52,7 @@ const Lists = styled.div`
 
 class Bachelor extends Component {
   render() {
-    let { projects, courses, people } = this.props;
+    let { projects, courses, people, hitlists, hitlist_announcements } = this.props;
 
     return (
       <div>
@@ -61,7 +67,7 @@ class Bachelor extends Component {
             development.
           </p>
           <Lists>
-            <ListBox title="Courses" type="course" data={courses} />
+            <ListBox title="Courses" type="course" data={courses} hitlists={hitlists} hitlist_announcements={hitlist_announcements} />
             <ListBox title="Projects" type="project" data={projects} showFilter>
               <p>
                 <a href={this.props.url}>

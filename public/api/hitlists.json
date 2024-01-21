@@ -1090,7 +1090,7 @@
     "pin": "Final"
   },
   {
-    "comment": "",
+    "comment": " ",
     "course": "USO",
     "date": "19.01.2019",
     "group": "314CA",
@@ -2040,7 +2040,7 @@
     "pin": "Lecture"
   },
   {
-    "comment": "",
+    "comment": " ",
     "course": "USO",
     "date": "20.11.2017",
     "group": "315CB",
@@ -2586,7 +2586,7 @@
     "group": " 314CA",
     "id": "344",
     "name": "Vlad PANTEA ",
-    "oldpin": "",
+    "oldpin": " ",
     "pin": "Lab"
   },
   {

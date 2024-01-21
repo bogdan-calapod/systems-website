@@ -27,15 +27,16 @@ class Bachelor extends Component {
   }
 
   async componentDidMount() {
-    let projects, courses, people, date, url;
+    let projects, courses, people, date, url, hitlists, hitlist_announcements;
 
     try {
-      projects = await request.get(
-        `${process.env.PUBLIC_URL}/api/projects.json`,
-      );
+      projects = await request.get(`${process.env.PUBLIC_URL}/api/projects.json`);
       courses = await request.get(`${process.env.PUBLIC_URL}/api/courses.json`);
       people = await request.get(`${process.env.PUBLIC_URL}/api/people.json`);
       // collaborators = await request.get("/api/collaborators.json");
+
+      hitlist_announcements = await request.get(`${process.env.PUBLIC_URL}/api/hitlist_announcements.json`);
+      hitlists = await request.get(`${process.env.PUBLIC_URL}/api/hitlists.json`);
 
       // date = collaborators.data[0].bachelorDate;
       // url = collaborators.data[0].bachelorURL;
@@ -50,6 +51,9 @@ class Bachelor extends Component {
       people: people.data,
       date,
       url,
+
+      hitlist_announcements : hitlist_announcements.data,
+      hitlists : hitlists.data,
     });
   }
 
@@ -63,6 +67,8 @@ class Bachelor extends Component {
           date={this.state.date}
           url={this.state.url}
           people={this.state.people}
+          hitlists={this.state.hitlists}
+          hitlist_announcements={this.state.hitlist_announcements}
         />
       </div> 
     );

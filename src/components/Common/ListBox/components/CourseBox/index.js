@@ -99,7 +99,7 @@ class CourseBox extends Component {
     if (this.props.hitlists && this.props.hitlists.length > 0) {
       buttons.push(
         <div onClick={this.toggleModal}>
-          <Button key={1}>Best students</Button>
+          <Button key={1}>Badges</Button>
         </div>,
       );
     }

@@ -130,8 +130,8 @@ class Menu extends Component {
 
         <Separator />
 
-        <LinkWrapper >
-          <a href='/people' rel='noopener noreferrer'>
+        <LinkWrapper>
+          <a href="#/people" rel="noopener noreferrer">
             people
           </a>
         </LinkWrapper>

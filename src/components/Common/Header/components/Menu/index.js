@@ -57,10 +57,11 @@ const Logo = styled.img`
 `
 const Notification = styled.img`
   margin: 5px 0px;
-  margin-right: 5px;
-  top: 5px;
-  width: 40px;
-  height: 40px;
+  margin-right: 10px;
+  top: 3px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
 
   @media screen and (max-width: 900px) {
     margin: 2px;
@@ -124,9 +125,6 @@ class Menu extends Component {
         <Link to='/'>
           <Logo src={logo} />
         </Link>
-        <div onClick={this.props.toggleModal}>
-          <Notification src={notification}/>
-        </div>
 
         <Separator />
 
@@ -159,6 +157,10 @@ class Menu extends Component {
             contact
           </Link>
         </LinkWrapper>
+
+        <div onClick={this.props.toggleModal}>
+          <Notification src={notification}/>
+        </div>
       </Container>
     )
   }

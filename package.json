@@ -14,7 +14,6 @@
     "styled-components": "^2.2.0",
     "yarn": "^1.22.21"
   },
-  "proxy": "http://localhost:9000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

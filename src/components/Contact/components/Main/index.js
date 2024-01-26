@@ -189,15 +189,15 @@ class Main extends Component {
           <div>
             <Input>
               <label> Name </label>
-              <input name="entry.649128642" type='text' />
+              <input required name="entry.649128642" type='text' />
             </Input>
             <Input>
               <label> E-mail </label>
-              <input name="entry.2134513646" type='text' />
+              <input required name="entry.2134513646" type='email' />
             </Input>
             <Input>
               <label> Message </label>
-              <textarea name="entry.861169742"/>
+              <textarea required name="entry.861169742"/>
             </Input>
           </div>
             <ContactButton> Send </ContactButton>

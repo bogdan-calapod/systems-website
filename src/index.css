@@ -6,6 +6,10 @@ body {
   font-family: 'Work Sans', 'Segoe UI', 'Trebuchet MS', sans-serif;
 }
 
+.rodal-mask {
+  margin-top: 0 !important;
+}
+
 .loader {
   position: absolute;
   width: 100vw;

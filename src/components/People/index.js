@@ -58,17 +58,16 @@ class People extends Component {
       g2: []
     }
 
-    let arr = 'g1'
     let convert = arr => arr.map(
       (x, i) => <Person data={x} key={i} />
     )
 
     this.props.data.forEach(
       x => {
-        if (x.name === 'BLANK') {
-          arr = 'g2'
+        if (x.status === 'team') {
+          people.g1.push(x)
         } else {
-          people[arr].push(x)
+          people.g2.push(x)
         }
       }
     )

@@ -31,7 +31,7 @@ class HitListModal extends Component {
     super(props);
 
     this.state = {
-      year: "2021"
+      year: "2024"
     };
   }
 
@@ -79,7 +79,7 @@ class HitListModal extends Component {
   }
 
   get tables() {
-    let values = ["Midterm", "Lab", "Lecture", "Final", "Community", "Extra"];
+    let values = ["Midterm", "Lab", "Lecture", "Final", "Community"];
     let tables = {};
     // let { hitlists } = this.props.data;
     let hitlists = this.year_people;

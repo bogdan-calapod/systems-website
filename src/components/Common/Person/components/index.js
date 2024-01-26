@@ -47,6 +47,8 @@ function ProfileImage({name}){
   .replace(/ț/g, 't')
   .replace(/î/g, 'i')
 
+  // console.log(cleanedName);
+
   let jpgPhoto = '/api/photos/' + cleanedName + '.jpg';
   let pngPhoto = '/api/photos/' + cleanedName + '.png';
 

@@ -3,6 +3,8 @@ import SectionTitle from "components/Common/SectionTitle";
 import Button from 'components/Common/Button'
 import styled from "styled-components";
 
+import Markdown from 'react-markdown'
+
 const Section = styled.div`
   display: flex;
   flex: ${(props) => (props.full ? "1" : "none")};
@@ -48,7 +50,7 @@ function NotificationDisplay({props}){
   return <div>
     <SectionTitle left> {title} </SectionTitle>
     <Section>
-      <Text><p>{text}</p></Text>
+      <Text><Markdown source={text} /></Text>
       <Link props={props} />
     </Section>
   </div>

@@ -2,12 +2,162 @@
   {
     "comment": "",
     "course": "USO",
+    "date": "22.01.2024",
+    "group": "315CA",
+    "id": "714",
+    "name": "Mihai Darius BRISCULESCU",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "22.01.2024",
+    "group": "315CA",
+    "id": "713",
+    "name": "Albert GUIMAN",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "22.01.2024",
+    "group": "311CA",
+    "id": "712",
+    "name": "Darius Andrei CONSTANTIN",
+    "oldpin": "",
+    "pin": "Final"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "314CA",
+    "id": "711",
+    "name": "Ciprian CONSTANTINESCU",
+    "oldpin": "",
+    "pin": "Community"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "312CA",
+    "id": "710",
+    "name": "Cristian MACOVEI",
+    "oldpin": "",
+    "pin": "Community"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "315CA",
+    "id": "709",
+    "name": "Luca MAZILESCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "314CA",
+    "id": "708",
+    "name": "Andreea MUNTEANU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "313CA",
+    "id": "707",
+    "name": "Mihai-Alexandru CRĂCIUN",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "312CA",
+    "id": "706",
+    "name": "Toma ARICIU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "311CA",
+    "id": "705",
+    "name": "Andrei Marian RUSĂNESCU",
+    "oldpin": "",
+    "pin": "Lab"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "16.01.2024",
+    "group": "315CA",
+    "id": "704",
+    "name": "Claudiu ALEXE",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "05.12.2023",
+    "group": "311CA",
+    "id": "703",
+    "name": "Andrei NIȚĂ",
+    "oldpin": "",
+    "pin": "Lecture"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "05.12.2023",
+    "group": "315CA",
+    "id": "702",
+    "name": "Timotei-losif CÎCU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "05.12.2023",
+    "group": "315CA",
+    "id": "701",
+    "name": "Radu-Cristin BIGAN",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
+    "date": "05.12.2023",
+    "group": "314CA",
+    "id": "700",
+    "name": "Andrei-Alexandru BLEORŢU",
+    "oldpin": "",
+    "pin": "Midterm"
+  },
+  {
+    "comment": "",
+    "course": "USO",
     "date": "26.01.2021",
     "group": "313CC",
     "id": "602",
     "name": "Alexandru-Constantin BALA",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -17,7 +167,7 @@
     "id": "601",
     "name": "Laurentiu Cristian URSU",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -27,7 +177,7 @@
     "id": "600",
     "name": "Alexandru MICU",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -37,7 +187,7 @@
     "id": "599",
     "name": "Raul Cristian VOINEA",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -47,7 +197,7 @@
     "id": "598",
     "name": "Iulia-Silvia PLĂIAȘU",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -57,7 +207,7 @@
     "id": "597",
     "name": "Vladislav TIFTILOV",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -67,7 +217,7 @@
     "id": "596",
     "name": "Andrei GÎRNEŢ",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -77,7 +227,7 @@
     "id": "595",
     "name": "Stefan-Darius IORDACHE",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -87,7 +237,7 @@
     "id": "594",
     "name": "Cristian Ioan SIMACHE",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -97,7 +247,7 @@
     "id": "593",
     "name": "Mihai-Daniel SOARE",
     "oldpin": "",
-    "pin": "Course"
+    "pin": "Lecture"
   },
   {
     "comment": "",
@@ -1107,7 +1257,7 @@
     "id": "492",
     "name": "CAPOTA S. Andrei",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1117,7 +1267,7 @@
     "id": "491",
     "name": "VELEA G. Alin-Ionuţ",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1127,7 +1277,7 @@
     "id": "490",
     "name": "OLARU M. Gabriel-Iulian",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1137,7 +1287,7 @@
     "id": "489",
     "name": "PATRAŞ A. Anton-Fabian",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1147,7 +1297,7 @@
     "id": "488",
     "name": "LIPIANU F.L. Florin-Ovidiu",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1387,7 +1537,7 @@
     "id": "464",
     "name": "Rîcă Radu",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -1977,7 +2127,7 @@
     "id": "405",
     "name": "Daniel SAFTA",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "#usolife rocks",
@@ -1987,7 +2137,7 @@
     "id": "404",
     "name": "Marius VINTILĂ",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "#usolife rocks",
@@ -1997,7 +2147,7 @@
     "id": "403",
     "name": "Alin GEORGESCU",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "#usolife rocks",
@@ -2007,7 +2157,7 @@
     "id": "402",
     "name": "Mihai VELICU",
     "oldpin": "",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -2867,7 +3017,7 @@
     "id": "316",
     "name": "Mihai BĂRBULESCU",
     "oldpin": "Lab Author",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Assignments",
@@ -2887,7 +3037,7 @@
     "id": "314",
     "name": "Adrian STRATULAT",
     "oldpin": "Lab Reviewer",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Assignments",
@@ -2907,7 +3057,7 @@
     "id": "312",
     "name": "Silvia STEGARU",
     "oldpin": "Lab Review",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -2987,7 +3137,7 @@
     "id": "304",
     "name": "Ștefan MIREA",
     "oldpin": "Workshop",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Workshop",
@@ -2997,7 +3147,7 @@
     "id": "303",
     "name": "Robert ALEXE",
     "oldpin": "Workshop",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -3237,7 +3387,7 @@
     "id": "279",
     "name": "Andrei Vasiliu",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -3247,7 +3397,7 @@
     "id": "278",
     "name": "Tudor Vișan",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Infrastructure",
@@ -3257,7 +3407,7 @@
     "id": "277",
     "name": "Alex Juncu",
     "oldpin": "Lab Infrastructure",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -3267,7 +3417,7 @@
     "id": "276",
     "name": "Voichița Iancu",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Engine WoUSO",
@@ -3277,7 +3427,7 @@
     "id": "275",
     "name": "Mihnea Dobrescu",
     "oldpin": "Engine WoUSO",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -3287,7 +3437,7 @@
     "id": "274",
     "name": "Alexandru Radovici",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Author",
@@ -3297,7 +3447,7 @@
     "id": "273",
     "name": "Sorina Sandu",
     "oldpin": "Lab Author",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Author",
@@ -3307,7 +3457,7 @@
     "id": "272",
     "name": "Paul Vlase",
     "oldpin": "Lab Author",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Assignments",
@@ -3347,7 +3497,7 @@
     "id": "268",
     "name": "Fănel Ghiță",
     "oldpin": "Lab Infrastructure",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -3357,7 +3507,7 @@
     "id": "267",
     "name": "Eliana Târșa",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Linux Assignment",
@@ -3377,7 +3527,7 @@
     "id": "265",
     "name": "Alexandru Olteanu",
     "oldpin": "Course Quiz",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Engine WoUSO",
@@ -3387,7 +3537,7 @@
     "id": "264",
     "name": "Alexandru Eftimie",
     "oldpin": "Engine WoUSO",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Author",
@@ -3397,7 +3547,7 @@
     "id": "263",
     "name": "Mihai Maruseac",
     "oldpin": "Lab Author",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -3407,7 +3557,7 @@
     "id": "262",
     "name": "Răzvan Deaconescu",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -3417,7 +3567,7 @@
     "id": "261",
     "name": "Răzvan Rughiniș",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -3427,7 +3577,7 @@
     "id": "260",
     "name": "Alexandru Heișanu",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Linux Assignment",
@@ -3437,7 +3587,7 @@
     "id": "259",
     "name": "Mircea Bardac",
     "oldpin": "Linux Assignment",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2009",
@@ -3447,7 +3597,7 @@
     "id": "258",
     "name": "George Milescu",
     "oldpin": "Curriculum Lead 2009",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2010",
@@ -3457,7 +3607,7 @@
     "id": "257",
     "name": "Vlad Dogaru",
     "oldpin": "Curriculum Lead 2010",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2012",
@@ -3467,7 +3617,7 @@
     "id": "256",
     "name": "Laura Vasilescu",
     "oldpin": "Curriculum Lead 2012",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -6357,7 +6507,7 @@
     "id": "278",
     "name": "Alexandru JUNCU",
     "oldpin": "Linux Homework",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Hands-on Exam Coordinator",
@@ -6367,7 +6517,7 @@
     "id": "277",
     "name": "George Milescu",
     "oldpin": "Hands-on Exam Coordinator",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Hands-on",
@@ -6397,7 +6547,7 @@
     "id": "274",
     "name": "Alina Vlăduțu",
     "oldpin": "Lecture Quizzes",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Quiz",
@@ -6407,7 +6557,7 @@
     "id": "273",
     "name": "Silvia Marcu",
     "oldpin": "Quiz",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Hands-on",
@@ -6427,7 +6577,7 @@
     "id": "271",
     "name": "Andrei Epure",
     "oldpin": "Site de curs",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Hands-on Exam Supervisor",
@@ -6437,7 +6587,7 @@
     "id": "270",
     "name": "Cătălin Frățilă",
     "oldpin": "Hands-on Exam Supervisor",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lecture Slides",
@@ -6447,7 +6597,7 @@
     "id": "269",
     "name": "Sergiu Costea",
     "oldpin": "Lecture Slides",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Facilities",
@@ -6457,7 +6607,7 @@
     "id": "268",
     "name": "Fănel Ghiță",
     "oldpin": "Facilities",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Content Supervisor",
@@ -6467,7 +6617,7 @@
     "id": "267",
     "name": "Mihai Prică",
     "oldpin": "Lab Content Supervisor",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lecture Slides",
@@ -6477,7 +6627,7 @@
     "id": "266",
     "name": "Cristian Chilipirea",
     "oldpin": "Lecture Slides",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Lab Cheat Sheets",
@@ -6487,7 +6637,7 @@
     "id": "265",
     "name": "Cătălin Nicuțar",
     "oldpin": "Lab Cheat Sheets",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Workshop",
@@ -6497,7 +6647,7 @@
     "id": "264",
     "name": "Răzvan Dobre",
     "oldpin": "Workshop",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Quiz",
@@ -6507,7 +6657,7 @@
     "id": "263",
     "name": "Laura Ruse",
     "oldpin": "Quiz",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Linux Homework",
@@ -6517,7 +6667,7 @@
     "id": "262",
     "name": "Răzvan Deaconescu",
     "oldpin": "Linux Homework",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -6527,7 +6677,7 @@
     "id": "261",
     "name": "Răzvan Rughiniș",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -6537,7 +6687,7 @@
     "id": "260",
     "name": "Nicolae Țăpuș",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2009",
@@ -6547,7 +6697,7 @@
     "id": "259",
     "name": "Mircea Bardac",
     "oldpin": "Curriculum Lead 2009",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2010",
@@ -6557,7 +6707,7 @@
     "id": "258",
     "name": "Traian Popeea",
     "oldpin": "Curriculum Lead 2010",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2011",
@@ -6567,7 +6717,7 @@
     "id": "257",
     "name": "Mihai Bucicoiu",
     "oldpin": "Curriculum Lead 2011",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2012",
@@ -6577,7 +6727,7 @@
     "id": "256",
     "name": "Mihai Carabaș",
     "oldpin": "Curriculum Lead 2012",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "",
@@ -7437,7 +7587,7 @@
     "id": "278",
     "name": "Ruxandra Trandafir",
     "oldpin": "Question of the Night",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "On-line activity",
@@ -7447,7 +7597,7 @@
     "id": "277",
     "name": "Oana Niculăescu",
     "oldpin": "On-line activity",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "week 12",
@@ -7477,7 +7627,7 @@
     "id": "274",
     "name": "Andreea Martinovici",
     "oldpin": "Question of the Night",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "On-line activity",
@@ -7487,7 +7637,7 @@
     "id": "273",
     "name": "Mariana Mărășoiu",
     "oldpin": "On-line activity",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "week 6",
@@ -7517,7 +7667,7 @@
     "id": "270",
     "name": "Mihai Pleșea",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7527,7 +7677,7 @@
     "id": "269",
     "name": "Cosmin Stoica",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7537,7 +7687,7 @@
     "id": "268",
     "name": "Iulia Florea",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7547,7 +7697,7 @@
     "id": "267",
     "name": "Răzvan Prejbeanu",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7557,7 +7707,7 @@
     "id": "266",
     "name": "Dana Apostol",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7567,7 +7717,7 @@
     "id": "265",
     "name": "Andreea Dragomir",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant",
@@ -7577,7 +7727,7 @@
     "id": "264",
     "name": "Alex Juncu",
     "oldpin": "Teaching Assistant",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant 2009",
@@ -7587,7 +7737,7 @@
     "id": "263",
     "name": "Cristian Ocnărescu",
     "oldpin": "Teaching Assistant 2009",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Teaching Assistant 2009",
@@ -7597,7 +7747,7 @@
     "id": "262",
     "name": "Andrei Ciorba",
     "oldpin": "Teaching Assistant 2009",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Course",
@@ -7607,7 +7757,7 @@
     "id": "261",
     "name": "Răzvan Rughiniș",
     "oldpin": "Course",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Design",
@@ -7617,7 +7767,7 @@
     "id": "260",
     "name": "Sergiu Costea",
     "oldpin": "Curriculum Design",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2010",
@@ -7627,7 +7777,7 @@
     "id": "259",
     "name": "Mihai Bucicoiu",
     "oldpin": "Curriculum Lead 2010",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2011",
@@ -7637,7 +7787,7 @@
     "id": "258",
     "name": "Bogdan Doinea",
     "oldpin": "Curriculum Lead 2011",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2012",
@@ -7647,7 +7797,7 @@
     "id": "257",
     "name": "Traian Popeea",
     "oldpin": "Curriculum Lead 2012",
-    "pin": "Extra"
+    "pin": "Community"
   },
   {
     "comment": "Curriculum Lead 2013",
@@ -7657,6 +7807,6 @@
     "id": "256",
     "name": "Lucia Roșculete",
     "oldpin": "Curriculum Lead 2013",
-    "pin": "Extra"
+    "pin": "Community"
   }
 ]

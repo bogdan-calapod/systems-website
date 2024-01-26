@@ -11,7 +11,7 @@ import Laboratory from './Laboratory.svg'
 import Final from './Final.svg'
 import Lecture from './Lecture.svg'
 import Midterm from './Midterm.svg'
-import Extra from './Extra.svg'
+// import Extra from './Extra.svg'
 
 const propTypes = {
   data: PropTypes.object
@@ -77,7 +77,8 @@ class Table extends Component {
     }
   }
 
-  get keys () {
+  /*
+  get keys () { // Old organisation of columns in the table
     let {data} = this.props.data
 
     if (data.length === 0) {
@@ -86,20 +87,27 @@ class Table extends Component {
 
     return Object.keys(data[0]).filter(x => !this.columns.includes(x))
   }
+  */
+
+  get order() {
+    return ["id", "name", "group", "date"];
+  }
 
   get header () {
-    return this.keys.map(
+    return this.order.map(
       (x, i) => <Cell key={i}>{x}</Cell>
     )
   }
 
   get rows () {
     let {data} = this.props.data
-    let keys = this.keys
+    let order = this.order
+
+    console.log(this.keys);
 
     return data.sort((a, b) => a.id > b.id ? 1 : a.id < b.id ? -1 : 0).map(
       (row, i) => <Row key={i}>
-        {keys.map((key, j) => <Cell key={j}>{row[key]}</Cell>)}
+        {order.map((key, j) => <Cell key={j}>{row[key]}</Cell>)}
       </Row>
     )
   }
@@ -108,8 +116,6 @@ class Table extends Component {
     switch (this.props.data.type) {
       case 'Lab':
         return Laboratory
-      case 'Community':
-        return Community
       case 'Final':
         return Final
       case 'Lecture':
@@ -117,7 +123,7 @@ class Table extends Component {
       case 'Midterm':
         return Midterm
       default:
-        return Extra
+        return Community
     }
   }
 

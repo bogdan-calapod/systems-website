@@ -38,7 +38,7 @@ const Container = styled.div`
   width: 100%;
   box-sizing: border-box;
 
-  padding: 10px 15% 10px 50%;
+  padding: 10px 8% 10px 57%;
 `
 
 const Title = styled.h1`

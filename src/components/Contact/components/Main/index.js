@@ -135,11 +135,11 @@ const ContactButton = Button.extend`
   margin-right: 5px;
 `
 
-const IFrame = styled.iframe`
-  border: 0;
-  width: 0;
-  height: 0;
-`
+// const IFrame = styled.iframe`
+//   border: 0;
+//   width: 0;
+//   height: 0;
+// `
 
 class Main extends Component {
   constructor (props) {
@@ -202,7 +202,7 @@ class Main extends Component {
           </div>
             <ContactButton> Send </ContactButton>
         </Form>
-        <IFrame name="frame" />
+        {/* <IFrame name="frame" /> */}
       </Container>
     )
   }

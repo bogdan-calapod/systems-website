@@ -5,37 +5,61 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
-      - name: setup rust tools
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Rust tools
         run: ./setup_rust_tools.sh
-      - name: setup node
-        uses: actions/setup-node@v3
-        
-      - name: build rust
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Build Rust
         working-directory: ./rust-project
         run: cargo build --verbose
-      - name: run rust
+
+      - name: Run Rust
         working-directory: ./rust-project
-        env: 
+        env:
           SERVICE_ACCOUNT_PRIVATE_KEY: ${{ secrets.SERVICE_ACCOUNT_PRIVATE_KEY }}
         run: cargo run --verbose
-      
-      - name: build
+
+      - name: Build website
         run: yarn && yarn build
-      - name: upload artifact
-        uses: actions/upload-pages-artifact@v1
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./build
-      - name: deploy
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

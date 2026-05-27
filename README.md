@@ -1,4 +1,4 @@
-# 🥜 systems.cs.pub.ro websitea
+# 🥜 systems.cs.pub.ro website.
 
 This repository contains the code for the `systems.cs.pub.ro` website.
 
